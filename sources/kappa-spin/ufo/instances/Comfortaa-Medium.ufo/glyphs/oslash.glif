@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash" format="2">
+  <advance width="701.0769230769231"/>
+  <unicode hex="00F8"/>
+  <anchor x="356.77253846153843" y="-2.954230769230769" name="bottom"/>
+  <anchor x="356.77253846153843" y="271.0457692307692" name="center"/>
+  <anchor x="448.5450769230769" y="42.36407692307692" name="ogonek"/>
+  <anchor x="356.77253846153843" y="544.0457692307693" name="top"/>
+  <anchor x="478.6816923076923" y="522.1823846153845" name="topright"/>
+  <outline>
+    <contour>
+      <point x="92.77253846153846" y="-19.363384615384614" type="curve" smooth="yes"/>
+      <point x="100.1816923076923" y="-19.363384615384614"/>
+      <point x="107.18169230769232" y="-17.363384615384614"/>
+      <point x="114.77253846153846" y="-10.363384615384614" type="curve" smooth="yes"/>
+      <point x="192.31830769230768" y="67.77253846153846" type="line"/>
+      <point x="219.63661538461537" y="88.45423076923078" type="line"/>
+      <point x="543.7725384615385" y="411.59084615384614" type="line"/>
+      <point x="566.8183076923077" y="432.0908461538462" type="line"/>
+      <point x="633.0908461538461" y="497.9542307692308" type="line" smooth="yes"/>
+      <point x="648.6816923076923" y="513.9542307692307"/>
+      <point x="640.6816923076923" y="549.9542307692308"/>
+      <point x="611.0908461538461" y="549.9542307692308" type="curve" smooth="yes"/>
+      <point x="600.6816923076923" y="549.9542307692308"/>
+      <point x="593.6816923076923" y="545.9542307692308"/>
+      <point x="588.0908461538462" y="539.9542307692307" type="curve" smooth="yes"/>
+      <point x="526.6366153846154" y="479.0908461538462" type="line"/>
+      <point x="501.4091538461538" y="453.8183076923077" type="line"/>
+      <point x="178.8633846153846" y="131.68169230769232" type="line"/>
+      <point x="144.59084615384614" y="106.63661538461538" type="line"/>
+      <point x="70.77253846153846" y="32.63661538461538" type="line" smooth="yes"/>
+      <point x="50.18169230769231" y="12.636615384615386"/>
+      <point x="65.1816923076923" y="-19.363384615384614"/>
+    </contour>
+    <component base="o" xOffset="17.95423076923077" yOffset="-2.954230769230769"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

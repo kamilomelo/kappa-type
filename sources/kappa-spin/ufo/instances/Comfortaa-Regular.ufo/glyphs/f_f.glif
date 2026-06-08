@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f" format="2">
+  <advance width="732"/>
+  <anchor x="185.818" y="0.0" name="bottom_1"/>
+  <anchor x="168.727" y="781.0" name="top_1"/>
+  <anchor x="551.818" y="0.0" name="bottom_2"/>
+  <anchor x="534.727" y="781.0" name="top_2"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="366"/>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="205" y="232" type="line"/>
+      <point x="371" y="232" type="line"/>
+      <point x="399" y="398" type="line"/>
+      <point x="233" y="398" type="line"/>
+    </contour>
+  </outline>
+</glyph>

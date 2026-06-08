@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Obarred-cy" format="2">
+  <advance width="921.0"/>
+  <unicode hex="04E8"/>
+  <anchor x="461.0" y="0.0" name="bottom"/>
+  <anchor x="461.0" y="391.0" name="center"/>
+  <anchor x="459.8183076923077" y="10.0" name="ogonek"/>
+  <anchor x="461.0" y="781.0" name="top"/>
+  <anchor x="20.0" y="781.0" name="topleft"/>
+  <anchor x="651.4542307692308" y="744.8633846153846" name="topright"/>
+  <outline>
+    <contour>
+      <point x="121.8183076923077" y="352.1816923076923" type="line"/>
+      <point x="794.9091538461539" y="352.1816923076923" type="line"/>
+      <point x="794.9091538461539" y="429.8183076923077" type="line"/>
+      <point x="121.8183076923077" y="429.8183076923077" type="line"/>
+    </contour>
+    <component base="O-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

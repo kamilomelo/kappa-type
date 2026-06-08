@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="A.rightS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="156" y="0" type="line"/>
+      <point x="202" y="174" type="line"/>
+      <point x="420" y="174" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+      <point x="399" y="700" type="line"/>
+      <point x="225" y="700" type="line"/>
+      <point x="35" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="284" type="line"/>
+      <point x="309" y="575" type="line"/>
+      <point x="313" y="575" type="line"/>
+      <point x="390" y="284" type="line"/>
+    </contour>
+  </outline>
+</glyph>

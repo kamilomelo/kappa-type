@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onesuperior.cv11" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="179" y="525" type="line"/>
+      <point x="421" y="525" type="line"/>
+      <point x="421" y="594" type="line"/>
+      <point x="342" y="594" type="line"/>
+      <point x="342" y="875" type="line"/>
+      <point x="278" y="875" type="line"/>
+      <point x="275" y="827"/>
+      <point x="247" y="806"/>
+      <point x="183" y="806" type="curve"/>
+      <point x="183" y="742" type="line"/>
+      <point x="263" y="743" type="line"/>
+      <point x="263" y="594" type="line"/>
+      <point x="179" y="594" type="line"/>
+    </contour>
+  </outline>
+</glyph>

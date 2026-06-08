@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="859"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <contour>
+      <point x="441.222" y="142.291" type="curve" smooth="yes"/>
+      <point x="504.086" y="142.291"/>
+      <point x="559.689" y="163.133"/>
+      <point x="601.87" y="202.701" type="curve" smooth="yes"/>
+      <point x="616.947" y="217.02"/>
+      <point x="615.416" y="238.568"/>
+      <point x="598.361" y="253.761" type="curve" smooth="yes"/>
+      <point x="584.79" y="265.758"/>
+      <point x="564.69" y="264.387"/>
+      <point x="549.411" y="250.95" type="curve" smooth="yes"/>
+      <point x="522.293" y="226.629"/>
+      <point x="485.736" y="214.091"/>
+      <point x="441.222" y="214.091" type="curve" smooth="yes"/>
+      <point x="343.399" y="214.091"/>
+      <point x="274.235" y="288.345"/>
+      <point x="274.235" y="392.517" type="curve" smooth="yes"/>
+      <point x="274.235" y="498.89"/>
+      <point x="338.432" y="571.3"/>
+      <point x="431.64" y="571.3" type="curve" smooth="yes"/>
+      <point x="482.307" y="571.3"/>
+      <point x="521.673" y="553.292"/>
+      <point x="555.007" y="514.699" type="curve" smooth="yes"/>
+      <point x="568.68" y="499.115"/>
+      <point x="588.669" y="495.854"/>
+      <point x="603.39" y="506.645" type="curve"/>
+      <point x="622.433" y="519.338"/>
+      <point x="626.163" y="540.084"/>
+      <point x="612.448" y="557.15" type="curve" smooth="yes"/>
+      <point x="566.528" y="614.179"/>
+      <point x="505.014" y="643.1"/>
+      <point x="431.64" y="643.1" type="curve" smooth="yes"/>
+      <point x="296.772" y="643.1"/>
+      <point x="198.842" y="537.227"/>
+      <point x="198.842" y="392.517" type="curve" smooth="yes"/>
+      <point x="198.842" y="249.305"/>
+      <point x="302.103" y="142.291"/>
+    </contour>
+    <component base="_part.circle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_part.circle</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.roundlc" format="2">
+  <advance width="679"/>
+  <outline>
+    <contour>
+      <point x="340" y="-6" type="curve" smooth="yes"/>
+      <point x="479" y="-6"/>
+      <point x="584" y="97"/>
+      <point x="584" y="233" type="curve"/>
+      <point x="619" y="273" type="line"/>
+      <point x="619" y="433"/>
+      <point x="499" y="553"/>
+      <point x="340" y="553" type="curve" smooth="yes"/>
+      <point x="180" y="553"/>
+      <point x="60" y="433"/>
+      <point x="60" y="273" type="curve" smooth="yes"/>
+      <point x="60" y="114"/>
+      <point x="180" y="-6"/>
+    </contour>
+    <contour>
+      <point x="340" y="50" type="curve" smooth="yes"/>
+      <point x="215" y="50"/>
+      <point x="120" y="146"/>
+      <point x="120" y="273" type="curve" smooth="yes"/>
+      <point x="120" y="401"/>
+      <point x="215" y="497"/>
+      <point x="340" y="497" type="curve" smooth="yes"/>
+      <point x="465" y="497"/>
+      <point x="559" y="401"/>
+      <point x="559" y="273" type="curve" smooth="yes"/>
+      <point x="559" y="146"/>
+      <point x="465" y="50"/>
+    </contour>
+  </outline>
+</glyph>

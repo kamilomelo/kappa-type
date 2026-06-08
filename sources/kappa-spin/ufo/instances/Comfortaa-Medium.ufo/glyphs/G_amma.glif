@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma" format="2">
+  <advance width="605.0"/>
+  <unicode hex="0393"/>
+  <outline>
+    <contour>
+      <point x="80.8183076923077" y="0.0" type="curve" smooth="yes"/>
+      <point x="104.90915384615384" y="0.0"/>
+      <point x="123.8183076923077" y="18.909153846153846"/>
+      <point x="123.8183076923077" y="43.0" type="curve" smooth="yes"/>
+      <point x="123.8183076923077" y="699.7274615384615" type="line"/>
+      <point x="534.6816923076923" y="699.7274615384615" type="line" smooth="yes"/>
+      <point x="558.9542307692308" y="699.7274615384615"/>
+      <point x="577.0908461538461" y="716.6816923076923"/>
+      <point x="577.0908461538461" y="739.7725384615385" type="curve" smooth="yes"/>
+      <point x="577.0908461538461" y="763.8633846153846"/>
+      <point x="558.9542307692308" y="781.0"/>
+      <point x="534.6816923076923" y="781.0" type="curve" smooth="yes"/>
+      <point x="80.8183076923077" y="781.0" type="line" smooth="yes"/>
+      <point x="56.13661538461538" y="781.0"/>
+      <point x="37.81830769230769" y="762.6816923076923"/>
+      <point x="37.81830769230769" y="738.0" type="curve" smooth="yes"/>
+      <point x="37.81830769230769" y="43.0" type="line" smooth="yes"/>
+      <point x="37.81830769230769" y="18.909153846153846"/>
+      <point x="56.72746153846154" y="0.0"/>
+    </contour>
+  </outline>
+</glyph>

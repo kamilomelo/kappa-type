@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chedieresis-cy" format="2">
+  <advance width="771.9230769230769"/>
+  <unicode hex="04F4"/>
+  <anchor x="624.8180769230769" y="0.0" name="bottom"/>
+  <anchor x="624.8180769230769" y="10.0" name="ogonek"/>
+  <anchor x="372.0980769230769" y="980.2273076923077" name="top"/>
+  <anchor x="497.8180769230769" y="781.0" name="topleft"/>
+  <anchor x="623.3634615384615" y="84.72730769230769" name="bottomright"/>
+  <anchor x="368.40923076923076" y="314.0453846153846" name="center"/>
+  <outline>
+    <component base="Che-cy"/>
+    <component base="dieresiscomb" xOffset="132.46153846153845" yOffset="234.0"/>
+  </outline>
+</glyph>

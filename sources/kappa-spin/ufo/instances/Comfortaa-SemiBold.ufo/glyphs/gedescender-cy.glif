@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gedescender-cy" format="2">
+  <advance width="534.8636346153846"/>
+  <unicode hex="04F7"/>
+  <anchor x="184.81807692307694" y="61.81807692307692" name="bottomright"/>
+  <anchor x="269.9546153846154" y="274.0" name="center"/>
+  <anchor x="269.9546153846154" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="260.81807692307694" y="-180.81807692307694" type="curve" smooth="yes"/>
+      <point x="285.4546153846154" y="-180.81807692307694"/>
+      <point x="302.40923076923076" y="-161.54538461538462"/>
+      <point x="302.40923076923076" y="-133.81807692307694" type="curve" smooth="yes"/>
+      <point x="302.40923076923076" y="49.363461538461536" type="line"/>
+      <point x="216.13653846153846" y="25.36346153846154" type="line"/>
+      <point x="216.13653846153846" y="-133.81807692307694" type="line" smooth="yes"/>
+      <point x="216.13653846153846" y="-161.54538461538462"/>
+      <point x="234.86346153846154" y="-180.81807692307694"/>
+    </contour>
+    <component base="ge-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ge-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

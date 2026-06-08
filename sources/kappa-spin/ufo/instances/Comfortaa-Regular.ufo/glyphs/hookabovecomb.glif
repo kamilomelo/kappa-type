@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="139.727" y="547" name="_top"/>
+  <anchor x="147.955" y="777.545" name="top"/>
+  <outline>
+    <contour>
+      <point x="138.545" y="598.045" type="curve" smooth="yes"/>
+      <point x="158.227" y="598.045"/>
+      <point x="174.091" y="613.909"/>
+      <point x="174.091" y="641.773" type="curve" smooth="yes"/>
+      <point x="166.318" y="655.136" type="line"/>
+      <point x="220.636" y="663.136"/>
+      <point x="267.318" y="692.5"/>
+      <point x="266.909" y="754.773" type="curve" smooth="yes"/>
+      <point x="266.909" y="818.364"/>
+      <point x="216.909" y="861.045"/>
+      <point x="150.227" y="861.045" type="curve" smooth="yes"/>
+      <point x="115.318" y="861.045"/>
+      <point x="86.682" y="849.636"/>
+      <point x="62.455" y="829.818" type="curve" smooth="yes"/>
+      <point x="54.818" y="823.591"/>
+      <point x="50" y="813.545"/>
+      <point x="50" y="802.5" type="curve" smooth="yes"/>
+      <point x="50" y="783.227"/>
+      <point x="64.636" y="771.045"/>
+      <point x="82.273" y="771.045" type="curve" smooth="yes"/>
+      <point x="90.909" y="771.045"/>
+      <point x="100.773" y="774.455"/>
+      <point x="107" y="779.682" type="curve" smooth="yes"/>
+      <point x="118.773" y="789.455"/>
+      <point x="133.818" y="795.682"/>
+      <point x="151.045" y="795.682" type="curve" smooth="yes"/>
+      <point x="179.591" y="795.682"/>
+      <point x="201.136" y="779.545"/>
+      <point x="201.136" y="750" type="curve" smooth="yes"/>
+      <point x="201.136" y="726.636"/>
+      <point x="187.864" y="712.636"/>
+      <point x="159.545" y="706.455" type="curve" smooth="yes"/>
+      <point x="134.727" y="701.045" type="line" smooth="yes"/>
+      <point x="113.045" y="696.227"/>
+      <point x="103" y="683.773"/>
+      <point x="103" y="662.091" type="curve" smooth="yes"/>
+      <point x="103" y="633.591" type="line" smooth="yes"/>
+      <point x="103" y="613.909"/>
+      <point x="118.864" y="598.045"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>316.09091</real>
+    </dict>
+  </lib>
+</glyph>

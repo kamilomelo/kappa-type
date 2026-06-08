@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot.cv10" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="108" y="0" type="line"/>
+      <point x="516" y="0" type="line"/>
+      <point x="516" y="75" type="line"/>
+      <point x="354" y="75" type="line"/>
+      <point x="354" y="740" type="line"/>
+      <point x="113" y="740" type="line"/>
+      <point x="113" y="665" type="line"/>
+      <point x="270" y="665" type="line"/>
+      <point x="270" y="75" type="line"/>
+      <point x="108" y="75" type="line"/>
+    </contour>
+    <contour>
+      <point x="533" y="391" type="curve" smooth="yes"/>
+      <point x="533" y="348"/>
+      <point x="568" y="314"/>
+      <point x="610" y="314" type="curve" smooth="yes"/>
+      <point x="653" y="314"/>
+      <point x="687" y="348"/>
+      <point x="687" y="391" type="curve" smooth="yes"/>
+      <point x="687" y="433"/>
+      <point x="653" y="468"/>
+      <point x="610" y="468" type="curve" smooth="yes"/>
+      <point x="568" y="468"/>
+      <point x="533" y="433"/>
+    </contour>
+  </outline>
+</glyph>

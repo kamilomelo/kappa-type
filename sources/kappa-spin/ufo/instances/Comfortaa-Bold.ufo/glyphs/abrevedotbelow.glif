@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow" format="2">
+  <advance width="675"/>
+  <unicode hex="1EB7"/>
+  <anchor x="338" y="-224" name="bottom"/>
+  <anchor x="607" y="10" name="ogonek"/>
+  <anchor x="338" y="721" name="top"/>
+  <outline>
+    <component base="abreve"/>
+    <component base="dotbelowcomb" xOffset="222"/>
+  </outline>
+</glyph>

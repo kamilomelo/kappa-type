@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="itilde.cv04" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="407" y="540" type="line"/>
+      <point x="117" y="540" type="line"/>
+      <point x="117" y="430" type="line"/>
+      <point x="287" y="430" type="line"/>
+      <point x="287" y="0" type="line"/>
+      <point x="407" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="639" type="line"/>
+      <point x="254" y="639" type="line"/>
+      <point x="254" y="660" type="line" smooth="yes"/>
+      <point x="255" y="695"/>
+      <point x="261" y="710"/>
+      <point x="271" y="710" type="curve" smooth="yes"/>
+      <point x="296" y="710"/>
+      <point x="310" y="625"/>
+      <point x="405" y="625" type="curve" smooth="yes"/>
+      <point x="478" y="625"/>
+      <point x="521" y="674"/>
+      <point x="521" y="756" type="curve" smooth="yes"/>
+      <point x="521" y="789" type="line"/>
+      <point x="420" y="789" type="line"/>
+      <point x="420" y="768" type="line" smooth="yes"/>
+      <point x="419" y="732"/>
+      <point x="415" y="718"/>
+      <point x="405" y="718" type="curve" smooth="yes"/>
+      <point x="380" y="718"/>
+      <point x="364" y="803"/>
+      <point x="269" y="803" type="curve" smooth="yes"/>
+      <point x="196" y="803"/>
+      <point x="153" y="754"/>
+      <point x="153" y="672" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

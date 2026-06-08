@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h" format="2">
+  <advance width="683"/>
+  <unicode hex="0068"/>
+  <anchor x="342" y="0" name="bottom"/>
+  <anchor x="141" y="781" name="top"/>
+  <anchor x="210" y="646" name="center"/>
+  <outline>
+    <component base="n"/>
+    <component base="_part.stemh"/>
+  </outline>
+</glyph>

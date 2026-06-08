@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessi.cv04" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="447" y="540" type="line"/>
+      <point x="157" y="540" type="line"/>
+      <point x="139" y="430" type="line"/>
+      <point x="309" y="430" type="line"/>
+      <point x="237" y="0" type="line"/>
+      <point x="357" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

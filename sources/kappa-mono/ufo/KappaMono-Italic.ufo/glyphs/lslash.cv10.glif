@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.cv10" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="176" y="269" type="line"/>
+      <point x="273" y="316" type="line"/>
+      <point x="233" y="75" type="line"/>
+      <point x="71" y="75" type="line"/>
+      <point x="58" y="0" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="479" y="75" type="line"/>
+      <point x="317" y="75" type="line"/>
+      <point x="365" y="361" type="line"/>
+      <point x="488" y="421" type="line"/>
+      <point x="499" y="491" type="line"/>
+      <point x="376" y="430" type="line"/>
+      <point x="428" y="740" type="line"/>
+      <point x="187" y="740" type="line"/>
+      <point x="174" y="665" type="line"/>
+      <point x="331" y="665" type="line"/>
+      <point x="284" y="386" type="line"/>
+      <point x="188" y="338" type="line"/>
+    </contour>
+  </outline>
+</glyph>

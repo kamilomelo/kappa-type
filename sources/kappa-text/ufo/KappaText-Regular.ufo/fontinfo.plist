@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>2080</integer>
+    <key>capHeight</key>
+    <integer>1417</integer>
+    <key>copyright</key>
+    <string>Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)</string>
+    <key>descender</key>
+    <integer>-520</integer>
+    <key>familyName</key>
+    <string>Kappa Text</string>
+    <key>italicAngle</key>
+    <real>0.0</real>
+    <key>openTypeHheaAscender</key>
+    <integer>2080</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-520</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>KM-X Group</string>
+    <key>openTypeNameDesignerURL</key>
+    <string></string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>KM-X Group</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string></string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Kappa Text</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Regular</string>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1600</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-400</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>KMXG</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>2080</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>520</integer>
+    <key>postscriptFontName</key>
+    <string>KappaText-Regular</string>
+    <key>styleMapFamilyName</key>
+    <string>Kappa Text</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>trademark</key>
+    <string>Kappa Text is a trademark of KM-X Group.</string>
+    <key>unitsPerEm</key>
+    <integer>2000</integer>
+    <key>xHeight</key>
+    <integer>1081</integer>
+  </dict>
+</plist>

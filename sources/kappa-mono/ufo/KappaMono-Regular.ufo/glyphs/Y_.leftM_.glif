@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y.leftM" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="227" y="0" type="line"/>
+      <point x="313" y="0" type="line"/>
+      <point x="313" y="294" type="line"/>
+      <point x="549" y="700" type="line"/>
+      <point x="455" y="700" type="line"/>
+      <point x="271" y="381" type="line"/>
+      <point x="88" y="700" type="line"/>
+      <point x="-9" y="700" type="line"/>
+      <point x="227" y="294" type="line"/>
+    </contour>
+  </outline>
+</glyph>

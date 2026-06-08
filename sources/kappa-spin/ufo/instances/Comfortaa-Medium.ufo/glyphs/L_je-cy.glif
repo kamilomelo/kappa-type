@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lje-cy" format="2">
+  <advance width="1025.6153846153848"/>
+  <unicode hex="0409"/>
+  <outline>
+    <contour>
+      <point x="650.3633846153846" y="0.0" type="line"/>
+      <point x="734.6816923076923" y="0.0" type="line" smooth="yes"/>
+      <point x="878.5457692307692" y="0.0"/>
+      <point x="980.0457692307693" y="99.13661538461538"/>
+      <point x="980.0457692307693" y="239.45423076923078" type="curve" smooth="yes"/>
+      <point x="980.0457692307693" y="375.63661538461537"/>
+      <point x="878.5457692307692" y="472.2274615384615"/>
+      <point x="734.6816923076923" y="472.2274615384615" type="curve" smooth="yes"/>
+      <point x="475.1816923076923" y="472.2274615384615" type="line"/>
+      <point x="507.0" y="396.9542307692308" type="line"/>
+      <point x="734.6816923076923" y="396.9542307692308" type="line" smooth="yes"/>
+      <point x="829.3633846153846" y="396.9542307692308"/>
+      <point x="896.4091538461539" y="340.90915384615386"/>
+      <point x="896.4091538461539" y="241.5" type="curve" smooth="yes"/>
+      <point x="896.4091538461539" y="142.5"/>
+      <point x="829.3633846153846" y="78.81830769230768"/>
+      <point x="734.6816923076923" y="78.81830769230768" type="curve" smooth="yes"/>
+      <point x="637.8183076923077" y="78.81830769230768" type="line"/>
+    </contour>
+    <component base="El-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>El-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.onum.cv11" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="34" y="0" type="line"/>
+      <point x="486" y="0" type="line"/>
+      <point x="499" y="76" type="line"/>
+      <point x="315" y="76" type="line"/>
+      <point x="392" y="540" type="line"/>
+      <point x="324" y="540" type="line"/>
+      <point x="294" y="439"/>
+      <point x="248" y="412"/>
+      <point x="106" y="412" type="curve"/>
+      <point x="96" y="346" type="line"/>
+      <point x="273" y="345" type="line"/>
+      <point x="228" y="76" type="line"/>
+      <point x="47" y="76" type="line"/>
+    </contour>
+  </outline>
+</glyph>

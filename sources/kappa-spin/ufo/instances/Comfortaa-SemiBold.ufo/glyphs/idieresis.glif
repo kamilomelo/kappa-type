@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresis" format="2">
+  <advance width="297.0"/>
+  <unicode hex="00EF"/>
+  <anchor x="148.5" y="0.0" name="bottom"/>
+  <anchor x="148.5" y="10.0" name="ogonek"/>
+  <anchor x="148.5" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="50.0" y="664.6365384615385" type="curve" smooth="yes"/>
+      <point x="81.31807692307693" y="664.6365384615385"/>
+      <point x="107.95461538461538" y="689.9546153846154"/>
+      <point x="107.95461538461538" y="722.8180769230769" type="curve" smooth="yes"/>
+      <point x="107.95461538461538" y="753.9092307692308"/>
+      <point x="81.31807692307693" y="780.7726923076923"/>
+      <point x="50.0" y="780.7726923076923" type="curve" smooth="yes"/>
+      <point x="17.13653846153846" y="780.7726923076923"/>
+      <point x="-8.954615384615385" y="753.9092307692308"/>
+      <point x="-8.954615384615385" y="722.8180769230769" type="curve" smooth="yes"/>
+      <point x="-8.954615384615385" y="689.9546153846154"/>
+      <point x="17.13653846153846" y="664.6365384615385"/>
+    </contour>
+    <contour>
+      <point x="247.0" y="664.6365384615385" type="curve" smooth="yes"/>
+      <point x="278.3180769230769" y="664.6365384615385"/>
+      <point x="304.9546153846154" y="689.9546153846154"/>
+      <point x="304.9546153846154" y="722.8180769230769" type="curve" smooth="yes"/>
+      <point x="304.9546153846154" y="753.9092307692308"/>
+      <point x="278.3180769230769" y="780.7726923076923"/>
+      <point x="247.0" y="780.7726923076923" type="curve" smooth="yes"/>
+      <point x="214.13653846153846" y="780.7726923076923"/>
+      <point x="188.81807692307694" y="753.9092307692308"/>
+      <point x="188.81807692307694" y="722.8180769230769" type="curve" smooth="yes"/>
+      <point x="188.81807692307694" y="689.9546153846154"/>
+      <point x="214.13653846153846" y="664.6365384615385"/>
+    </contour>
+    <component base="idotless"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

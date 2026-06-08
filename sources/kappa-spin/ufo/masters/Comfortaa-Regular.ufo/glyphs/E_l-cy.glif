@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="El-cy" format="2">
+  <advance width="706.27273"/>
+  <unicode hex="041B"/>
+  <outline>
+    <contour>
+      <point x="58" y="0" type="curve" smooth="yes"/>
+      <point x="73.455" y="0"/>
+      <point x="87.545" y="7.455"/>
+      <point x="94.182" y="24.318" type="curve"/>
+      <point x="372.045" y="690.545" type="line"/>
+      <point x="340.045" y="690.545" type="line"/>
+      <point x="616.045" y="24.318" type="line"/>
+      <point x="622.864" y="7.864"/>
+      <point x="636.364" y="0"/>
+      <point x="652.227" y="0" type="curve" smooth="yes"/>
+      <point x="680.773" y="0"/>
+      <point x="698.636" y="28.909"/>
+      <point x="686.591" y="55.273" type="curve" smooth="yes"/>
+      <point x="391.591" y="754.273" type="line" smooth="yes"/>
+      <point x="384.364" y="772.364"/>
+      <point x="371.5" y="781"/>
+      <point x="354.409" y="781" type="curve" smooth="yes"/>
+      <point x="336.545" y="781"/>
+      <point x="324.273" y="771.773"/>
+      <point x="317.227" y="754.273" type="curve" smooth="yes"/>
+      <point x="23.227" y="56.091" type="line" smooth="yes"/>
+      <point x="11.364" y="31.318"/>
+      <point x="27.682" y="0"/>
+    </contour>
+  </outline>
+</glyph>

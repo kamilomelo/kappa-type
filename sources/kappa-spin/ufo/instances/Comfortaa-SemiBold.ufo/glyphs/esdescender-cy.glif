@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy" format="2">
+  <advance width="598.6923076923077"/>
+  <unicode hex="04AB"/>
+  <anchor x="317.8180769230769" y="0.0" name="bottom"/>
+  <anchor x="329.59076923076924" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="339.9546153846154" y="-175.2726923076923" type="curve" smooth="yes"/>
+      <point x="364.59076923076924" y="-175.2726923076923"/>
+      <point x="381.5453846153846" y="-156.0"/>
+      <point x="381.5453846153846" y="-128.2726923076923" type="curve" smooth="yes"/>
+      <point x="381.5453846153846" y="31.72730769230769" type="line"/>
+      <point x="295.2726923076923" y="0.0" type="line"/>
+      <point x="295.2726923076923" y="-128.2726923076923" type="line" smooth="yes"/>
+      <point x="295.2726923076923" y="-156.0"/>
+      <point x="314.0" y="-175.2726923076923"/>
+    </contour>
+    <component base="es-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>es-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

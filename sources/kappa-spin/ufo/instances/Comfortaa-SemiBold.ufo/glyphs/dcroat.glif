@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcroat" format="2">
+  <advance width="704.3636346153846"/>
+  <unicode hex="0111"/>
+  <anchor x="352.6819230769231" y="0.0" name="bottom"/>
+  <anchor x="505.4546153846154" y="639.2273076923077" name="center"/>
+  <anchor x="607.9092307692308" y="537.0" name="ogonek"/>
+  <anchor x="352.6819230769231" y="547.0" name="top"/>
+  <anchor x="677.5453846153846" y="781.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="372.40923076923076" y="613.7726923076923" type="curve" smooth="yes"/>
+      <point x="658.0453846153846" y="613.7726923076923" type="line" smooth="yes"/>
+      <point x="684.8634615384615" y="613.7726923076923"/>
+      <point x="704.3634615384615" y="630.1819230769231"/>
+      <point x="704.3634615384615" y="650.8180769230769" type="curve" smooth="yes"/>
+      <point x="704.3634615384615" y="676.0907692307692"/>
+      <point x="684.8634615384615" y="687.8634615384615"/>
+      <point x="658.0453846153846" y="687.8634615384615" type="curve" smooth="yes"/>
+      <point x="372.40923076923076" y="687.8634615384615" type="line" smooth="yes"/>
+      <point x="345.5907692307692" y="687.8634615384615"/>
+      <point x="326.86346153846154" y="676.0907692307692"/>
+      <point x="326.86346153846154" y="650.8180769230769" type="curve" smooth="yes"/>
+      <point x="326.86346153846154" y="630.1819230769231"/>
+      <point x="345.5907692307692" y="613.7726923076923"/>
+    </contour>
+    <component base="d"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>d</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

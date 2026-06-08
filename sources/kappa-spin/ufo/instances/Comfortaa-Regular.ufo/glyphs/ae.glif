@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae" format="2">
+  <advance width="1096.13636"/>
+  <unicode hex="00E6"/>
+  <anchor x="558.682" y="0" name="bottom"/>
+  <anchor x="609.364" y="10.0" name="ogonek"/>
+  <anchor x="558.682" y="547" name="top"/>
+  <outline>
+    <contour>
+      <point x="820.364" y="-4.591" type="curve" smooth="yes"/>
+      <point x="882.545" y="-4.591"/>
+      <point x="957.727" y="22.591"/>
+      <point x="1001.955" y="59.955" type="curve" smooth="yes"/>
+      <point x="1018.636" y="74"/>
+      <point x="1017.227" y="93.682"/>
+      <point x="999.955" y="109.773" type="curve" smooth="yes"/>
+      <point x="986.909" y="121.636"/>
+      <point x="965.818" y="120.227"/>
+      <point x="951.136" y="108.182" type="curve" smooth="yes"/>
+      <point x="921.773" y="82.864"/>
+      <point x="874.364" y="63.682"/>
+      <point x="820.364" y="63.682" type="curve" smooth="yes"/>
+      <point x="700.455" y="63.682"/>
+      <point x="615.318" y="151.182"/>
+      <point x="615.318" y="273" type="curve" smooth="yes"/>
+      <point x="615.318" y="395.409"/>
+      <point x="690.364" y="483.318"/>
+      <point x="805.364" y="483.318" type="curve" smooth="yes"/>
+      <point x="916.591" y="483.318"/>
+      <point x="986.773" y="398.273"/>
+      <point x="985.636" y="280.545" type="curve"/>
+      <point x="1028.409" y="311.5" type="line"/>
+      <point x="595.318" y="311.5" type="line"/>
+      <point x="595.318" y="248.045" type="line"/>
+      <point x="1020.182" y="248.045" type="line" smooth="yes"/>
+      <point x="1041.273" y="248.045"/>
+      <point x="1056.136" y="261.909"/>
+      <point x="1056.136" y="282.591" type="curve" smooth="yes"/>
+      <point x="1056.136" y="440"/>
+      <point x="956.636" y="551.591"/>
+      <point x="805.364" y="551.591" type="curve" smooth="yes"/>
+      <point x="657.5" y="551.591"/>
+      <point x="553.045" y="436"/>
+      <point x="553.045" y="273" type="curve" smooth="yes"/>
+      <point x="553.045" y="110.409"/>
+      <point x="664.091" y="-4.591"/>
+    </contour>
+    <component base="a"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

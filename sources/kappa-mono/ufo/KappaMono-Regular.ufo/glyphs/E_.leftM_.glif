@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.leftM" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="499" y="0" type="line"/>
+      <point x="499" y="78" type="line"/>
+      <point x="170" y="78" type="line"/>
+      <point x="170" y="324" type="line"/>
+      <point x="455" y="324" type="line"/>
+      <point x="455" y="402" type="line"/>
+      <point x="170" y="402" type="line"/>
+      <point x="170" y="622" type="line"/>
+      <point x="499" y="622" type="line"/>
+      <point x="499" y="700" type="line"/>
+      <point x="83" y="700" type="line"/>
+    </contour>
+  </outline>
+</glyph>

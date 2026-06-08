@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kabashkir-cy" format="2">
+  <advance width="913.4615384615383"/>
+  <unicode hex="04A0"/>
+  <anchor x="767.1365384615385" y="84.95461538461538" name="bottomright"/>
+  <anchor x="477.0457692307692" y="398.2726923076923" name="center"/>
+  <anchor x="549.2726923076923" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="58.2273076923077" y="694.5453846153846" type="curve" smooth="yes"/>
+      <point x="339.13653846153846" y="694.5453846153846" type="line"/>
+      <point x="339.13653846153846" y="781.0" type="line"/>
+      <point x="58.2273076923077" y="781.0" type="line" smooth="yes"/>
+      <point x="32.95461538461539" y="781.0"/>
+      <point x="15.0" y="763.0453846153846"/>
+      <point x="15.0" y="737.7726923076923" type="curve" smooth="yes"/>
+      <point x="15.0" y="712.5"/>
+      <point x="32.95461538461539" y="694.5453846153846"/>
+    </contour>
+    <component base="Ka-cy" xOffset="191.90923076923076"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ka-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

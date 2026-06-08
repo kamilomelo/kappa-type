@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy" format="2">
+  <advance width="589.6923076923076"/>
+  <unicode hex="04B7"/>
+  <anchor x="457.4091538461538" y="72.3183076923077" name="bottomright"/>
+  <anchor x="284.5" y="218.54576923076922" name="center"/>
+  <anchor x="281.40915384615386" y="547.0" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="descendercy" xOffset="457.69230769230774" yOffset="-0.3076923076923077"/>
+  </outline>
+</glyph>

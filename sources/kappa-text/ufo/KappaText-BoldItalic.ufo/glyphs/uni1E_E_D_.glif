@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EED" format="2">
+  <advance width="1441"/>
+  <unicode hex="1EED"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="hookabovecomb" xScale="1.02996826171875" yScale="1.0799560546875" xOffset="643" yOffset="-3"/>
+  </outline>
+</glyph>

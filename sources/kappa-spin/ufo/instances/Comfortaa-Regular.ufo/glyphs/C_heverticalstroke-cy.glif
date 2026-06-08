@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Cheverticalstroke-cy" format="2">
+  <advance width="759"/>
+  <unicode hex="04B8"/>
+  <anchor x="619.727" y="0.0" name="bottom"/>
+  <anchor x="619.727" y="10.0" name="ogonek"/>
+  <anchor x="367.318" y="781.0" name="top"/>
+  <anchor x="500.727" y="781.0" name="topleft"/>
+  <anchor x="617.545" y="73.091" name="bottomright"/>
+  <anchor x="365.864" y="317.318" name="center"/>
+  <outline>
+    <component base="Che-cy"/>
+    <component base="verticalbarcy.case" xOffset="242" yOffset="11"/>
+  </outline>
+</glyph>

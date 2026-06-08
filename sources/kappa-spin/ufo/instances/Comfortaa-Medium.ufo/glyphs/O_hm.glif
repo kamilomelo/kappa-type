@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohm" format="2">
+  <advance width="872.0"/>
+  <unicode hex="2126"/>
+  <anchor x="65.90915384615384" y="781.0" name="topleft"/>
+  <outline>
+    <component base="Omega"/>
+  </outline>
+</glyph>

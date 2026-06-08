@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="W" format="2">
+  <advance width="943"/>
+  <unicode hex="0057"/>
+  <anchor x="472" y="0" name="bottom"/>
+  <anchor x="472" y="700" name="top"/>
+  <outline>
+    <contour>
+      <point x="205" y="0" type="line"/>
+      <point x="323" y="0" type="line"/>
+      <point x="473" y="526" type="line"/>
+      <point x="621" y="0" type="line"/>
+      <point x="739" y="0" type="line"/>
+      <point x="928" y="677" type="line"/>
+      <point x="840" y="704" type="line"/>
+      <point x="683" y="101" type="line"/>
+      <point x="535" y="627" type="line"/>
+      <point x="416" y="627" type="line"/>
+      <point x="267" y="101" type="line"/>
+      <point x="109" y="707" type="line"/>
+      <point x="15" y="677" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>707</integer>
+            <integer>-20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

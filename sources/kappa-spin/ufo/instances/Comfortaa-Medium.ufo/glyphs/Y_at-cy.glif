@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yat-cy" format="2">
+  <advance width="773.2727253846153"/>
+  <unicode hex="0462"/>
+  <outline>
+    <contour>
+      <point x="56.1816923076923" y="584.7274615384615" type="curve" smooth="yes"/>
+      <point x="494.40915384615386" y="584.7274615384615" type="line" smooth="yes"/>
+      <point x="518.6816923076923" y="584.7274615384615"/>
+      <point x="536.1816923076923" y="598.0908461538461"/>
+      <point x="536.1816923076923" y="621.1816923076923" type="curve" smooth="yes"/>
+      <point x="536.1816923076923" y="644.2725384615385"/>
+      <point x="518.6816923076923" y="657.6366153846154"/>
+      <point x="494.40915384615386" y="657.6366153846154" type="curve" smooth="yes"/>
+      <point x="56.1816923076923" y="657.6366153846154" type="line" smooth="yes"/>
+      <point x="31.909153846153846" y="657.6366153846154"/>
+      <point x="15.0" y="644.2725384615385"/>
+      <point x="15.0" y="621.1816923076923" type="curve" smooth="yes"/>
+      <point x="15.0" y="598.0908461538461"/>
+      <point x="31.909153846153846" y="584.7274615384615"/>
+    </contour>
+    <component base="Softsign-cy" xOffset="74.68169230769232"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Softsign-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

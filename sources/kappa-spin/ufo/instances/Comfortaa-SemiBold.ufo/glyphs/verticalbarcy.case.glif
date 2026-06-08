@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalbarcy.case" format="2">
+  <advance width="245.54545384615386"/>
+  <anchor x="127.72730769230768" y="304.13653846153846" name="_center"/>
+  <outline>
+    <contour>
+      <point x="124.72730769230769" y="127.95461538461538" type="curve" smooth="yes"/>
+      <point x="129.7273076923077" y="127.95461538461538" type="line" smooth="yes"/>
+      <point x="144.36346153846154" y="127.95461538461538"/>
+      <point x="158.45461538461538" y="139.04538461538462"/>
+      <point x="158.45461538461538" y="153.68192307692306" type="curve" smooth="yes"/>
+      <point x="158.45461538461538" y="458.1365384615384" type="line" smooth="yes"/>
+      <point x="158.45461538461538" y="472.7726923076923"/>
+      <point x="144.36346153846154" y="483.8634615384615"/>
+      <point x="129.7273076923077" y="483.8634615384615" type="curve" smooth="yes"/>
+      <point x="124.72730769230769" y="483.8634615384615" type="line" smooth="yes"/>
+      <point x="110.09076923076923" y="483.8634615384615"/>
+      <point x="96.0" y="472.7726923076923"/>
+      <point x="96.0" y="458.1365384615384" type="curve" smooth="yes"/>
+      <point x="96.0" y="153.68192307692306" type="line" smooth="yes"/>
+      <point x="96.0" y="139.04538461538462"/>
+      <point x="110.09076923076923" y="127.95461538461538"/>
+    </contour>
+  </outline>
+</glyph>

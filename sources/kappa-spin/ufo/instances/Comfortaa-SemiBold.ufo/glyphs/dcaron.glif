@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron" format="2">
+  <advance width="798.5454538461538"/>
+  <unicode hex="010F"/>
+  <anchor x="352.6819230769231" y="0.0" name="bottom"/>
+  <anchor x="505.4546153846154" y="639.2273076923077" name="center"/>
+  <anchor x="607.9092307692308" y="537.0" name="ogonek"/>
+  <anchor x="352.6819230769231" y="547.0" name="top"/>
+  <anchor x="677.5453846153846" y="781.0" name="topright"/>
+  <outline>
+    <component base="d"/>
+    <component base="caron.alt" xOffset="611.1365384615385"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caron.alt</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

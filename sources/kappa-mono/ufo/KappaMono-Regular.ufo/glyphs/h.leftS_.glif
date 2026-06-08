@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h.leftS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="89" y="0" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="173" y="312" type="line" smooth="yes"/>
+      <point x="173" y="409"/>
+      <point x="227" y="479"/>
+      <point x="302" y="479" type="curve" smooth="yes"/>
+      <point x="364" y="479"/>
+      <point x="404" y="431"/>
+      <point x="404" y="358" type="curve" smooth="yes"/>
+      <point x="404" y="0" type="line"/>
+      <point x="488" y="0" type="line"/>
+      <point x="488" y="365" type="line" smooth="yes"/>
+      <point x="488" y="476"/>
+      <point x="422" y="550"/>
+      <point x="323" y="550" type="curve" smooth="yes"/>
+      <point x="258" y="550"/>
+      <point x="207" y="518"/>
+      <point x="177" y="463" type="curve"/>
+      <point x="173" y="463" type="line"/>
+      <point x="173" y="740" type="line"/>
+      <point x="89" y="740" type="line"/>
+    </contour>
+  </outline>
+</glyph>

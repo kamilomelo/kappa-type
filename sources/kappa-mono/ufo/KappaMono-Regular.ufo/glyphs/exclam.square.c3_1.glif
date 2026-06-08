@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam.square.c3_1" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="325" y="232" type="line"/>
+      <point x="395" y="232" type="line"/>
+      <point x="409" y="700" type="line"/>
+      <point x="311" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="0" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="427" y="134" type="line"/>
+      <point x="293" y="134" type="line"/>
+    </contour>
+  </outline>
+</glyph>

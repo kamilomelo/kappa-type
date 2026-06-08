@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Kappa Mark';
+  src: url('../webfonts/KappaMark-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kappa Mark';
+  src: url('../webfonts/KappaMark-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

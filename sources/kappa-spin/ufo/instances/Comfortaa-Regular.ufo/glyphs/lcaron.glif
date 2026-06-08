@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="359.63636"/>
+  <unicode hex="013E"/>
+  <anchor x="209" y="0" name="bottom"/>
+  <anchor x="123.409" y="274.0" name="center"/>
+  <anchor x="108.182" y="781.0" name="top"/>
+  <anchor x="238.636" y="781.0" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="caron.alt" xOffset="192.727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caron.alt</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

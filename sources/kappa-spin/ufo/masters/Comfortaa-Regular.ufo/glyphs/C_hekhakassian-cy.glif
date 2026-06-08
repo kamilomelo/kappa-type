@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chekhakassian-cy" format="2">
+  <advance width="782.81818"/>
+  <unicode hex="04CB"/>
+  <anchor x="619.727" y="0.0" name="bottom"/>
+  <anchor x="619.727" y="10.0" name="ogonek"/>
+  <anchor x="367.318" y="781.0" name="top"/>
+  <anchor x="500.727" y="781.0" name="topleft"/>
+  <anchor x="617.545" y="73.091" name="bottomright"/>
+  <anchor x="365.864" y="317.318" name="center"/>
+  <outline>
+    <contour>
+      <point x="529.773" y="-170.909" type="curve" smooth="yes"/>
+      <point x="553.273" y="-170.909"/>
+      <point x="568.773" y="-156"/>
+      <point x="568.773" y="-131.909" type="curve" smooth="yes"/>
+      <point x="568.773" y="0" type="line"/>
+      <point x="644.045" y="0" type="line"/>
+      <point x="644.045" y="73.091" type="line"/>
+      <point x="529.773" y="73.091" type="line" smooth="yes"/>
+      <point x="505.682" y="73.091"/>
+      <point x="490.773" y="57.591"/>
+      <point x="490.773" y="34.091" type="curve" smooth="yes"/>
+      <point x="490.773" y="-131.909" type="line" smooth="yes"/>
+      <point x="490.773" y="-156"/>
+      <point x="505.682" y="-170.909"/>
+    </contour>
+    <component base="Che-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Che-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

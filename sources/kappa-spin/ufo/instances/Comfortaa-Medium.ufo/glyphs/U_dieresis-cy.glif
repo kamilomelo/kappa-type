@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis-cy" format="2">
+  <advance width="702.0"/>
+  <unicode hex="04F0"/>
+  <anchor x="351.31499999999994" y="976.4091538461538" name="top"/>
+  <outline>
+    <component base="U-cy"/>
+    <component base="dieresiscomb" xOffset="108.76923076923077" yOffset="234.0"/>
+  </outline>
+</glyph>

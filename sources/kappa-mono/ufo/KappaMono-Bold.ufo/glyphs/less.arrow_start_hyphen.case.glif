@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="less.arrow_start_hyphen.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="313" y="295" type="line"/>
+      <point x="605" y="295" type="line"/>
+      <point x="605" y="405" type="line"/>
+      <point x="313" y="405" type="line"/>
+      <point x="311" y="409" type="line"/>
+      <point x="509" y="607" type="line"/>
+      <point x="433" y="683" type="line"/>
+      <point x="100" y="350" type="line"/>
+      <point x="433" y="17" type="line"/>
+      <point x="509" y="93" type="line"/>
+      <point x="311" y="291" type="line"/>
+    </contour>
+  </outline>
+</glyph>

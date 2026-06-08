@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aringacute" format="2">
+  <advance width="676.3846153846154"/>
+  <unicode hex="01FB"/>
+  <anchor x="338.8183076923077" y="0.0" name="bottom"/>
+  <anchor x="608.6366153846154" y="10.0" name="ogonek"/>
+  <anchor x="388.30038461538464" y="934.4827692307692" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="ringcomb" xOffset="203.07692307692307"/>
+    <component base="acutecomb" xOffset="244.84615384615387" yOffset="199.84615384615384"/>
+  </outline>
+</glyph>

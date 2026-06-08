@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="naira" format="2">
+  <advance width="828.0769230769231"/>
+  <unicode hex="20A6"/>
+  <anchor x="414.09076923076924" y="0.0" name="bottom"/>
+  <anchor x="414.09076923076924" y="781.0" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="strokelongcomb" xOffset="-45.45461538461539" yOffset="74.54538461538462"/>
+  </outline>
+</glyph>

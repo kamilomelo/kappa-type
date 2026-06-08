@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E-cy" format="2">
+  <advance width="768"/>
+  <unicode hex="0404"/>
+  <anchor x="441.364" y="0.0" name="bottom"/>
+  <anchor x="446.045" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="105.727" y="360.045" type="line"/>
+      <point x="496.5" y="360.045" type="line" smooth="yes"/>
+      <point x="516.409" y="360.045"/>
+      <point x="531.682" y="375.318"/>
+      <point x="531.682" y="394.818" type="curve" smooth="yes"/>
+      <point x="531.682" y="414.318"/>
+      <point x="516.409" y="429.591"/>
+      <point x="496.5" y="429.591" type="curve" smooth="yes"/>
+      <point x="105.727" y="429.591" type="line"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>C</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

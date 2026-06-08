@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gradient" format="2">
+  <advance width="600"/>
+  <unicode hex="2207"/>
+  <outline>
+    <contour>
+      <point x="644" y="700" type="line"/>
+      <point x="90" y="700" type="line"/>
+      <point x="163" y="0" type="line"/>
+      <point x="337" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="475" y="590" type="line"/>
+      <point x="274" y="125" type="line"/>
+      <point x="270" y="125" type="line"/>
+      <point x="223" y="590" type="line"/>
+    </contour>
+  </outline>
+</glyph>

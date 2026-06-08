@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lambda" format="2">
+  <advance width="681.81818"/>
+  <unicode hex="039B"/>
+  <outline>
+    <contour>
+      <point x="56.591" y="0" type="curve" smooth="yes"/>
+      <point x="72.045" y="0"/>
+      <point x="86.545" y="7.455"/>
+      <point x="92.773" y="24.318" type="curve" smooth="yes"/>
+      <point x="359" y="690.545" type="line"/>
+      <point x="328.636" y="690.545" type="line"/>
+      <point x="593.818" y="24.318" type="line"/>
+      <point x="600.636" y="7.864"/>
+      <point x="614.136" y="0"/>
+      <point x="630" y="0" type="curve" smooth="yes"/>
+      <point x="658.545" y="0"/>
+      <point x="676.045" y="28.318"/>
+      <point x="665.182" y="55.273" type="curve" smooth="yes"/>
+      <point x="380.182" y="754.273" type="line" smooth="yes"/>
+      <point x="372.955" y="772.364"/>
+      <point x="360.091" y="781"/>
+      <point x="343" y="781" type="curve" smooth="yes"/>
+      <point x="325.136" y="781"/>
+      <point x="312.864" y="771.773"/>
+      <point x="305.818" y="754.273" type="curve" smooth="yes"/>
+      <point x="21.818" y="56.091" type="line" smooth="yes"/>
+      <point x="11.545" y="30.318"/>
+      <point x="26.273" y="0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onesuperior" format="2">
+  <advance width="450"/>
+  <unicode hex="00B9"/>
+  <outline>
+    <contour>
+      <point x="219" y="341" type="line"/>
+      <point x="122" y="341" type="line"/>
+      <point x="110" y="276" type="line"/>
+      <point x="366" y="276" type="line"/>
+      <point x="380" y="341" type="line"/>
+      <point x="299" y="341" type="line"/>
+      <point x="373" y="700" type="line"/>
+      <point x="314" y="700" type="line"/>
+      <point x="146" y="608" type="line"/>
+      <point x="185" y="548" type="line"/>
+      <point x="271" y="602" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>276</integer>
+            <integer>65</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>700</integer>
+            <integer>-20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

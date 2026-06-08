@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h" format="2">
+  <advance width="677.09091"/>
+  <unicode hex="0068"/>
+  <anchor x="339.045" y="0" name="bottom"/>
+  <anchor x="128.591" y="781" name="top"/>
+  <anchor x="191.091" y="647.182" name="center"/>
+  <outline>
+    <component base="n"/>
+    <component base="_part.stemh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>n</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_part.stemh</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

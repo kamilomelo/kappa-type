@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="859"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <contour>
+      <point x="440.806" y="138.672" type="curve" smooth="yes"/>
+      <point x="504.431" y="138.672"/>
+      <point x="563.046" y="160.013"/>
+      <point x="606.467" y="199.739" type="curve" smooth="yes"/>
+      <point x="619.774" y="211.938"/>
+      <point x="618.965" y="230.937"/>
+      <point x="604.711" y="244.094" type="curve" smooth="yes"/>
+      <point x="592.747" y="254.97"/>
+      <point x="574.883" y="254.182"/>
+      <point x="561.956" y="242.332" type="curve" smooth="yes"/>
+      <point x="532.414" y="215.252"/>
+      <point x="490.303" y="200.399"/>
+      <point x="440.806" y="200.399" type="curve" smooth="yes"/>
+      <point x="334.109" y="200.399"/>
+      <point x="258.557" y="280.642"/>
+      <point x="258.557" y="392.416" type="curve" smooth="yes"/>
+      <point x="258.557" y="506.226"/>
+      <point x="328.061" y="584.434"/>
+      <point x="427.487" y="584.434" type="curve" smooth="yes"/>
+      <point x="484.719" y="584.434"/>
+      <point x="530.133" y="563.565"/>
+      <point x="567.639" y="519.08" type="curve" smooth="yes"/>
+      <point x="579.16" y="505.465"/>
+      <point x="597.112" y="502.811"/>
+      <point x="609.944" y="512.475" type="curve"/>
+      <point x="626.506" y="522.412"/>
+      <point x="629.797" y="540.677"/>
+      <point x="617.791" y="555.958" type="curve" smooth="yes"/>
+      <point x="570.96" y="615.397"/>
+      <point x="505.37" y="646.16"/>
+      <point x="427.487" y="646.16" type="curve" smooth="yes"/>
+      <point x="292.373" y="646.16"/>
+      <point x="193.278" y="538.057"/>
+      <point x="193.278" y="392.416" type="curve" smooth="yes"/>
+      <point x="193.278" y="247.959"/>
+      <point x="299.22" y="138.672"/>
+    </contour>
+    <component base="_part.circle"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

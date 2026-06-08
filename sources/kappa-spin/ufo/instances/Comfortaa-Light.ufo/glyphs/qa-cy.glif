@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qa-cy" format="2">
+  <advance width="709"/>
+  <unicode hex="051B"/>
+  <anchor x="355" y="0" name="bottom"/>
+  <anchor x="524" y="-110" name="center"/>
+  <anchor x="611" y="10" name="ogonek"/>
+  <anchor x="355" y="547" name="top"/>
+  <anchor x="659" y="-234" name="topright"/>
+  <outline>
+    <component base="q"/>
+  </outline>
+</glyph>

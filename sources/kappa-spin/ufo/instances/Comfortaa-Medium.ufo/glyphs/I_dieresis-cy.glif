@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis-cy" format="2">
+  <advance width="855.2307692307692"/>
+  <unicode hex="04E4"/>
+  <anchor x="712.1366153846154" y="0.0" name="bottomright"/>
+  <anchor x="428.2380769230769" y="976.4091538461538" name="top"/>
+  <outline>
+    <component base="Ii-cy"/>
+    <component base="dieresiscomb" xOffset="185.69230769230768" yOffset="234.0"/>
+  </outline>
+</glyph>

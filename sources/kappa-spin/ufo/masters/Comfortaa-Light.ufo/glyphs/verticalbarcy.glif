@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticalbarcy" format="2">
+  <advance width="241"/>
+  <anchor x="129" y="208" name="_center"/>
+  <outline>
+    <contour>
+      <point x="126" y="65" type="curve" smooth="yes"/>
+      <point x="131" y="65" type="line" smooth="yes"/>
+      <point x="141" y="65"/>
+      <point x="153" y="73"/>
+      <point x="153" y="83" type="curve" smooth="yes"/>
+      <point x="153" y="332" type="line" smooth="yes"/>
+      <point x="153" y="342"/>
+      <point x="141" y="350"/>
+      <point x="131" y="350" type="curve" smooth="yes"/>
+      <point x="126" y="350" type="line" smooth="yes"/>
+      <point x="116" y="350"/>
+      <point x="104" y="342"/>
+      <point x="104" y="332" type="curve" smooth="yes"/>
+      <point x="104" y="83" type="line" smooth="yes"/>
+      <point x="104" y="73"/>
+      <point x="116" y="65"/>
+    </contour>
+  </outline>
+</glyph>

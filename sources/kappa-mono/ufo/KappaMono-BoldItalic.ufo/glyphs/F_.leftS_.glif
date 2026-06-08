@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F.leftS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="213" y="290" type="line"/>
+      <point x="473" y="290" type="line"/>
+      <point x="492" y="400" type="line"/>
+      <point x="232" y="400" type="line"/>
+      <point x="263" y="590" type="line"/>
+      <point x="560" y="590" type="line"/>
+      <point x="579" y="700" type="line"/>
+      <point x="157" y="700" type="line"/>
+    </contour>
+  </outline>
+</glyph>

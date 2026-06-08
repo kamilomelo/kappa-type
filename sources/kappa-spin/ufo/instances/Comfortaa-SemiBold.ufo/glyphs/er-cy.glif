@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="er-cy" format="2">
+  <advance width="704.5384615384615"/>
+  <unicode hex="0440"/>
+  <anchor x="370.40923076923076" y="0.0" name="bottom"/>
+  <anchor x="26.818076923076923" y="-234.0" name="bottomleft"/>
+  <anchor x="198.90923076923076" y="-92.22730769230769" name="center"/>
+  <anchor x="96.45461538461538" y="10.0" name="ogonek"/>
+  <anchor x="370.40923076923076" y="547.0" name="top"/>
+  <outline>
+    <component base="p"/>
+  </outline>
+</glyph>

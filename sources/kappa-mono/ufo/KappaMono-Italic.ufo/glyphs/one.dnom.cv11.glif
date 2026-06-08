@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.dnom.cv11" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="133" y="0" type="line"/>
+      <point x="367" y="0" type="line"/>
+      <point x="376" y="55" type="line"/>
+      <point x="292" y="55" type="line"/>
+      <point x="342" y="350" type="line"/>
+      <point x="292" y="350" type="line"/>
+      <point x="277" y="297"/>
+      <point x="252" y="280"/>
+      <point x="184" y="280" type="curve"/>
+      <point x="176" y="230" type="line"/>
+      <point x="260" y="231" type="line"/>
+      <point x="230" y="55" type="line"/>
+      <point x="142" y="55" type="line"/>
+    </contour>
+  </outline>
+</glyph>

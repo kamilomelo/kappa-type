@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.rightL.cv10" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="146" y="0" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="566" y="110" type="line"/>
+      <point x="416" y="110" type="line"/>
+      <point x="416" y="740" type="line"/>
+      <point x="151" y="740" type="line"/>
+      <point x="151" y="630" type="line"/>
+      <point x="296" y="630" type="line"/>
+      <point x="296" y="110" type="line"/>
+      <point x="146" y="110" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater.pipe.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="468" y="410" type="line"/>
+      <point x="27" y="760" type="line"/>
+      <point x="3" y="618" type="line"/>
+      <point x="341" y="350" type="line"/>
+      <point x="-86" y="82" type="line"/>
+      <point x="-110" y="-60" type="line"/>
+      <point x="448" y="290" type="line"/>
+    </contour>
+  </outline>
+</glyph>

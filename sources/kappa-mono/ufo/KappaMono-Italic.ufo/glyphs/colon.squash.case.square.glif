@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon.squash.case.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="253" y="417" type="line"/>
+      <point x="386" y="417" type="line"/>
+      <point x="409" y="551" type="line"/>
+      <point x="275" y="551" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="157" type="line"/>
+      <point x="343" y="157" type="line"/>
+      <point x="365" y="291" type="line"/>
+      <point x="231" y="291" type="line"/>
+    </contour>
+  </outline>
+</glyph>

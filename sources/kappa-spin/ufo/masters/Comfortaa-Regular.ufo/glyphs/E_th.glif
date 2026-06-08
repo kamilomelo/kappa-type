@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="770"/>
+  <unicode hex="00D0"/>
+  <anchor x="385.5" y="0.0" name="bottom"/>
+  <anchor x="193.682" y="391.0" name="center"/>
+  <anchor x="385.5" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="36.409" y="356.636" type="curve" smooth="yes"/>
+      <point x="327.864" y="356.636" type="line" smooth="yes"/>
+      <point x="349.591" y="356.636"/>
+      <point x="365.091" y="370.091"/>
+      <point x="365.091" y="391" type="curve" smooth="yes"/>
+      <point x="365.091" y="411.909"/>
+      <point x="349.591" y="425.364"/>
+      <point x="327.864" y="425.364" type="curve" smooth="yes"/>
+      <point x="36.409" y="425.364" type="line" smooth="yes"/>
+      <point x="14.682" y="425.364"/>
+      <point x="-0.409" y="411.909"/>
+      <point x="-0.409" y="391" type="curve" smooth="yes"/>
+      <point x="-0.409" y="370.091"/>
+      <point x="14.682" y="356.636"/>
+    </contour>
+    <component base="D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>D</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

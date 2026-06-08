@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T.leftM" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="208" y="0" type="line"/>
+      <point x="333" y="0" type="line"/>
+      <point x="333" y="590" type="line"/>
+      <point x="530" y="590" type="line"/>
+      <point x="530" y="700" type="line"/>
+      <point x="10" y="700" type="line"/>
+      <point x="10" y="590" type="line"/>
+      <point x="208" y="590" type="line"/>
+    </contour>
+  </outline>
+</glyph>

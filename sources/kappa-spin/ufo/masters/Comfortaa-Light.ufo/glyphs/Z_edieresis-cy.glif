@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zedieresis-cy" format="2">
+  <advance width="619"/>
+  <unicode hex="04DE"/>
+  <anchor x="315" y="0" name="bottom"/>
+  <anchor x="315" y="964" name="top"/>
+  <outline>
+    <component base="Ze-cy"/>
+    <component base="dieresiscomb" xOffset="63" yOffset="234"/>
+  </outline>
+</glyph>

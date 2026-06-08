@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="../ufo/masters/regular/KappaMark-Regular.ufo" name="KappaMark Regular" familyname="Kappa Mark" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="KappaMark Regular" familyname="Kappa Mark" stylename="Regular" filename="../ufo/instances/KappaMark-Regular.ufo" stylemapfamilyname="Kappa Mark" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>49B01604-4BAD-416A-BFCD-4FBC01F4BDB0</key>
+        <dict>
+          <key>HH</key>
+          <integer>82</integer>
+          <key>HV</key>
+          <integer>95</integer>
+          <key>OH</key>
+          <integer>82</integer>
+          <key>OV</key>
+          <integer>97</integer>
+          <key>nV</key>
+          <integer>87</integer>
+          <key>oH</key>
+          <integer>80</integer>
+          <key>oV</key>
+          <integer>92</integer>
+          <key>tH</key>
+          <integer>78</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

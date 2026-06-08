@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccedilla" format="2">
+  <advance width="768"/>
+  <unicode hex="00C7"/>
+  <anchor x="441.455" y="-229.273" name="bottom"/>
+  <anchor x="446.045" y="781.0" name="top"/>
+  <outline>
+    <component base="C"/>
+    <component base="cedillacomb" xOffset="285"/>
+  </outline>
+</glyph>

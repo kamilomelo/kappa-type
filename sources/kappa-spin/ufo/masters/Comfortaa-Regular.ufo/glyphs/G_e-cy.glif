@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ge-cy" format="2">
+  <advance width="612.40909"/>
+  <unicode hex="0413"/>
+  <anchor x="138.182" y="73.091" name="bottomright"/>
+  <anchor x="179" y="391" name="center"/>
+  <anchor x="347.636" y="781" name="top"/>
+  <outline>
+    <contour>
+      <point x="139" y="0" type="curve" smooth="yes"/>
+      <point x="160.909" y="0"/>
+      <point x="178" y="17.091"/>
+      <point x="178" y="39" type="curve"/>
+      <point x="178" y="706.273" type="line"/>
+      <point x="557.909" y="706.273" type="line" smooth="yes"/>
+      <point x="579.636" y="706.273"/>
+      <point x="596.5" y="722.318"/>
+      <point x="596.5" y="743.227" type="curve" smooth="yes"/>
+      <point x="596.5" y="765.136"/>
+      <point x="579.636" y="781"/>
+      <point x="557.909" y="781" type="curve" smooth="yes"/>
+      <point x="139" y="781" type="line" smooth="yes"/>
+      <point x="116.682" y="781"/>
+      <point x="100" y="764.318"/>
+      <point x="100" y="742" type="curve" smooth="yes"/>
+      <point x="100" y="39" type="line" smooth="yes"/>
+      <point x="100" y="17.091"/>
+      <point x="117.091" y="0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Amacron" format="2">
+  <advance width="703.0"/>
+  <unicode hex="0100"/>
+  <anchor x="352.0" y="0.0" name="bottom"/>
+  <anchor x="643.2274615384615" y="35.5" name="ogonek"/>
+  <anchor x="351.874" y="964.8633846153846" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="macroncomb" xOffset="77.6923076923077" yOffset="234.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.stema" format="2">
+  <advance width="204.81818307692305"/>
+  <outline>
+    <contour>
+      <point x="102.40915384615383" y="-0.5908461538461538" type="curve" smooth="yes"/>
+      <point x="127.5" y="-0.5908461538461538"/>
+      <point x="144.81830769230768" y="16.727461538461537"/>
+      <point x="144.81830769230768" y="41.81830769230769" type="curve" smooth="yes"/>
+      <point x="144.81830769230768" y="273.0" type="line"/>
+      <point x="71.8183076923077" y="273.0" type="line"/>
+      <point x="60.0" y="41.81830769230769" type="line" smooth="yes"/>
+      <point x="58.22746153846154" y="16.727461538461537"/>
+      <point x="77.3183076923077" y="-0.5908461538461538"/>
+    </contour>
+  </outline>
+</glyph>

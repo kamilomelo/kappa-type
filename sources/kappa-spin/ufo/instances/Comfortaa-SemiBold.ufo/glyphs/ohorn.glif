@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn" format="2">
+  <advance width="675.7692307692307"/>
+  <unicode hex="01A1"/>
+  <anchor x="338.4546153846154" y="0.0" name="bottom"/>
+  <anchor x="338.4546153846154" y="274.0" name="center"/>
+  <anchor x="430.7726923076923" y="46.95461538461539" name="ogonek"/>
+  <anchor x="338.4546153846154" y="547.0" name="top"/>
+  <anchor x="458.0769230769231" y="526.4615384615385" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="horncomb" xOffset="458.0769230769231" yOffset="-20.53846153846154"/>
+  </outline>
+</glyph>

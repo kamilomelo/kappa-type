@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="descendercy" format="2">
+  <advance width="190.0909076923077"/>
+  <anchor x="0.0" y="78.72730769230769" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="98.5" y="-175.2726923076923" type="curve" smooth="yes"/>
+      <point x="123.13653846153846" y="-175.2726923076923"/>
+      <point x="140.09076923076924" y="-156.0"/>
+      <point x="140.09076923076924" y="-128.2726923076923" type="curve" smooth="yes"/>
+      <point x="140.09076923076924" y="31.72730769230769" type="line" smooth="yes"/>
+      <point x="140.09076923076924" y="59.22730769230769"/>
+      <point x="120.81807692307692" y="78.72730769230769"/>
+      <point x="93.09076923076923" y="78.72730769230769" type="curve" smooth="yes"/>
+      <point x="0.0" y="78.72730769230769" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="53.818076923076916" y="0.0" type="line"/>
+      <point x="53.818076923076916" y="-128.2726923076923" type="line" smooth="yes"/>
+      <point x="53.818076923076916" y="-156.0"/>
+      <point x="72.54538461538462" y="-175.2726923076923"/>
+    </contour>
+  </outline>
+</glyph>

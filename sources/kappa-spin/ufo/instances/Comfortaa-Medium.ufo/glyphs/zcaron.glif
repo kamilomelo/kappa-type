@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zcaron" format="2">
+  <advance width="546.2307692307693"/>
+  <unicode hex="017E"/>
+  <anchor x="282.09084615384614" y="0.0" name="bottom"/>
+  <anchor x="282.1538461538462" y="776.5" name="top"/>
+  <outline>
+    <component base="z"/>
+    <component base="caroncomb" xOffset="89.15384615384616"/>
+  </outline>
+</glyph>

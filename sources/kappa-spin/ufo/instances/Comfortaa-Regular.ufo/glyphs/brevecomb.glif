@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb" format="2">
+  <unicode hex="0306"/>
+  <anchor x="194" y="547" name="_top"/>
+  <anchor x="194" y="714.5" name="top"/>
+  <outline>
+    <contour>
+      <point x="193" y="630.818" type="curve" smooth="yes"/>
+      <point x="276" y="630.818"/>
+      <point x="347" y="677.818"/>
+      <point x="350" y="747.818" type="curve" smooth="yes"/>
+      <point x="350" y="768.818"/>
+      <point x="334" y="786.818"/>
+      <point x="313" y="786.818" type="curve" smooth="yes"/>
+      <point x="292" y="786.818"/>
+      <point x="275" y="771.818"/>
+      <point x="275" y="750.818" type="curve" smooth="yes"/>
+      <point x="275" y="719.818"/>
+      <point x="244" y="695.818"/>
+      <point x="193" y="695.818" type="curve" smooth="yes"/>
+      <point x="146" y="695.818"/>
+      <point x="112" y="720.818"/>
+      <point x="112" y="750.818" type="curve" smooth="yes"/>
+      <point x="112" y="771.818"/>
+      <point x="95" y="786.818"/>
+      <point x="75" y="786.818" type="curve" smooth="yes"/>
+      <point x="53" y="786.818"/>
+      <point x="37" y="768.818"/>
+      <point x="37" y="746.818" type="curve" smooth="yes"/>
+      <point x="37" y="681.818"/>
+      <point x="108" y="630.818"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>391</integer>
+    </dict>
+  </lib>
+</glyph>

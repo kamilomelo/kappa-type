@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="we-cy" format="2">
+  <advance width="732.6153846153845"/>
+  <unicode hex="051D"/>
+  <anchor x="366.5" y="0.0" name="bottom"/>
+  <anchor x="366.5" y="547.0" name="top"/>
+  <outline>
+    <component base="w"/>
+  </outline>
+</glyph>

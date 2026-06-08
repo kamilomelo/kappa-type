@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v.leftL" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="176" y="0" type="line"/>
+      <point x="336" y="0" type="line"/>
+      <point x="496" y="540" type="line"/>
+      <point x="378" y="540" type="line"/>
+      <point x="259" y="125" type="line"/>
+      <point x="255" y="125" type="line"/>
+      <point x="136" y="540" type="line"/>
+      <point x="16" y="540" type="line"/>
+    </contour>
+  </outline>
+</glyph>

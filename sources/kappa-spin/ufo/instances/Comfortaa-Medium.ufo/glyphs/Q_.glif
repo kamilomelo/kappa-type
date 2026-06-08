@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="921.0"/>
+  <unicode hex="0051"/>
+  <anchor x="461.0" y="0.0" name="bottom"/>
+  <anchor x="461.0" y="391.0" name="center"/>
+  <anchor x="459.8183076923077" y="10.0" name="ogonek"/>
+  <anchor x="461.0" y="781.0" name="top"/>
+  <anchor x="20.0" y="781.0" name="topleft"/>
+  <anchor x="651.4542307692308" y="744.8633846153846" name="topright"/>
+  <outline>
+    <contour>
+      <point x="748.7274615384615" y="13.136615384615386" type="line" smooth="yes"/>
+      <point x="766.0457692307693" y="-4.181692307692308"/>
+      <point x="790.1366153846154" y="-4.181692307692308"/>
+      <point x="807.4542307692308" y="13.136615384615386" type="curve" smooth="yes"/>
+      <point x="824.7725384615385" y="30.45423076923077"/>
+      <point x="824.1816923076924" y="53.95423076923077"/>
+      <point x="807.4542307692308" y="71.27253846153846" type="curve" smooth="yes"/>
+      <point x="593.1366153846154" y="285.36338461538463" type="line" smooth="yes"/>
+      <point x="575.8183076923077" y="302.6816923076923"/>
+      <point x="551.7274615384615" y="302.6816923076923"/>
+      <point x="534.4091538461539" y="285.36338461538463" type="curve" smooth="yes"/>
+      <point x="517.0908461538461" y="268.0457692307692"/>
+      <point x="517.0908461538461" y="243.95423076923078"/>
+      <point x="534.4091538461539" y="226.63661538461537" type="curve" smooth="yes"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

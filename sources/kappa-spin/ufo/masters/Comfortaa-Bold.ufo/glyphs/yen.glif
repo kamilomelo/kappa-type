@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yen" format="2">
+  <advance width="670"/>
+  <unicode hex="00A5"/>
+  <anchor x="335" y="0" name="bottom"/>
+  <anchor x="335" y="781" name="top"/>
+  <anchor x="20" y="781" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="174" y="285" type="curve"/>
+      <point x="496" y="285" type="line"/>
+      <point x="526" y="285"/>
+      <point x="548" y="302"/>
+      <point x="548" y="330" type="curve" smooth="yes"/>
+      <point x="548" y="358"/>
+      <point x="526" y="375"/>
+      <point x="496" y="375" type="curve"/>
+      <point x="174" y="375" type="line"/>
+      <point x="144" y="375"/>
+      <point x="123" y="358"/>
+      <point x="123" y="330" type="curve" smooth="yes"/>
+      <point x="123" y="302"/>
+      <point x="144" y="285"/>
+    </contour>
+    <contour>
+      <point x="174" y="145" type="curve"/>
+      <point x="496" y="145" type="line"/>
+      <point x="526" y="145"/>
+      <point x="548" y="162"/>
+      <point x="548" y="190" type="curve" smooth="yes"/>
+      <point x="548" y="218"/>
+      <point x="526" y="235"/>
+      <point x="496" y="235" type="curve"/>
+      <point x="174" y="235" type="line"/>
+      <point x="144" y="235"/>
+      <point x="123" y="218"/>
+      <point x="123" y="190" type="curve" smooth="yes"/>
+      <point x="123" y="162"/>
+      <point x="144" y="145"/>
+    </contour>
+    <component base="Y"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

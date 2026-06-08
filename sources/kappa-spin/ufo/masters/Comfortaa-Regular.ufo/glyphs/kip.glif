@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kip" format="2">
+  <advance width="656"/>
+  <unicode hex="20AD"/>
+  <anchor x="328.909" y="0.0" name="bottom"/>
+  <anchor x="328.909" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="291.455" y="401.136" type="line"/>
+      <point x="555" y="401.136" type="line" smooth="yes"/>
+      <point x="574.273" y="401.136"/>
+      <point x="588.136" y="413.773"/>
+      <point x="588.136" y="431.409" type="curve" smooth="yes"/>
+      <point x="588.136" y="449.045"/>
+      <point x="574.273" y="461.682"/>
+      <point x="555" y="461.682" type="curve" smooth="yes"/>
+      <point x="291.455" y="461.682" type="line"/>
+    </contour>
+    <contour>
+      <point x="34.773" y="401.136" type="curve" smooth="yes"/>
+      <point x="130.5" y="401.136" type="line"/>
+      <point x="130.5" y="461.682" type="line"/>
+      <point x="34.773" y="461.682" type="line" smooth="yes"/>
+      <point x="14.682" y="461.682"/>
+      <point x="0" y="449.045"/>
+      <point x="0" y="431.409" type="curve" smooth="yes"/>
+      <point x="0" y="413.773"/>
+      <point x="14.682" y="401.136"/>
+    </contour>
+    <component base="K" xOffset="0.818"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>K</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

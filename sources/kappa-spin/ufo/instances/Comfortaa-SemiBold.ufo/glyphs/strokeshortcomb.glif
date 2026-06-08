@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="strokeshortcomb" format="2">
+  <unicode hex="0335"/>
+  <anchor x="278.90923076923076" y="319.2726923076923" name="_center"/>
+  <outline>
+    <contour>
+      <point x="118.72730769230768" y="278.36346153846154" type="curve" smooth="yes"/>
+      <point x="439.8180769230769" y="278.36346153846154" type="line" smooth="yes"/>
+      <point x="466.6365384615384" y="278.36346153846154"/>
+      <point x="486.1365384615384" y="294.0"/>
+      <point x="486.1365384615384" y="319.2726923076923" type="curve" smooth="yes"/>
+      <point x="486.1365384615384" y="344.5453846153846"/>
+      <point x="466.6365384615384" y="360.1819230769231"/>
+      <point x="439.8180769230769" y="360.1819230769231" type="curve" smooth="yes"/>
+      <point x="118.72730769230768" y="360.1819230769231" type="line" smooth="yes"/>
+      <point x="91.90923076923077" y="360.1819230769231"/>
+      <point x="73.18192307692308" y="344.5453846153846"/>
+      <point x="73.18192307692308" y="319.2726923076923" type="curve" smooth="yes"/>
+      <point x="73.18192307692308" y="294.0"/>
+      <point x="91.90923076923077" y="278.36346153846154"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>518.22727</real>
+    </dict>
+  </lib>
+</glyph>

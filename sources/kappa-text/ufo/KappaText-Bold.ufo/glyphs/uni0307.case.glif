@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0307.case" format="2">
+  <outline>
+    <contour>
+      <point x="84" y="1541"/>
+      <point x="-84" y="1541"/>
+      <point x="-167" y="1614"/>
+      <point x="-167" y="1748"/>
+      <point x="-84" y="1818"/>
+      <point x="84" y="1818"/>
+      <point x="167" y="1748"/>
+      <point x="167" y="1614"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0302_acutecomb" format="2">
+  <outline>
+    <contour>
+      <point x="-154" y="1106" type="line"/>
+      <point x="164" y="1433" type="line"/>
+      <point x="379" y="1433" type="line"/>
+      <point x="507" y="1106" type="line"/>
+      <point x="352" y="1106" type="line"/>
+      <point x="236" y="1268" type="line"/>
+      <point x="26" y="1106" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="1304" type="line"/>
+      <point x="680" y="1572" type="line"/>
+      <point x="959" y="1572" type="line"/>
+      <point x="946" y="1526" type="line"/>
+      <point x="640" y="1304" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ycircumflex" format="2">
+  <advance width="600"/>
+  <unicode hex="0177"/>
+  <outline>
+    <contour>
+      <point x="-9" y="-92" type="curve"/>
+      <point x="-26" y="-195" type="line"/>
+      <point x="2" y="-202"/>
+      <point x="26" y="-205"/>
+      <point x="53" y="-205" type="curve" smooth="yes"/>
+      <point x="164" y="-205"/>
+      <point x="235" y="-154"/>
+      <point x="297" y="-32" type="curve" smooth="yes"/>
+      <point x="590" y="540" type="line"/>
+      <point x="470" y="540" type="line"/>
+      <point x="285" y="167" type="line"/>
+      <point x="281" y="167" type="line"/>
+      <point x="218" y="540" type="line"/>
+      <point x="95" y="540" type="line"/>
+      <point x="195" y="0" type="line"/>
+      <point x="193" y="-3" type="line"/>
+      <point x="155" y="-76"/>
+      <point x="118" y="-101"/>
+      <point x="54" y="-101" type="curve" smooth="yes"/>
+      <point x="32" y="-101"/>
+      <point x="12" y="-98"/>
+    </contour>
+    <contour>
+      <point x="181" y="611" type="line"/>
+      <point x="276" y="611" type="line"/>
+      <point x="372" y="713" type="line"/>
+      <point x="434" y="611" type="line"/>
+      <point x="529" y="611" type="line"/>
+      <point x="443" y="811" type="line"/>
+      <point x="333" y="811" type="line"/>
+    </contour>
+  </outline>
+</glyph>

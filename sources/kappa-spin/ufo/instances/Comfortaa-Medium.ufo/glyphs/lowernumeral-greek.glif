@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowernumeral-greek" format="2">
+  <advance width="258.3181830769231"/>
+  <unicode hex="0375"/>
+  <outline>
+    <component base="numeral-greek" xScale="-1.0" yScale="-1.0" xOffset="258.3183076923077" yOffset="549.1816923076923"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>numeral-greek</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

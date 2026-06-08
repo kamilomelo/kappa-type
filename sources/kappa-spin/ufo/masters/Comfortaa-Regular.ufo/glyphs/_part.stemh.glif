@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.stemh" format="2">
+  <advance width="257.18182"/>
+  <outline>
+    <contour>
+      <point x="128.591" y="223.227" type="curve" smooth="yes"/>
+      <point x="151.5" y="223.227"/>
+      <point x="167.182" y="238.909"/>
+      <point x="167.182" y="261.818" type="curve" smooth="yes"/>
+      <point x="167.182" y="742.409" type="line" smooth="yes"/>
+      <point x="167.182" y="765.318"/>
+      <point x="151.5" y="781"/>
+      <point x="128.591" y="781" type="curve" smooth="yes"/>
+      <point x="105.682" y="781"/>
+      <point x="90" y="765.318"/>
+      <point x="90" y="742.409" type="curve" smooth="yes"/>
+      <point x="90" y="261.818" type="line" smooth="yes"/>
+      <point x="90" y="238.909"/>
+      <point x="105.682" y="223.227"/>
+    </contour>
+  </outline>
+</glyph>

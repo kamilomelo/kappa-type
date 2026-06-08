@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Qa-cy" format="2">
+  <advance width="921"/>
+  <unicode hex="051A"/>
+  <anchor x="461" y="0" name="bottom"/>
+  <anchor x="461" y="391" name="center"/>
+  <anchor x="460.182" y="10.0" name="ogonek"/>
+  <anchor x="461" y="781" name="top"/>
+  <anchor x="20" y="781" name="topleft"/>
+  <anchor x="648.545" y="746.136" name="topright"/>
+  <outline>
+    <component base="Q"/>
+  </outline>
+</glyph>

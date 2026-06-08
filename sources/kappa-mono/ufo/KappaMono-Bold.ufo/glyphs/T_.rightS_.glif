@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="T.rightS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="256" y="0" type="line"/>
+      <point x="381" y="0" type="line"/>
+      <point x="381" y="590" type="line"/>
+      <point x="578" y="590" type="line"/>
+      <point x="578" y="700" type="line"/>
+      <point x="58" y="700" type="line"/>
+      <point x="58" y="590" type="line"/>
+      <point x="256" y="590" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.cv04.leftL" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="403" y="540" type="line"/>
+      <point x="113" y="540" type="line"/>
+      <point x="95" y="430" type="line"/>
+      <point x="265" y="430" type="line"/>
+      <point x="193" y="0" type="line"/>
+      <point x="313" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="269" y="701" type="curve" smooth="yes"/>
+      <point x="261" y="651"/>
+      <point x="295" y="610"/>
+      <point x="345" y="610" type="curve" smooth="yes"/>
+      <point x="396" y="610"/>
+      <point x="443" y="651"/>
+      <point x="451" y="701" type="curve" smooth="yes"/>
+      <point x="460" y="752"/>
+      <point x="426" y="792"/>
+      <point x="375" y="792" type="curve" smooth="yes"/>
+      <point x="325" y="792"/>
+      <point x="278" y="752"/>
+    </contour>
+  </outline>
+</glyph>

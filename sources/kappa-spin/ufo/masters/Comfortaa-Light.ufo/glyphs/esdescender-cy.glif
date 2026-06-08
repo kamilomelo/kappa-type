@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="esdescender-cy" format="2">
+  <advance width="593"/>
+  <unicode hex="04AB"/>
+  <anchor x="307" y="0" name="bottom"/>
+  <anchor x="318" y="547" name="top"/>
+  <outline>
+    <contour>
+      <point x="333" y="-166" type="curve" smooth="yes"/>
+      <point x="353" y="-166"/>
+      <point x="363" y="-156"/>
+      <point x="363" y="-136" type="curve" smooth="yes"/>
+      <point x="363" y="24" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="303" y="-136" type="line" smooth="yes"/>
+      <point x="303" y="-156"/>
+      <point x="314" y="-166"/>
+    </contour>
+    <component base="es-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

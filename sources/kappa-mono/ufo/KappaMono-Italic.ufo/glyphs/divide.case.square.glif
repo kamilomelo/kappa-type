@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.case.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="78" y="312" type="line"/>
+      <point x="526" y="312" type="line"/>
+      <point x="539" y="388" type="line"/>
+      <point x="91" y="388" type="line"/>
+    </contour>
+    <contour>
+      <point x="261" y="467" type="line"/>
+      <point x="394" y="467" type="line"/>
+      <point x="417" y="601" type="line"/>
+      <point x="283" y="601" type="line"/>
+    </contour>
+    <contour>
+      <point x="201" y="107" type="line"/>
+      <point x="335" y="107" type="line"/>
+      <point x="357" y="241" type="line"/>
+      <point x="223" y="241" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniEE06" format="2">
+  <advance width="600"/>
+  <unicode hex="EE06"/>
+  <outline>
+    <contour>
+      <point x="30" y="350" type="curve"/>
+      <point x="110" y="350" type="line"/>
+      <point x="110" y="455"/>
+      <point x="195" y="540"/>
+      <point x="300" y="540" type="curve"/>
+      <point x="300" y="620" type="line"/>
+      <point x="151" y="620"/>
+      <point x="30" y="499"/>
+    </contour>
+    <contour>
+      <point x="570" y="350" type="curve"/>
+      <point x="490" y="350" type="line"/>
+      <point x="490" y="245"/>
+      <point x="405" y="160"/>
+      <point x="300" y="160" type="curve"/>
+      <point x="300" y="80" type="line"/>
+      <point x="449" y="80"/>
+      <point x="570" y="201"/>
+    </contour>
+  </outline>
+</glyph>

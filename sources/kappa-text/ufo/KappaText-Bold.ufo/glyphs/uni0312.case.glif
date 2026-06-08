@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0312.case" format="2">
+  <outline>
+    <contour>
+      <point x="138" y="1637" type="qcurve"/>
+      <point x="138" y="1582"/>
+      <point x="75" y="1512"/>
+      <point x="3" y="1512" type="qcurve"/>
+      <point x="-59" y="1512"/>
+      <point x="-132" y="1580"/>
+      <point x="-132" y="1661" type="qcurve"/>
+      <point x="-132" y="1709"/>
+      <point x="-88" y="1799"/>
+      <point x="23" y="1865"/>
+      <point x="124" y="1877" type="qcurve"/>
+      <point x="137" y="1795" type="line"/>
+      <point x="73" y="1787"/>
+      <point x="28" y="1753"/>
+      <point x="28" y="1724" type="qcurve"/>
+      <point x="28" y="1702"/>
+      <point x="61" y="1675"/>
+      <point x="104" y="1658"/>
+      <point x="138" y="1645"/>
+    </contour>
+  </outline>
+</glyph>

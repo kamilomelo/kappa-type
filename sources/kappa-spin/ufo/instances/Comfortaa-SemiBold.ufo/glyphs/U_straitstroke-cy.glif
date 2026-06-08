@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ustraitstroke-cy" format="2">
+  <advance width="661.5384615384615"/>
+  <unicode hex="04B0"/>
+  <anchor x="330.90923076923076" y="0.0" name="bottom"/>
+  <anchor x="330.90923076923076" y="781.0" name="top"/>
+  <anchor x="20.0" y="781.0" name="topleft"/>
+  <anchor x="330.90923076923076" y="282.59076923076924" name="center"/>
+  <outline>
+    <component base="Ustrait-cy"/>
+    <component base="strokeshortcomb" xOffset="52.0" yOffset="-36.769230769230774"/>
+  </outline>
+</glyph>

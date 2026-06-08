@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.square.c3_3" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="78" y="-158" type="line"/>
+      <point x="158" y="-158" type="line"/>
+      <point x="316" y="121" type="line"/>
+      <point x="195" y="121" type="line"/>
+    </contour>
+    <contour>
+      <point x="173" y="416" type="line"/>
+      <point x="307" y="416" type="line"/>
+      <point x="307" y="550" type="line"/>
+      <point x="173" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

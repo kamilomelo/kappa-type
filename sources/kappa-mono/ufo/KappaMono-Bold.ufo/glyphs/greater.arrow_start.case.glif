@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater.arrow_start.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="-34" y="93" type="line"/>
+      <point x="42" y="17" type="line"/>
+      <point x="375" y="350" type="line"/>
+      <point x="42" y="683" type="line"/>
+      <point x="-34" y="607" type="line"/>
+      <point x="223" y="350" type="line"/>
+    </contour>
+  </outline>
+</glyph>

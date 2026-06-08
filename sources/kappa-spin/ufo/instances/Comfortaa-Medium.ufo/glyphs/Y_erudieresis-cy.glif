@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yerudieresis-cy" format="2">
+  <advance width="928.6153846153846"/>
+  <unicode hex="04F8"/>
+  <anchor x="471.6996153846154" y="976.4091538461538" name="top"/>
+  <outline>
+    <component base="Yeru-cy"/>
+    <component base="dieresiscomb" xOffset="229.15384615384616" yOffset="234.0"/>
+  </outline>
+</glyph>

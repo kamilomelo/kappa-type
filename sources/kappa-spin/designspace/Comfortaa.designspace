@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="700" default="400">
+      <map input="300" output="60"/>
+      <map input="400" output="78"/>
+      <map input="500" output="86"/>
+      <map input="600" output="94"/>
+      <map input="700" output="104"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="BRACKET.Weight_100_104">
+      <conditionset>
+        <condition name="Weight" minimum="100" maximum="104"/>
+      </conditionset>
+      <sub name="hryvnia" with="hryvnia.BRACKET.varAlt01"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="../ufo/masters/Comfortaa-Light.ufo" name="Comfortaa Light" familyname="Comfortaa" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/Comfortaa-Regular.ufo" name="Comfortaa Regular" familyname="Comfortaa" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/Comfortaa-Bold.ufo" name="Comfortaa Bold" familyname="Comfortaa" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="104"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Comfortaa Light" familyname="Comfortaa" stylename="Light" filename="../ufo/instances/Comfortaa-Light.ufo" stylemapfamilyname="Comfortaa Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="60"/>
+      </location>
+    </instance>
+    <instance name="Comfortaa Regular" familyname="Comfortaa" stylename="Regular" filename="../ufo/instances/Comfortaa-Regular.ufo" stylemapfamilyname="Comfortaa" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+      </location>
+    </instance>
+    <instance name="Comfortaa Medium" familyname="Comfortaa" stylename="Medium" filename="../ufo/instances/Comfortaa-Medium.ufo" stylemapfamilyname="Comfortaa Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="86"/>
+      </location>
+    </instance>
+    <instance name="Comfortaa SemiBold" familyname="Comfortaa" stylename="SemiBold" filename="../ufo/instances/Comfortaa-SemiBold.ufo" stylemapfamilyname="Comfortaa SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+    </instance>
+    <instance name="Comfortaa Bold" familyname="Comfortaa" stylename="Bold" filename="../ufo/instances/Comfortaa-Bold.ufo" stylemapfamilyname="Comfortaa" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="104"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>952115DE-4B60-44C8-B7C0-A1F0450151B4</key>
+        <dict>
+          <key>HH</key>
+          <string>54</string>
+          <key>HV</key>
+          <string>60</string>
+          <key>OH</key>
+          <string>60</string>
+          <key>OV</key>
+          <string>60</string>
+          <key>nV</key>
+          <string>60</string>
+          <key>nd</key>
+          <string>60</string>
+          <key>oH</key>
+          <string>56</string>
+          <key>oV</key>
+          <string>60</string>
+          <key>tH</key>
+          <string>54</string>
+        </dict>
+        <key>UUID0</key>
+        <dict>
+          <key>HH</key>
+          <string>92</string>
+          <key>HV</key>
+          <string>104</string>
+          <key>OH</key>
+          <string>94</string>
+          <key>OV</key>
+          <string>100</string>
+          <key>nV</key>
+          <string>102</string>
+          <key>nd</key>
+          <string>82</string>
+          <key>oH</key>
+          <string>90</string>
+          <key>oV</key>
+          <string>98</string>
+          <key>tH</key>
+          <string>90</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_part.circle</string>
+        <string>_part.round</string>
+        <string>_part.roundlc</string>
+        <string>_part.stema</string>
+        <string>_part.stemd</string>
+        <string>_part.stemh</string>
+        <string>descendercy</string>
+        <string>descendercy.case</string>
+        <string>verticalbarcy</string>
+        <string>verticalbarcy.case</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="284.22727461538466"/>
+  <unicode hex="201C"/>
+  <outline>
+    <component base="quotesinglbase" xScale="-1.0" yScale="-1.0" xOffset="187.68169230769232" yOffset="650.0"/>
+    <component base="quotesinglbase" xScale="-1.0" yScale="-1.0" xOffset="335.9542307692308" yOffset="650.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quotesinglbase</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>quotesinglbase</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

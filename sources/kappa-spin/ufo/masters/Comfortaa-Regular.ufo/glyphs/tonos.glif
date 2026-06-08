@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="228.72727"/>
+  <unicode hex="0384"/>
+  <anchor x="77.045" y="547" name="_top"/>
+  <outline>
+    <contour>
+      <point x="85.273" y="637.864" type="curve" smooth="yes"/>
+      <point x="99.727" y="637.864"/>
+      <point x="112.591" y="643.864"/>
+      <point x="122.636" y="664.773" type="curve" smooth="yes"/>
+      <point x="186.318" y="794.409" type="line" smooth="yes"/>
+      <point x="189.136" y="801.045"/>
+      <point x="190.136" y="807.864"/>
+      <point x="190.136" y="814.273" type="curve" smooth="yes"/>
+      <point x="190.136" y="832.636"/>
+      <point x="175" y="850.273"/>
+      <point x="150.955" y="850.273" type="curve" smooth="yes"/>
+      <point x="134.045" y="850.273"/>
+      <point x="122.409" y="842.636"/>
+      <point x="112.364" y="821.727" type="curve" smooth="yes"/>
+      <point x="50.318" y="695.364" type="line" smooth="yes"/>
+      <point x="46.682" y="687.091"/>
+      <point x="45.682" y="680.682"/>
+      <point x="45.682" y="673.455" type="curve" smooth="yes"/>
+      <point x="45.682" y="655.091"/>
+      <point x="61.227" y="637.864"/>
+    </contour>
+  </outline>
+</glyph>

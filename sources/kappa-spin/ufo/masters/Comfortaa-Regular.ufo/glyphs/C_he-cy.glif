@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Che-cy" format="2">
+  <advance width="758.72727"/>
+  <unicode hex="0427"/>
+  <anchor x="619.727" y="0" name="bottom"/>
+  <anchor x="619.727" y="10" name="ogonek"/>
+  <anchor x="367.318" y="781" name="top"/>
+  <anchor x="500.727" y="781" name="topleft"/>
+  <anchor x="617.545" y="73.091" name="bottomright"/>
+  <anchor x="365.864" y="317.318" name="center"/>
+  <outline>
+    <contour>
+      <point x="362.773" y="265.045" type="curve" smooth="yes"/>
+      <point x="505.364" y="265.045"/>
+      <point x="618.5" y="341"/>
+      <point x="623.818" y="448.818" type="curve"/>
+      <point x="581.318" y="448.818" type="line"/>
+      <point x="581.318" y="384.727"/>
+      <point x="485.864" y="337.318"/>
+      <point x="365.227" y="337.318" type="curve" smooth="yes"/>
+      <point x="221.955" y="337.318"/>
+      <point x="154.818" y="430.864"/>
+      <point x="154.818" y="586.227" type="curve" smooth="yes"/>
+      <point x="154.818" y="743.773" type="line" smooth="yes"/>
+      <point x="154.818" y="764.909"/>
+      <point x="138.727" y="781"/>
+      <point x="115.818" y="781" type="curve" smooth="yes"/>
+      <point x="92.909" y="781"/>
+      <point x="76.818" y="766.091"/>
+      <point x="76.818" y="743.773" type="curve" smooth="yes"/>
+      <point x="76.818" y="586.227" type="line" smooth="yes"/>
+      <point x="76.818" y="386.545"/>
+      <point x="182.773" y="265.045"/>
+    </contour>
+    <component base="I" xOffset="480.727"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>I</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

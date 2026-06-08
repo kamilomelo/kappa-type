@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <advance width="596.8461538461538"/>
+  <unicode hex="00A2"/>
+  <anchor x="315.27253846153843" y="0.0" name="bottom"/>
+  <anchor x="326.86338461538463" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="182.31830769230768" y="-96.81830769230768" type="curve" smooth="yes"/>
+      <point x="196.13661538461537" y="-96.81830769230768"/>
+      <point x="206.90915384615386" y="-89.81830769230768"/>
+      <point x="212.90915384615386" y="-74.0" type="curve" smooth="yes"/>
+      <point x="469.90915384615386" y="611.0" type="line" smooth="yes"/>
+      <point x="476.90915384615386" y="630.0"/>
+      <point x="464.3633846153846" y="650.0"/>
+      <point x="443.5908461538461" y="650.0" type="curve" smooth="yes"/>
+      <point x="428.59084615384614" y="650.0"/>
+      <point x="419.59084615384614" y="643.0"/>
+      <point x="414.59084615384614" y="629.0" type="curve" smooth="yes"/>
+      <point x="157.0" y="-53.8183076923077" type="line" smooth="yes"/>
+      <point x="147.0" y="-79.8183076923077"/>
+      <point x="162.31830769230768" y="-96.81830769230768"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>c</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

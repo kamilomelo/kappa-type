@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilon" format="2">
+  <advance width="694.4615384615385"/>
+  <unicode hex="0395"/>
+  <anchor x="363.4542307692308" y="0.0" name="bottom"/>
+  <anchor x="627.1366153846154" y="10.0" name="ogonek"/>
+  <anchor x="383.4542307692308" y="781.0" name="top"/>
+  <anchor x="0.0" y="781.0" name="topleft"/>
+  <outline>
+    <component base="E"/>
+  </outline>
+</glyph>

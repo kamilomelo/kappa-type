@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tilde" format="2">
+  <advance width="469"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="332" y="622" type="curve" smooth="yes"/>
+      <point x="373.49" y="622"/>
+      <point x="408.068" y="638.398"/>
+      <point x="433.253" y="669.186" type="curve" smooth="yes"/>
+      <point x="450" y="690"/>
+      <point x="448" y="722"/>
+      <point x="428" y="734" type="curve" smooth="yes"/>
+      <point x="403" y="749"/>
+      <point x="388" y="739"/>
+      <point x="369" y="720" type="curve" smooth="yes"/>
+      <point x="360" y="711"/>
+      <point x="346" y="703"/>
+      <point x="329" y="703" type="curve" smooth="yes"/>
+      <point x="311" y="703"/>
+      <point x="299" y="709"/>
+      <point x="269" y="726" type="curve" smooth="yes"/>
+      <point x="246" y="738"/>
+      <point x="214" y="756"/>
+      <point x="171" y="756" type="curve" smooth="yes"/>
+      <point x="119" y="756"/>
+      <point x="73.211" y="733.333"/>
+      <point x="41.843" y="688.198" type="curve" smooth="yes"/>
+      <point x="27" y="666"/>
+      <point x="32" y="636"/>
+      <point x="51" y="627" type="curve" smooth="yes"/>
+      <point x="76" y="615"/>
+      <point x="100" y="627"/>
+      <point x="116" y="649" type="curve" smooth="yes"/>
+      <point x="132" y="671"/>
+      <point x="145" y="676"/>
+      <point x="164" y="676" type="curve" smooth="yes"/>
+      <point x="180" y="676"/>
+      <point x="201.142" y="669.157"/>
+      <point x="230.063" y="653.312" type="curve" smooth="yes"/>
+      <point x="253.578" y="640.429"/>
+      <point x="287.215" y="622"/>
+    </contour>
+  </outline>
+</glyph>

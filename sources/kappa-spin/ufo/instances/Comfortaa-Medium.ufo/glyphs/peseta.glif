@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peseta" format="2">
+  <advance width="669.1363661538462"/>
+  <unicode hex="20A7"/>
+  <anchor x="143.0" y="0.0" name="bottom"/>
+  <anchor x="308.3183076923077" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="62.90915384615384" y="495.90915384615386" type="curve" smooth="yes"/>
+      <point x="633.2725384615385" y="495.90915384615386" type="line" smooth="yes"/>
+      <point x="654.0" y="495.90915384615386"/>
+      <point x="669.1366153846154" y="509.2725384615385"/>
+      <point x="669.1366153846154" y="527.6366153846154" type="curve" smooth="yes"/>
+      <point x="669.1366153846154" y="546.0"/>
+      <point x="654.0" y="559.3633846153846"/>
+      <point x="633.2725384615385" y="559.3633846153846" type="curve" smooth="yes"/>
+      <point x="62.90915384615384" y="559.3633846153846" type="line" smooth="yes"/>
+      <point x="42.77253846153846" y="559.3633846153846"/>
+      <point x="27.636615384615386" y="546.0"/>
+      <point x="27.636615384615386" y="527.6366153846154" type="curve" smooth="yes"/>
+      <point x="27.636615384615386" y="509.2725384615385"/>
+      <point x="42.77253846153846" y="495.90915384615386"/>
+    </contour>
+    <component base="P"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>P</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="391"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="193" y="618.591" type="curve" smooth="yes"/>
+      <point x="200.636" y="618.591"/>
+      <point x="206.864" y="620"/>
+      <point x="212.909" y="624.227" type="curve"/>
+      <point x="329.818" y="701.773" type="line" smooth="yes"/>
+      <point x="342.864" y="711.409"/>
+      <point x="349.091" y="722.455"/>
+      <point x="349.091" y="735.318" type="curve" smooth="yes"/>
+      <point x="349.091" y="759.364"/>
+      <point x="322.591" y="776.636"/>
+      <point x="285.591" y="751.5" type="curve" smooth="yes"/>
+      <point x="193" y="689.636" type="line"/>
+      <point x="100.409" y="752.682" type="line" smooth="yes"/>
+      <point x="65.636" y="776.409"/>
+      <point x="36.909" y="759.955"/>
+      <point x="36.909" y="735.318" type="curve" smooth="yes"/>
+      <point x="36.909" y="722.455"/>
+      <point x="43.136" y="710.818"/>
+      <point x="56.182" y="701.773" type="curve" smooth="yes"/>
+      <point x="173.5" y="624.227" type="line"/>
+      <point x="179.136" y="620"/>
+      <point x="186.364" y="618.591"/>
+    </contour>
+  </outline>
+</glyph>

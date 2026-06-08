@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghestroke-cy" format="2">
+  <advance width="486.77273"/>
+  <unicode hex="0493"/>
+  <anchor x="140.182" y="67.091" name="bottomright"/>
+  <anchor x="153.682" y="280.5" name="center"/>
+  <anchor x="283.682" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="56.818" y="239.636" type="curve" smooth="yes"/>
+      <point x="316.455" y="239.636" type="line" smooth="yes"/>
+      <point x="338.182" y="239.636"/>
+      <point x="353.682" y="253.091"/>
+      <point x="353.682" y="274" type="curve" smooth="yes"/>
+      <point x="353.682" y="294.909"/>
+      <point x="338.182" y="308.364"/>
+      <point x="316.455" y="308.364" type="curve" smooth="yes"/>
+      <point x="56.818" y="308.364" type="line" smooth="yes"/>
+      <point x="35.091" y="308.364"/>
+      <point x="20" y="294.909"/>
+      <point x="20" y="274" type="curve" smooth="yes"/>
+      <point x="20" y="253.091"/>
+      <point x="35.091" y="239.636"/>
+    </contour>
+    <component base="ge-cy.ss01" xOffset="12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ge-cy.ss01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

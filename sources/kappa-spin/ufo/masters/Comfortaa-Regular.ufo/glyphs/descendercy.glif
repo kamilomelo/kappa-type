@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="descendercy" format="2">
+  <advance width="180.63636"/>
+  <anchor x="0" y="67.091" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="94.5" y="-170.909" type="curve" smooth="yes"/>
+      <point x="116.955" y="-170.909"/>
+      <point x="130.636" y="-156"/>
+      <point x="130.636" y="-131.909" type="curve" smooth="yes"/>
+      <point x="130.636" y="28.091" type="line" smooth="yes"/>
+      <point x="130.636" y="51.591"/>
+      <point x="115.727" y="67.091"/>
+      <point x="91.636" y="67.091" type="curve" smooth="yes"/>
+      <point x="0" y="67.091" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="56.727" y="0" type="line"/>
+      <point x="56.727" y="-131.909" type="line" smooth="yes"/>
+      <point x="56.727" y="-156"/>
+      <point x="71.818" y="-170.909"/>
+    </contour>
+  </outline>
+</glyph>

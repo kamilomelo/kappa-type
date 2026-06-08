@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ustrait-cy" format="2">
+  <advance width="654.7692307692307"/>
+  <unicode hex="04AE"/>
+  <anchor x="327.63661538461537" y="0.0" name="bottom"/>
+  <anchor x="327.63661538461537" y="781.0" name="top"/>
+  <anchor x="20.0" y="781.0" name="topleft"/>
+  <anchor x="327.63661538461537" y="283.86338461538463" name="center"/>
+  <outline>
+    <component base="Y"/>
+  </outline>
+</glyph>

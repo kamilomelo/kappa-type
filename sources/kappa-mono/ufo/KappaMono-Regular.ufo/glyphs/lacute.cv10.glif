@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lacute.cv10" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="108" y="0" type="line"/>
+      <point x="516" y="0" type="line"/>
+      <point x="516" y="75" type="line"/>
+      <point x="354" y="75" type="line"/>
+      <point x="354" y="740" type="line"/>
+      <point x="113" y="740" type="line"/>
+      <point x="113" y="665" type="line"/>
+      <point x="270" y="665" type="line"/>
+      <point x="270" y="75" type="line"/>
+      <point x="108" y="75" type="line"/>
+    </contour>
+    <contour>
+      <point x="446" y="1017" type="line"/>
+      <point x="335" y="1017" type="line"/>
+      <point x="257" y="832" type="line"/>
+      <point x="330" y="832" type="line"/>
+    </contour>
+  </outline>
+</glyph>

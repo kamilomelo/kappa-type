@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.rightL" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="157" y="0" type="line"/>
+      <point x="573" y="0" type="line"/>
+      <point x="573" y="78" type="line"/>
+      <point x="244" y="78" type="line"/>
+      <point x="244" y="324" type="line"/>
+      <point x="529" y="324" type="line"/>
+      <point x="529" y="402" type="line"/>
+      <point x="244" y="402" type="line"/>
+      <point x="244" y="622" type="line"/>
+      <point x="573" y="622" type="line"/>
+      <point x="573" y="700" type="line"/>
+      <point x="157" y="700" type="line"/>
+    </contour>
+  </outline>
+</glyph>

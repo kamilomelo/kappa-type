@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20BD.lf" format="2">
+  <advance width="1256"/>
+  <outline>
+    <contour>
+      <point x="1101" y="563" type="line"/>
+      <point x="1101" y="449" type="line"/>
+      <point x="547" y="449" type="line"/>
+      <point x="547" y="135" type="line"/>
+      <point x="739" y="86" type="line"/>
+      <point x="739" y="0" type="line"/>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="86" type="line"/>
+      <point x="334" y="135" type="line"/>
+      <point x="334" y="449" type="line"/>
+      <point x="130" y="449" type="line"/>
+      <point x="130" y="563" type="line"/>
+      <point x="334" y="563" type="line"/>
+      <point x="334" y="744" type="line"/>
+      <point x="130" y="744" type="line"/>
+      <point x="130" y="858" type="line"/>
+      <point x="334" y="858" type="line"/>
+      <point x="334" y="1261" type="line"/>
+      <point x="140" y="1309" type="line"/>
+      <point x="140" y="1396" type="line"/>
+      <point x="455" y="1396" type="line"/>
+      <point x="547" y="1396" type="line"/>
+      <point x="788" y="1396" type="line"/>
+      <point x="928" y="1396"/>
+      <point x="1095" y="1316"/>
+      <point x="1169" y="1172"/>
+      <point x="1169" y="1074" type="qcurve"/>
+      <point x="1169" y="975"/>
+      <point x="1093" y="826"/>
+      <point x="937" y="744"/>
+      <point x="815" y="744" type="qcurve"/>
+      <point x="547" y="744" type="line"/>
+      <point x="547" y="563" type="line"/>
+    </contour>
+    <contour>
+      <point x="547" y="1258" type="line"/>
+      <point x="547" y="858" type="line"/>
+      <point x="773" y="858" type="line"/>
+      <point x="859" y="858"/>
+      <point x="957" y="960"/>
+      <point x="957" y="1064" type="qcurve"/>
+      <point x="957" y="1128"/>
+      <point x="915" y="1214"/>
+      <point x="814" y="1258"/>
+      <point x="723" y="1258" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <anchor x="274.5453846153846" y="547.0" name="_top"/>
+  <anchor x="274.5453846153846" y="733.5907692307692" name="top"/>
+  <outline>
+    <contour>
+      <point x="147.07692307692307" y="650.3565384615384" type="curve" smooth="yes"/>
+      <point x="400.53846153846155" y="650.3565384615384" type="line" smooth="yes"/>
+      <point x="426.46153846153845" y="650.3565384615384"/>
+      <point x="447.53846153846155" y="665.5873076923076"/>
+      <point x="447.53846153846155" y="692.5103846153846" type="curve" smooth="yes"/>
+      <point x="447.53846153846155" y="718.8180769230769"/>
+      <point x="426.46153846153845" y="733.4334615384615"/>
+      <point x="400.53846153846155" y="733.4334615384615" type="curve" smooth="yes"/>
+      <point x="147.07692307692307" y="733.4334615384615" type="line" smooth="yes"/>
+      <point x="120.76923076923077" y="733.4334615384615"/>
+      <point x="100.6923076923077" y="718.8180769230769"/>
+      <point x="100.6923076923077" y="692.5103846153846" type="curve" smooth="yes"/>
+      <point x="100.6923076923077" y="665.5873076923076"/>
+      <point x="120.76923076923077" y="650.3565384615384"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>547</integer>
+    </dict>
+  </lib>
+</glyph>

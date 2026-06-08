@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2081.cv11" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="183" y="-175" type="line"/>
+      <point x="417" y="-175" type="line"/>
+      <point x="417" y="-121" type="line"/>
+      <point x="334" y="-121" type="line"/>
+      <point x="334" y="175" type="line"/>
+      <point x="284" y="175" type="line"/>
+      <point x="279" y="122"/>
+      <point x="255" y="105"/>
+      <point x="187" y="105" type="curve"/>
+      <point x="187" y="55" type="line"/>
+      <point x="271" y="56" type="line"/>
+      <point x="271" y="-121" type="line"/>
+      <point x="183" y="-121" type="line"/>
+    </contour>
+  </outline>
+</glyph>

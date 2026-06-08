@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.square.rightS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="448" y="-7" type="curve" smooth="yes"/>
+      <point x="448" y="540" type="line"/>
+      <point x="148" y="540" type="line"/>
+      <point x="148" y="430" type="line"/>
+      <point x="328" y="430" type="line"/>
+      <point x="328" y="-7" type="line" smooth="yes"/>
+      <point x="328" y="-75"/>
+      <point x="296" y="-108"/>
+      <point x="230" y="-108" type="curve" smooth="yes"/>
+      <point x="202" y="-108"/>
+      <point x="172" y="-102"/>
+      <point x="143" y="-89" type="curve"/>
+      <point x="143" y="-189" type="line"/>
+      <point x="173" y="-203"/>
+      <point x="212" y="-210"/>
+      <point x="253" y="-210" type="curve" smooth="yes"/>
+      <point x="381" y="-210"/>
+      <point x="448" y="-140"/>
+    </contour>
+    <contour>
+      <point x="299" y="622" type="line"/>
+      <point x="457" y="622" type="line"/>
+      <point x="457" y="780" type="line"/>
+      <point x="299" y="780" type="line"/>
+    </contour>
+  </outline>
+</glyph>

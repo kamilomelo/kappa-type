@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="descendercy.case" format="2">
+  <advance width="207.0909076923077"/>
+  <anchor x="0.0" y="84.72730769230769" name="_bottomright"/>
+  <outline>
+    <contour>
+      <point x="110.09076923076923" y="-175.2726923076923" type="curve" smooth="yes"/>
+      <point x="137.81807692307694" y="-175.2726923076923"/>
+      <point x="157.09076923076924" y="-156.0"/>
+      <point x="157.09076923076924" y="-128.2726923076923" type="curve" smooth="yes"/>
+      <point x="157.09076923076924" y="37.72730769230769" type="line" smooth="yes"/>
+      <point x="157.09076923076924" y="65.22730769230769"/>
+      <point x="137.81807692307694" y="84.72730769230769"/>
+      <point x="110.09076923076923" y="84.72730769230769" type="curve" smooth="yes"/>
+      <point x="0.0" y="84.72730769230769" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="63.09076923076923" y="0.0" type="line"/>
+      <point x="63.09076923076923" y="-128.2726923076923" type="line" smooth="yes"/>
+      <point x="63.09076923076923" y="-156.0"/>
+      <point x="82.59076923076923" y="-175.2726923076923"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pe-cy" format="2">
+  <advance width="682"/>
+  <unicode hex="043F"/>
+  <anchor x="341" y="0" name="bottom"/>
+  <anchor x="341" y="547" name="top"/>
+  <anchor x="549" y="86" name="bottomright"/>
+  <outline>
+    <component base="n"/>
+  </outline>
+</glyph>

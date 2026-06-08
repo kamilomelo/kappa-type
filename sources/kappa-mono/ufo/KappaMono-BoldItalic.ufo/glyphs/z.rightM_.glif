@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.rightM" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="75" y="0" type="line"/>
+      <point x="495" y="0" type="line"/>
+      <point x="513" y="105" type="line"/>
+      <point x="241" y="105" type="line"/>
+      <point x="552" y="445" type="line"/>
+      <point x="568" y="540" type="line"/>
+      <point x="175" y="540" type="line"/>
+      <point x="158" y="435" type="line"/>
+      <point x="403" y="435" type="line"/>
+      <point x="91" y="95" type="line"/>
+    </contour>
+  </outline>
+</glyph>

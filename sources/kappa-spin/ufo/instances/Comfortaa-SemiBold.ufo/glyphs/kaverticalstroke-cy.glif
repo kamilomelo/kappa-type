@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaverticalstroke-cy" format="2">
+  <advance width="592.7272730769231"/>
+  <unicode hex="049D"/>
+  <anchor x="259.68192307692306" y="278.1815384615385" name="_center"/>
+  <outline>
+    <contour>
+      <point x="559.9092307692308" y="11.090769230769231" type="curve" smooth="yes"/>
+      <point x="578.8634615384615" y="28.5"/>
+      <point x="578.0907692307692" y="51.454615384615394"/>
+      <point x="562.4546153846154" y="68.09076923076924" type="curve" smooth="yes"/>
+      <point x="368.1819230769231" y="278.86346153846154" type="line"/>
+      <point x="551.6819230769231" y="479.9092307692308" type="line" smooth="yes"/>
+      <point x="567.3180769230769" y="496.7726923076923"/>
+      <point x="565.0" y="520.5"/>
+      <point x="546.5907692307692" y="537.6819230769231" type="curve" smooth="yes"/>
+      <point x="530.7273076923077" y="552.3180769230769"/>
+      <point x="497.63653846153846" y="549.7726923076923"/>
+      <point x="482.0" y="532.5907692307692" type="curve"/>
+      <point x="253.2273076923077" y="274.3180769230769" type="line"/>
+      <point x="494.40923076923076" y="12.86346153846154" type="line" smooth="yes"/>
+      <point x="510.0453846153846" y="-4.0"/>
+      <point x="543.5" y="-3.7726923076923073"/>
+    </contour>
+    <contour>
+      <point x="133.90923076923076" y="-0.7726923076923077" type="curve" smooth="yes"/>
+      <point x="161.18192307692306" y="-0.7726923076923077"/>
+      <point x="180.90923076923076" y="18.181923076923077"/>
+      <point x="180.90923076923076" y="45.45461538461539" type="curve" smooth="yes"/>
+      <point x="180.90923076923076" y="236.81807692307692" type="line"/>
+      <point x="339.8180769230769" y="236.81807692307692" type="line"/>
+      <point x="339.8180769230769" y="321.7273076923077" type="line"/>
+      <point x="180.90923076923076" y="321.7273076923077" type="line"/>
+      <point x="180.90923076923076" y="500.7726923076923" type="line" smooth="yes"/>
+      <point x="180.90923076923076" y="528.0453846153846"/>
+      <point x="161.18192307692306" y="547.0"/>
+      <point x="133.90923076923076" y="547.0" type="curve" smooth="yes"/>
+      <point x="106.63653846153846" y="547.0"/>
+      <point x="90.0" y="528.0453846153846"/>
+      <point x="90.0" y="500.7726923076923" type="curve" smooth="yes"/>
+      <point x="90.0" y="45.45461538461539" type="line" smooth="yes"/>
+      <point x="90.0" y="18.181923076923077"/>
+      <point x="106.63653846153846" y="-0.7726923076923077"/>
+    </contour>
+    <component base="verticalbarcy" xOffset="129.13653846153846" yOffset="58.59076923076923"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>verticalbarcy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

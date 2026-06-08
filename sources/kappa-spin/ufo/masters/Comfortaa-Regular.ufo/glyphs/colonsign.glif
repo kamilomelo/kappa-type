@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colonsign" format="2">
+  <advance width="771.09091"/>
+  <unicode hex="20A1"/>
+  <anchor x="441.364" y="0.0" name="bottom"/>
+  <anchor x="446.045" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="264.182" y="-66.773" type="curve" smooth="yes"/>
+      <point x="278.455" y="-66.773"/>
+      <point x="293.318" y="-60.727"/>
+      <point x="299.955" y="-44.455" type="curve" smooth="yes"/>
+      <point x="332.136" y="34.682" type="line"/>
+      <point x="345.864" y="68.182" type="line"/>
+      <point x="603.682" y="705.364" type="line"/>
+      <point x="616.727" y="737.045" type="line"/>
+      <point x="641.136" y="797.864" type="line" smooth="yes"/>
+      <point x="651.818" y="824.045"/>
+      <point x="636.045" y="853.318"/>
+      <point x="606.364" y="853.318" type="curve" smooth="yes"/>
+      <point x="590.5" y="853.318"/>
+      <point x="576.227" y="844.091"/>
+      <point x="570.591" y="829.818" type="curve" smooth="yes"/>
+      <point x="542.818" y="763.091" type="line"/>
+      <point x="534.364" y="728.955" type="line"/>
+      <point x="277.955" y="96.773" type="line"/>
+      <point x="257.455" y="58.545" type="line"/>
+      <point x="228.818" y="-11.909" type="line" smooth="yes"/>
+      <point x="217.364" y="-40.227"/>
+      <point x="236.045" y="-66.773"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>C</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

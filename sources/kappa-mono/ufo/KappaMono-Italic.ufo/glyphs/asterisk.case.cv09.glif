@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk.case.cv09" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="380" y="582" type="line"/>
+      <point x="402" y="720" type="line"/>
+      <point x="338" y="720" type="line"/>
+      <point x="315" y="582" type="line"/>
+      <point x="190" y="625" type="line"/>
+      <point x="159" y="563" type="line"/>
+      <point x="284" y="520" type="line"/>
+      <point x="184" y="407" type="line"/>
+      <point x="230" y="370" type="line"/>
+      <point x="330" y="481" type="line"/>
+      <point x="393" y="370" type="line"/>
+      <point x="452" y="407" type="line"/>
+      <point x="389" y="520" type="line"/>
+      <point x="529" y="563" type="line"/>
+      <point x="519" y="625" type="line"/>
+    </contour>
+    <contour>
+      <point x="339" y="537" type="line"/>
+      <point x="340" y="537" type="line"/>
+    </contour>
+  </outline>
+</glyph>

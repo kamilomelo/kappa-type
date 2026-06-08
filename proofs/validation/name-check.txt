@@ -1,0 +1,30 @@
+OK fonts/kappa-mark/ttf/KappaMark-Italic.ttf :: Kappa Mark | Italic | KappaMark-Italic
+OK fonts/kappa-mark/ttf/KappaMark-Regular.ttf :: Kappa Mark | Regular | KappaMark-Regular
+OK fonts/kappa-mark/webfonts/KappaMark-Italic.woff2 :: Kappa Mark | Italic | KappaMark-Italic
+OK fonts/kappa-mark/webfonts/KappaMark-Regular.woff2 :: Kappa Mark | Regular | KappaMark-Regular
+OK fonts/kappa-mono/ttf/KappaMono-Bold.ttf :: Kappa Mono | Bold | KappaMono-Bold
+OK fonts/kappa-mono/ttf/KappaMono-BoldItalic.ttf :: Kappa Mono | Bold Italic | KappaMono-BoldItalic
+OK fonts/kappa-mono/ttf/KappaMono-Italic.ttf :: Kappa Mono | Italic | KappaMono-Italic
+OK fonts/kappa-mono/ttf/KappaMono-Regular.ttf :: Kappa Mono | Regular | KappaMono-Regular
+OK fonts/kappa-mono/webfonts/KappaMono-Bold.woff2 :: Kappa Mono | Bold | KappaMono-Bold
+OK fonts/kappa-mono/webfonts/KappaMono-BoldItalic.woff2 :: Kappa Mono | Bold Italic | KappaMono-BoldItalic
+OK fonts/kappa-mono/webfonts/KappaMono-Italic.woff2 :: Kappa Mono | Italic | KappaMono-Italic
+OK fonts/kappa-mono/webfonts/KappaMono-Regular.woff2 :: Kappa Mono | Regular | KappaMono-Regular
+OK fonts/kappa-spin/ttf/KappaSpin-Bold.ttf :: Kappa Spin | Bold | KappaSpin-Bold
+OK fonts/kappa-spin/ttf/KappaSpin-Light.ttf :: Kappa Spin | Light | KappaSpin-Light
+OK fonts/kappa-spin/ttf/KappaSpin-Medium.ttf :: Kappa Spin | Medium | KappaSpin-Medium
+OK fonts/kappa-spin/ttf/KappaSpin-Regular.ttf :: Kappa Spin | Regular | KappaSpin-Regular
+OK fonts/kappa-spin/ttf/KappaSpin-SemiBold.ttf :: Kappa Spin | Semi Bold | KappaSpin-SemiBold
+OK fonts/kappa-spin/webfonts/KappaSpin-Bold.woff2 :: Kappa Spin | Bold | KappaSpin-Bold
+OK fonts/kappa-spin/webfonts/KappaSpin-Light.woff2 :: Kappa Spin | Light | KappaSpin-Light
+OK fonts/kappa-spin/webfonts/KappaSpin-Medium.woff2 :: Kappa Spin | Medium | KappaSpin-Medium
+OK fonts/kappa-spin/webfonts/KappaSpin-Regular.woff2 :: Kappa Spin | Regular | KappaSpin-Regular
+OK fonts/kappa-spin/webfonts/KappaSpin-SemiBold.woff2 :: Kappa Spin | Semi Bold | KappaSpin-SemiBold
+OK fonts/kappa-text/ttf/KappaText-Bold.ttf :: Kappa Text | Bold | KappaText-Bold
+OK fonts/kappa-text/ttf/KappaText-BoldItalic.ttf :: Kappa Text | Bold Italic | KappaText-BoldItalic
+OK fonts/kappa-text/ttf/KappaText-Italic.ttf :: Kappa Text | Italic | KappaText-Italic
+OK fonts/kappa-text/ttf/KappaText-Regular.ttf :: Kappa Text | Regular | KappaText-Regular
+OK fonts/kappa-text/webfonts/KappaText-Bold.woff2 :: Kappa Text | Bold | KappaText-Bold
+OK fonts/kappa-text/webfonts/KappaText-BoldItalic.woff2 :: Kappa Text | Bold Italic | KappaText-BoldItalic
+OK fonts/kappa-text/webfonts/KappaText-Italic.woff2 :: Kappa Text | Italic | KappaText-Italic
+OK fonts/kappa-text/webfonts/KappaText-Regular.woff2 :: Kappa Text | Regular | KappaText-Regular

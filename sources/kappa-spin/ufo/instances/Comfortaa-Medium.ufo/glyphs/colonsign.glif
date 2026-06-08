@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colonsign" format="2">
+  <advance width="772.9090915384616"/>
+  <unicode hex="20A1"/>
+  <anchor x="440.63661538461537" y="0.0" name="bottom"/>
+  <anchor x="446.9542307692308" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="267.8183076923077" y="-70.22746153846154" type="curve" smooth="yes"/>
+      <point x="283.5457692307692" y="-70.22746153846154"/>
+      <point x="299.6816923076923" y="-63.27253846153846"/>
+      <point x="307.0457692307692" y="-45.54576923076923" type="curve" smooth="yes"/>
+      <point x="338.86338461538463" y="32.31830769230769" type="line"/>
+      <point x="355.13661538461537" y="71.8183076923077" type="line"/>
+      <point x="609.3183076923077" y="696.6366153846154" type="line"/>
+      <point x="623.2725384615385" y="729.9542307692308" type="line"/>
+      <point x="647.8633846153846" y="791.1366153846154" type="line" smooth="yes"/>
+      <point x="660.1816923076923" y="820.9542307692307"/>
+      <point x="640.9542307692308" y="851.6816923076924"/>
+      <point x="609.6366153846154" y="851.6816923076924" type="curve" smooth="yes"/>
+      <point x="592.5" y="851.6816923076924"/>
+      <point x="576.7725384615385" y="841.9091538461538"/>
+      <point x="570.4091538461538" y="826.1816923076923" type="curve" smooth="yes"/>
+      <point x="543.1816923076923" y="760.9091538461539" type="line"/>
+      <point x="533.6366153846154" y="724.0457692307692" type="line"/>
+      <point x="281.0457692307692" y="104.22746153846154" type="line"/>
+      <point x="258.5457692307692" y="61.454230769230776" type="line"/>
+      <point x="229.18169230769232" y="-10.090846153846154" type="line" smooth="yes"/>
+      <point x="216.6366153846154" y="-40.77253846153846"/>
+      <point x="236.95423076923078" y="-70.22746153846154"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>C</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P.rightL" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="139" y="0" type="line"/>
+      <point x="226" y="0" type="line"/>
+      <point x="226" y="296" type="line"/>
+      <point x="395" y="296" type="line" smooth="yes"/>
+      <point x="515" y="296"/>
+      <point x="599" y="380"/>
+      <point x="599" y="498" type="curve" smooth="yes"/>
+      <point x="599" y="616"/>
+      <point x="515" y="700"/>
+      <point x="395" y="700" type="curve" smooth="yes"/>
+      <point x="139" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="374" type="line"/>
+      <point x="226" y="622" type="line"/>
+      <point x="400" y="622" type="line" smooth="yes"/>
+      <point x="469" y="622"/>
+      <point x="515" y="573"/>
+      <point x="515" y="498" type="curve" smooth="yes"/>
+      <point x="515" y="424"/>
+      <point x="469" y="374"/>
+      <point x="400" y="374" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

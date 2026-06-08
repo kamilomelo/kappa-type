@@ -1,0 +1,2390 @@
+table GDEF {
+    GlyphClassDef [], [], [], [];
+} GDEF;
+
+@class1 = [acute comma grave period period.square periodcentered.case periodcentered.case.square periodcentered.square quotedbl quotedblbase quotedblbase.square quotedblleft quotedblleft.square quotedblright quotedblright.square quoteleft quoteleft.square quoteright quoteright.square quotesinglbase quotesinglbase.square quotesingle space uni00A0];
+@class5 = [approxequal asciitilde asterisk at at.cv05 backslash backslash.c2_1 backslash.c2_2 backslash.c3_1 backslash.c3_3 bar bar.c2_1 bar.c2_2 bar.c3_1 bar.c3_3 bar.pipe braceleft braceright bracketleft bracketright brokenbar bullet bullet.square bulletoperator.square colon colon.c2_1 colon.c2_2 colon.c3_1 colon.c3_3 colon.square colon.square.c2_1 colon.square.c2_2 colon.square.c3_1 colon.square.c3_3 colon.squash colon.squash.square divide divide.square emdash endash equal equal.arrow exclamdown exclamdown.square greater greater.arrow_end greater.arrow_start greater.arrow_start_equal greater.arrow_start_hyphen greater.c2_1 greater.c2_2 greater.c3_1 greater.c3_3 greater.pipe greaterequal guillemotleft guillemotright guilsinglleft guilsinglright hyphen hyphen.arrow less less.arrow_end less.arrow_start less.arrow_start_equal less.arrow_start_hyphen less.c2_1 less.c2_2 less.c3_1 less.c3_3 less.pipe lessequal logicalnot minus multiply notequal parenleft parenright periodcentered periodcentered.square plus plusminus questiondown questiondown.square slash slash.c2_1 slash.c2_2 slash.c3_1 slash.c3_3 uni00AD uni2219];
+@class6 = [a a.cv01 aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 adieresis adieresis.cv01 adieresis.square ae agrave agrave.cv01 amacron amacron.cv01 aogonek aogonek.cv01 aring aring.cv01 atilde atilde.cv01 b c cacute ccaron ccedilla ccircumflex cdotaccent cdotaccent.square d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edieresis.square edotaccent edotaccent.square egrave emacron eogonek eth f florin g gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent.cv02 gdotaccent gdotaccent.cv02 gdotaccent.square germandbls h hbar hcircumflex i i.square iacute icircumflex idieresis idieresis.square igrave ij ij.square imacron iogonek iogonek.square itilde j j.square jcircumflex k kgreenlandic l lacute lcaron ldot ldot.square longs lslash m n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis odieresis.square oe ograve ohungarumlaut omacron oslash otilde p partialdiff pi q r racute rcaron s sacute scaron scedilla scircumflex t tbar tcaron u uacute ubreve ucircumflex udieresis udieresis.square ugrave uhungarumlaut umacron uni0123 uni0137 uni013C uni0146 uni0157 uni0163 uni0219 uni021B uni0237 uni03BC uni2113 uogonek uring utilde v w wacute wcircumflex wdieresis wdieresis.square wgrave x y yacute ycircumflex ydieresis ydieresis.square z zacute zcaron zdotaccent zdotaccent.square];
+@class77 = [A AE Aacute Abreve Acircumflex Adieresis Adieresis.square Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Cdotaccent.square D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edieresis.square Edotaccent Edotaccent.square Egrave Emacron Eogonek Eth F G Gbreve Gcircumflex Gdotaccent Gdotaccent.square H Hbar Hcircumflex I IJ Iacute Icircumflex Idieresis Idieresis.square Idotaccent Idotaccent.square Igrave Imacron Iogonek Itilde J Jcircumflex K L Lacute Lcaron Ldot Ldot.square Lslash M N Nacute Ncaron Ntilde O OE Oacute Obreve Ocircumflex Odieresis Odieresis.square Ograve Ohungarumlaut Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Udieresis.square Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wdieresis.square Wgrave X Y Yacute Ycircumflex Ydieresis Ydieresis.square Z Zcaron Zdotaccent Zdotaccent.square ampersand approxequal.case asciitilde.case asterisk.case at.case backslash.case backslash.case.c2_1 backslash.case.c2_2 backslash.case.c3_1 backslash.case.c3_3 bar.case bar.case.c2_1 bar.case.c2_2 bar.case.c3_1 bar.case.c3_3 braceleft.case braceright.case bracketleft.case bracketright.case brokenbar.case bullet.case bullet.case.square bulletoperator.case bulletoperator.case.square colon.case colon.case.c2_1 colon.case.c2_2 colon.case.c3_1 colon.case.c3_3 colon.case.square colon.case.square.c2_1 colon.case.square.c2_2 colon.case.square.c3_1 colon.case.square.c3_3 copyright divide.case divide.case.square dollar eight emdash.case endash.case equal.arrow.case equal.case exclamdown.case exclamdown.case.square five four greater.arrow_end.case greater.arrow_start.case greater.arrow_start_equal.case greater.arrow_start_hyphen.case greater.case greater.pipe.case greaterequal.case guillemotleft.case guillemotright.case guilsinglleft.case guilsinglright.case hyphen.arrow.case hyphen.case less.arrow_end.case less.arrow_start.case less.arrow_start_equal.case less.arrow_start_hyphen.case less.case less.pipe.case lessequal.case logicalnot.case minus.case multiply.case nine nine.cv06 notequal.case numbersign one one.cv11 parenleft.case parenright.case percent periodcentered.case periodcentered.case.square plus.case plusminus.case questiondown.case questiondown.case.square seven six six.cv06 slash.case slash.case.c2_1 slash.case.c2_2 slash.case.c3_1 slash.case.c3_3 softhyphen.case sterling three two uni0122 uni0136 uni013B uni0145 uni0156 uni0162 uni0218 uni021A uni0394 uni03A9 yen zero];
+@class167 = [approxequal.case asciitilde.case asterisk.case at.case at.case.cv05 backslash.case backslash.case.c2_1 backslash.case.c2_2 backslash.case.c3_1 backslash.case.c3_3 bar.case bar.case.c2_1 bar.case.c2_2 bar.case.c3_1 bar.case.c3_3 bar.case.pipe braceleft.case braceright.case bracketleft.case bracketright.case brokenbar.case bullet.case bullet.case.square bulletoperator.case bulletoperator.case.square colon.case colon.case.c2_1 colon.case.c2_2 colon.case.c3_1 colon.case.c3_3 colon.case.square colon.case.square.c2_1 colon.case.square.c2_2 colon.case.square.c3_1 colon.case.square.c3_3 colon.squash.case colon.squash.case.square divide.case divide.case.square emdash.case endash.case equal.arrow.case equal.case exclamdown.case exclamdown.case.square greater.arrow_end.case greater.arrow_start.case greater.arrow_start_equal.case greater.arrow_start_hyphen.case greater.case greater.case.c2_1 greater.case.c2_2 greater.case.c3_1 greater.case.c3_3 greater.pipe.case greaterequal.case guillemotleft.case guillemotright.case guilsinglleft.case guilsinglright.case hyphen.arrow.case hyphen.case less.arrow_end.case less.arrow_start.case less.arrow_start_equal.case less.arrow_start_hyphen.case less.case less.case.c2_1 less.case.c2_2 less.case.c3_1 less.case.c3_3 less.pipe.case lessequal.case logicalnot.case minus.case multiply.case notequal.case parenleft.case parenright.case periodcentered.case periodcentered.case.square plus.case plusminus.case questiondown.case questiondown.case.square slash.case slash.case.c2_1 slash.case.c2_2 slash.case.c3_1 slash.case.c3_3 softhyphen.case];
+@class170 = [backslash backslash.case bar bar.case colon colon.case colon.case.square colon.square exclam exclam.square greater greater.case less less.case period period.square question question.square semicolon semicolon.square slash slash.case];
+@class196 = [backslash.c3_1 backslash.case.c3_1 bar.c3_1 bar.case.c3_1 colon.c3_1 colon.case.c3_1 colon.case.square.c3_1 colon.square.c3_1 exclam.c3_1 exclam.square.c3_1 greater.c3_1 greater.case.c3_1 less.c3_1 less.case.c3_1 period.c3_1 period.square.c3_1 question.c3_1 question.square.c3_1 semicolon.c3_1 semicolon.square.c3_1 slash.c3_1 slash.case.c3_1];
+@class204 = [backslash.c2_1 backslash.case.c2_1 bar.c2_1 bar.case.c2_1 colon.c2_1 colon.case.c2_1 colon.case.square.c2_1 colon.square.c2_1 exclam.c2_1 exclam.square.c2_1 greater.c2_1 greater.case.c2_1 less.c2_1 less.case.c2_1 period.c2_1 period.square.c2_1 question.c2_1 question.square.c2_1 semicolon.c2_1 semicolon.square.c2_1 slash.c2_1 slash.case.c2_1];
+@class205 = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a a.cv01 a.cv08 b c d e e.cv08 f f.cv08 g g.cv02 g.cv08 h i i.cv04 i.square i.square.cv04 j j.square k l l.cv10 m n o p q r s t u v w x y y.cv08 z];
+@class206 = [I I.leftL I.leftM I.leftS I.rightL I.rightM I.rightS L L.leftL L.leftM L.leftS L.rightL L.rightM L.rightS acute colon comma f f.cv08 f.cv08.leftL f.cv08.leftM f.cv08.leftS f.cv08.rightL f.cv08.rightM f.cv08.rightS f.leftL f.leftM f.leftS f.rightL f.rightM f.rightS grave hyphen i i.cv04 i.cv04.leftL i.cv04.leftM i.cv04.leftS i.cv04.rightL i.cv04.rightM i.cv04.rightS i.leftL i.leftM i.leftS i.rightL i.rightM i.rightS i.square i.square.cv04 i.square.cv04.leftL i.square.cv04.leftM i.square.cv04.leftS i.square.cv04.rightL i.square.cv04.rightM i.square.cv04.rightS i.square.leftL i.square.leftM i.square.leftS i.square.rightL i.square.rightM i.square.rightS j j.leftL j.leftM j.leftS j.rightL j.rightM j.rightS j.square j.square.leftL j.square.leftM j.square.leftS j.square.rightL j.square.rightM j.square.rightS l l.cv10 l.leftL l.leftL.cv10 l.leftM l.leftM.cv10 l.leftS l.leftS.cv10 l.rightL l.rightL.cv10 l.rightM l.rightM.cv10 l.rightS l.rightS.cv10 period quotedbl quotedblbase quotedblbase.square quotedblleft quotedblleft.square quotedblright quotedblright.square quoteleft quoteleft.square quoteright quoteright.square quotesinglbase quotesinglbase.square quotesingle r r.leftL r.leftM r.leftS r.rightL r.rightM r.rightS semicolon space t t.leftL t.leftM t.leftS t.rightL t.rightM t.rightS underscore uni00A0];
+@class207 = [M M.leftL M.leftM M.leftS M.rightL M.rightM M.rightS W W.leftL W.leftM W.leftS W.rightL W.rightM W.rightS m m.leftL m.leftM m.leftS m.rightL m.rightM m.rightS w w.leftL w.leftM w.leftS w.rightL w.rightM w.rightS];
+@class210 = [B B.leftL B.leftM B.leftS B.rightL B.rightM B.rightS C C.leftL C.leftM C.leftS C.rightL C.rightM C.rightS D D.leftL D.leftM D.leftS D.rightL D.rightM D.rightS E E.leftL E.leftM E.leftS E.rightL E.rightM E.rightS G G.leftL G.leftM G.leftS G.rightL G.rightM G.rightS H H.leftL H.leftM H.leftS H.rightL H.rightM H.rightS K K.leftL K.leftM K.leftS K.rightL K.rightM K.rightS N N.leftL N.leftM N.leftS N.rightL N.rightM N.rightS O O.leftL O.leftM O.leftS O.rightL O.rightM O.rightS Q Q.leftL Q.leftM Q.leftS Q.rightL Q.rightM Q.rightS R R.leftL R.leftM R.leftS R.rightL R.rightM R.rightS S S.leftL S.leftM S.leftS S.rightL S.rightM S.rightS U U.leftL U.leftM U.leftS U.rightL U.rightM U.rightS X X.leftL X.leftM X.leftS X.rightL X.rightM X.rightS Z Z.leftL Z.leftM Z.leftS Z.rightL Z.rightM Z.rightS];
+@class212 = [A A.leftL A.leftM A.leftS A.rightL A.rightM A.rightS F F.leftL F.leftM F.leftS F.rightL F.rightM F.rightS J J.leftL J.leftM J.leftS J.rightL J.rightM J.rightS P P.leftL P.leftM P.leftS P.rightL P.rightM P.rightS T T.leftL T.leftM T.leftS T.rightL T.rightM T.rightS V V.leftL V.leftM V.leftS V.rightL V.rightM V.rightS Y Y.leftL Y.leftM Y.leftS Y.rightL Y.rightM Y.rightS a a.cv01 a.cv01.leftL a.cv01.leftM a.cv01.leftS a.cv01.rightL a.cv01.rightM a.cv01.rightS a.cv08 a.cv08.leftL a.cv08.leftM a.cv08.leftS a.cv08.rightL a.cv08.rightM a.cv08.rightS a.leftL a.leftM a.leftS a.rightL a.rightM a.rightS b b.leftL b.leftM b.leftS b.rightL b.rightM b.rightS c c.leftL c.leftM c.leftS c.rightL c.rightM c.rightS d d.leftL d.leftM d.leftS d.rightL d.rightM d.rightS e e.cv08 e.cv08.leftL e.cv08.leftM e.cv08.leftS e.cv08.rightL e.cv08.rightM e.cv08.rightS e.leftL e.leftM e.leftS e.rightL e.rightM e.rightS g g.cv02 g.cv02.leftL g.cv02.leftM g.cv02.leftS g.cv02.rightL g.cv02.rightM g.cv02.rightS g.cv08 g.cv08.leftL g.cv08.leftM g.cv08.leftS g.cv08.rightL g.cv08.rightM g.cv08.rightS g.leftL g.leftM g.leftS g.rightL g.rightM g.rightS h h.leftL h.leftM h.leftS h.rightL h.rightM h.rightS k k.leftL k.leftM k.leftS k.rightL k.rightM k.rightS n n.leftL n.leftM n.leftS n.rightL n.rightM n.rightS o o.leftL o.leftM o.leftS o.rightL o.rightM o.rightS p p.leftL p.leftM p.leftS p.rightL p.rightM p.rightS q q.leftL q.leftM q.leftS q.rightL q.rightM q.rightS s s.leftL s.leftM s.leftS s.rightL s.rightM s.rightS u u.leftL u.leftM u.leftS u.rightL u.rightM u.rightS v v.leftL v.leftM v.leftS v.rightL v.rightM v.rightS x x.leftL x.leftM x.leftS x.rightL x.rightM x.rightS y y.cv08 y.cv08.leftL y.cv08.leftM y.cv08.leftS y.cv08.rightL y.cv08.rightM y.cv08.rightS y.leftL y.leftM y.leftS y.rightL y.rightM y.rightS z z.leftL z.leftM z.leftS z.rightL z.rightM z.rightS];
+
+lookup SingleSubstitution1 {
+    lookupflag 0;
+    ;
+    sub a by a.cv01;
+    sub a.leftL by a.cv01.leftL;
+    sub a.leftM by a.cv01.leftM;
+    sub a.leftS by a.cv01.leftS;
+    sub a.rightL by a.cv01.rightL;
+    sub a.rightM by a.cv01.rightM;
+    sub a.rightS by a.cv01.rightS;
+    sub aacute by aacute.cv01;
+    sub abreve by abreve.cv01;
+    sub acircumflex by acircumflex.cv01;
+    sub adieresis by adieresis.cv01;
+    sub adieresis.square by adieresis.square.cv01;
+    sub agrave by agrave.cv01;
+    sub amacron by amacron.cv01;
+    sub aogonek by aogonek.cv01;
+    sub aring by aring.cv01;
+    sub aringacute by aringacute.cv01;
+    sub atilde by atilde.cv01;
+} SingleSubstitution1;
+
+lookup SingleSubstitution2 {
+    lookupflag 0;
+    ;
+    # Original source: 1 
+    sub g by g.cv02;
+    sub g.leftL by g.cv02.leftL;
+    sub g.leftM by g.cv02.leftM;
+    sub g.leftS by g.cv02.leftS;
+    sub g.rightL by g.cv02.rightL;
+    sub g.rightM by g.cv02.rightM;
+    sub g.rightS by g.cv02.rightS;
+    sub gbreve by gbreve.cv02;
+    sub gcircumflex by gcircumflex.cv02;
+    sub uni0123 by gcommaaccent.cv02;
+    sub gdotaccent by gdotaccent.cv02;
+    sub gdotaccent.square by gdotaccent.square.cv02;
+} SingleSubstitution2;
+
+lookup SingleSubstitution3 {
+    lookupflag 0;
+    ;
+    # Original source: 2 
+    sub Adieresis by Adieresis.square;
+    sub Cdotaccent by Cdotaccent.square;
+    sub Edieresis by Edieresis.square;
+    sub Edotaccent by Edotaccent.square;
+    sub Gdotaccent by Gdotaccent.square;
+    sub Idieresis by Idieresis.square;
+    sub Idotaccent by Idotaccent.square;
+    sub Ldot by Ldot.square;
+    sub Odieresis by Odieresis.square;
+    sub Udieresis by Udieresis.square;
+    sub Wdieresis by Wdieresis.square;
+    sub Ydieresis by Ydieresis.square;
+    sub Zdotaccent by Zdotaccent.square;
+    sub adieresis by adieresis.square;
+    sub adieresis.cv08 by adieresis.square.cv08;
+    sub bullet by bullet.square;
+    sub bullet.case by bullet.case.square;
+    sub uni2219 by bulletoperator.square;
+    sub bulletoperator.case by bulletoperator.case.square;
+    sub cdotaccent by cdotaccent.square;
+    sub colon by colon.square;
+    sub colon.c2_1 by colon.square.c2_1;
+    sub colon.c2_2 by colon.square.c2_2;
+    sub colon.c3_1 by colon.square.c3_1;
+    sub colon.c3_3 by colon.square.c3_3;
+    sub colon.case by colon.case.square;
+    sub colon.case.c2_1 by colon.case.square.c2_1;
+    sub colon.case.c2_2 by colon.case.square.c2_2;
+    sub colon.case.c3_1 by colon.case.square.c3_1;
+    sub colon.case.c3_3 by colon.case.square.c3_3;
+    sub dcaron by dcaron.square;
+    sub dieresis by dieresis.square;
+    sub divide by divide.square;
+    sub divide.case by divide.case.square;
+    sub dotaccent by dotaccent.square;
+    sub edieresis by edieresis.square;
+    sub edieresis.cv08 by edieresis.square.cv08;
+    sub edotaccent by edotaccent.square;
+    sub edotaccent.cv08 by edotaccent.square.cv08;
+    sub ellipsis by ellipsis.square;
+    sub exclam by exclam.square;
+    sub exclam.c2_1 by exclam.square.c2_1;
+    sub exclam.c2_2 by exclam.square.c2_2;
+    sub exclam.c3_1 by exclam.square.c3_1;
+    sub exclam.c3_3 by exclam.square.c3_3;
+    sub exclamdown by exclamdown.square;
+    sub exclamdown.case by exclamdown.case.square;
+    sub gdotaccent by gdotaccent.square;
+    sub gdotaccent.cv02 by gdotaccent.square.cv02;
+    sub gdotaccent.cv08 by gdotaccent.square.cv08;
+    sub i by i.square;
+    sub i.leftL by i.square.leftL;
+    sub i.leftM by i.square.leftM;
+    sub i.leftS by i.square.leftS;
+    sub i.rightL by i.square.rightL;
+    sub i.rightM by i.square.rightM;
+    sub i.rightS by i.square.rightS;
+    sub idieresis by idieresis.square;
+    sub ij by ij.square;
+    sub iogonek by iogonek.square;
+    sub j by j.square;
+    sub j.leftL by j.square.leftL;
+    sub j.leftM by j.square.leftM;
+    sub j.leftS by j.square.leftS;
+    sub j.rightL by j.square.rightL;
+    sub j.rightM by j.square.rightM;
+    sub j.rightS by j.square.rightS;
+    sub ldot by ldot.square;
+    sub odieresis by odieresis.square;
+    sub period by period.square;
+    sub period.c2_1 by period.square.c2_1;
+    sub period.c2_2 by period.square.c2_2;
+    sub period.c3_1 by period.square.c3_1;
+    sub period.c3_3 by period.square.c3_3;
+    sub periodcentered by periodcentered.square;
+    sub periodcentered.case by periodcentered.case.square;
+    sub question by question.square;
+    sub question.c2_1 by question.square.c2_1;
+    sub question.c2_2 by question.square.c2_2;
+    sub question.c3_1 by question.square.c3_1;
+    sub question.c3_3 by question.square.c3_3;
+    sub questiondown by questiondown.square;
+    sub questiondown.case by questiondown.case.square;
+    sub quotedblbase by quotedblbase.square;
+    sub quotedblleft by quotedblleft.square;
+    sub quotedblright by quotedblright.square;
+    sub quoteleft by quoteleft.square;
+    sub quotereversed by quotereversed.square;
+    sub quoteright by quoteright.square;
+    sub quotesinglbase by quotesinglbase.square;
+    sub semicolon by semicolon.square;
+    sub semicolon.c2_1 by semicolon.square.c2_1;
+    sub semicolon.c2_2 by semicolon.square.c2_2;
+    sub semicolon.c3_1 by semicolon.square.c3_1;
+    sub semicolon.c3_3 by semicolon.square.c3_3;
+    sub uni2426 by substituteformtwoCntr.square;
+    sub udieresis by udieresis.square;
+    sub uni0308 by uni0308.square;
+    sub uni2070.cv07 by uni2070.cv07.square;
+    sub uni2080.cv07 by uni2080.cv07.square;
+    sub dotmath by uni22C5.square;
+    sub uni22EE by uni22EE.square;
+    sub uni22EF by uni22EF.square;
+    sub uni22F1 by uni22F1.square;
+    sub wdieresis by wdieresis.square;
+    sub ydieresis by ydieresis.square;
+    sub ydieresis.cv08 by ydieresis.square.cv08;
+    sub zdotaccent by zdotaccent.square;
+    sub zero.cv07 by zero.cv07.square;
+    sub zero.cv07.dnom by zero.cv07.dnom.square;
+    sub zero.cv07.numr by zero.cv07.numr.square;
+    sub zero.cv07.onum by zero.cv07.onum.square;
+    sub ldot.cv10 by ldot.square.cv10;
+} SingleSubstitution3;
+
+lookup SingleSubstitution4 {
+    lookupflag 0;
+    ;
+    # Original source: 3 
+    sub i by i.cv04;
+    sub i.leftL by i.cv04.leftL;
+    sub i.leftM by i.cv04.leftM;
+    sub i.leftS by i.cv04.leftS;
+    sub i.rightL by i.cv04.rightL;
+    sub i.rightM by i.cv04.rightM;
+    sub i.rightS by i.cv04.rightS;
+    sub i.square by i.square.cv04;
+    sub i.square.leftL by i.square.cv04.leftL;
+    sub i.square.leftM by i.square.cv04.leftM;
+    sub i.square.leftS by i.square.cv04.leftS;
+    sub i.square.rightL by i.square.cv04.rightL;
+    sub i.square.rightM by i.square.cv04.rightM;
+    sub i.square.rightS by i.square.cv04.rightS;
+    sub iacute by iacute.cv04;
+    sub ibreve by ibreve.cv04;
+    sub icircumflex by icircumflex.cv04;
+    sub idieresis by idieresis.cv04;
+    sub idieresis.square by idieresis.square.cv04;
+    sub igrave by igrave.cv04;
+    sub imacron by imacron.cv04;
+    sub iogonek by iogonek.cv04;
+    sub iogonek.square by iogonek.square.cv04;
+    sub itilde by itilde.cv04;
+} SingleSubstitution4;
+
+lookup SingleSubstitution5 {
+    lookupflag 0;
+    ;
+    # Original source: 4 
+    sub at by at.cv05;
+    sub at.case by at.case.cv05;
+} SingleSubstitution5;
+
+lookup SingleSubstitution6 {
+    lookupflag 0;
+    ;
+    # Original source: 5 
+    sub nine by nine.cv06;
+    sub nine.dnom by nine.dnom.cv06;
+    sub nine.numr by nine.numr.cv06;
+    sub nine.onum by nine.cv06.onum;
+    sub six by six.cv06;
+    sub six.dnom by six.dnom.cv06;
+    sub six.numr by six.numr.cv06;
+    sub six.onum by six.cv06.onum;
+} SingleSubstitution6;
+
+lookup SingleSubstitution7 {
+    lookupflag 0;
+    ;
+    # Original source: 6 
+    sub uni2070 by uni2070.cv07;
+    sub uni2080 by uni2080.cv07;
+    sub zero by zero.cv07;
+    sub zero.dnom by zero.cv07.dnom;
+    sub zero.numr by zero.cv07.numr;
+    sub zero.onum by zero.cv07.onum;
+} SingleSubstitution7;
+
+lookup SingleSubstitution8 {
+    lookupflag 0;
+    ;
+    # Original source: 7 
+    sub a by a.cv08;
+    sub a.leftL by a.cv08.leftL;
+    sub a.leftM by a.cv08.leftM;
+    sub a.leftS by a.cv08.leftS;
+    sub a.rightL by a.cv08.rightL;
+    sub a.rightM by a.cv08.rightM;
+    sub a.rightS by a.cv08.rightS;
+    sub aacute by aacute.cv08;
+    sub abreve by abreve.cv08;
+    sub acircumflex by acircumflex.cv08;
+    sub adieresis by adieresis.cv08;
+    sub adieresis.square by adieresis.square.cv08;
+    sub agrave by agrave.cv08;
+    sub amacron by amacron.cv08;
+    sub aogonek by aogonek.cv08;
+    sub aring by aring.cv08;
+    sub aringacute by aringacute.cv08;
+    sub atilde by atilde.cv08;
+    sub e by e.cv08;
+    sub e.leftL by e.cv08.leftL;
+    sub e.leftM by e.cv08.leftM;
+    sub e.leftS by e.cv08.leftS;
+    sub e.rightL by e.cv08.rightL;
+    sub e.rightM by e.cv08.rightM;
+    sub e.rightS by e.cv08.rightS;
+    sub eacute by eacute.cv08;
+    sub ebreve by ebreve.cv08;
+    sub ecaron by ecaron.cv08;
+    sub ecircumflex by ecircumflex.cv08;
+    sub edieresis by edieresis.cv08;
+    sub edieresis.square by edieresis.square.cv08;
+    sub edotaccent by edotaccent.cv08;
+    sub edotaccent.square by edotaccent.square.cv08;
+    sub egrave by egrave.cv08;
+    sub emacron by emacron.cv08;
+    sub eogonek by eogonek.cv08;
+    sub f by f.cv08;
+    sub f.leftL by f.cv08.leftL;
+    sub f.leftM by f.cv08.leftM;
+    sub f.leftS by f.cv08.leftS;
+    sub f.rightL by f.cv08.rightL;
+    sub f.rightM by f.cv08.rightM;
+    sub f.rightS by f.cv08.rightS;
+    sub g by g.cv08;
+    sub g.leftL by g.cv08.leftL;
+    sub g.leftM by g.cv08.leftM;
+    sub g.leftS by g.cv08.leftS;
+    sub g.rightL by g.cv08.rightL;
+    sub g.rightM by g.cv08.rightM;
+    sub g.rightS by g.cv08.rightS;
+    sub gbreve by gbreve.cv08;
+    sub gcircumflex by gcircumflex.cv08;
+    sub uni0123 by gcommaaccent.cv08;
+    sub gdotaccent by gdotaccent.cv08;
+    sub gdotaccent.square by gdotaccent.square.cv08;
+    sub y by y.cv08;
+    sub y.leftL by y.cv08.leftL;
+    sub y.leftM by y.cv08.leftM;
+    sub y.leftS by y.cv08.leftS;
+    sub y.rightL by y.cv08.rightL;
+    sub y.rightM by y.cv08.rightM;
+    sub y.rightS by y.cv08.rightS;
+    sub yacute by yacute.cv08;
+    sub ycircumflex by ycircumflex.cv08;
+    sub ydieresis by ydieresis.cv08;
+    sub ydieresis.square by ydieresis.square.cv08;
+    sub ygrave by ygrave.cv08;
+} SingleSubstitution8;
+
+lookup SingleSubstitution9 {
+    lookupflag 0;
+    ;
+    # Original source: 8 
+    sub asterisk by asterisk.cv09;
+    sub asterisk.case by asterisk.case.cv09;
+} SingleSubstitution9;
+
+lookup SingleSubstitution10 {
+    lookupflag 0;
+    ;
+    # Original source: 9 
+    sub l by l.cv10;
+    sub l.leftL by l.leftL.cv10;
+    sub l.leftM by l.leftM.cv10;
+    sub l.leftS by l.leftS.cv10;
+    sub l.rightL by l.rightL.cv10;
+    sub l.rightM by l.rightM.cv10;
+    sub l.rightS by l.rightS.cv10;
+    sub lacute by lacute.cv10;
+    sub lcaron by lcaron.cv10;
+    sub uni013C by lcommaaccent.cv10;
+    sub ldot by ldot.cv10;
+    sub ldot.square by ldot.square.cv10;
+    sub lslash by lslash.cv10;
+} SingleSubstitution10;
+
+lookup SingleSubstitution11 {
+    lookupflag 0;
+    ;
+    # Original source: 10 
+    sub one by one.cv11;
+    sub one.dnom by one.dnom.cv11;
+    sub one.numr by one.numr.cv11;
+    sub one.onum by one.onum.cv11;
+    sub onesuperior by onesuperior.cv11;
+    sub uni2081 by uni2081.cv11;
+} SingleSubstitution11;
+
+lookup LigatureSubstitution45 {
+    lookupflag 0;
+    ;
+    # Original source: 44 
+    sub exclam equal equal by exclam_equal_equal.liga;
+    sub exclam.square equal equal by exclam_equal_equal.liga;
+} LigatureSubstitution45;
+
+lookup ChainedContextualGSUB12 {
+    lookupflag 0;
+    ;
+    # Original source: 11 
+    ignore sub [exclam exclam.square]' equal' equal' equal;
+    sub [exclam exclam.square]' lookup LigatureSubstitution45 equal' equal';
+} ChainedContextualGSUB12;
+
+lookup MultipleSubstitution13 {
+    lookupflag 0;
+    ;
+    # Original source: 12 
+    sub exclam_equal_equal.liga by exclam_equal_equal.liga space space;
+} MultipleSubstitution13;
+
+lookup LigatureSubstitution46 {
+    lookupflag 0;
+    ;
+    # Original source: 45 
+    sub equal equal equal by equal_equal_equal.liga;
+    sub exclam equal by exclam_equal.liga;
+    sub exclam.square equal by exclam_equal.liga;
+    sub greater equal by greater_equal.liga;
+    sub less equal by less_equal.liga;
+} LigatureSubstitution46;
+
+lookup ChainedContextualGSUB14 {
+    lookupflag 0;
+    ;
+    # Original source: 13 
+    ignore sub [exclam exclam.square]' equal' equal;
+    sub [exclam exclam.square]' lookup LigatureSubstitution46 equal';
+} ChainedContextualGSUB14;
+
+lookup MultipleSubstitution15 {
+    lookupflag 0;
+    ;
+    # Original source: 14 
+    sub exclam_equal.liga by exclam_equal.liga space;
+} MultipleSubstitution15;
+
+lookup ChainedContextualGSUB16 {
+    lookupflag 0;
+    ;
+    # Original source: 15 
+    ignore sub less' equal' equal;
+    sub less' lookup LigatureSubstitution46 equal';
+} ChainedContextualGSUB16;
+
+lookup MultipleSubstitution17 {
+    lookupflag 0;
+    ;
+    # Original source: 16 
+    sub less_equal.liga by less_equal.liga space;
+} MultipleSubstitution17;
+
+lookup ChainedContextualGSUB18 {
+    lookupflag 0;
+    ;
+    # Original source: 17 
+    ignore sub greater' equal' equal;
+    sub greater' lookup LigatureSubstitution46 equal';
+} ChainedContextualGSUB18;
+
+lookup MultipleSubstitution19 {
+    lookupflag 0;
+    ;
+    # Original source: 18 
+    sub greater_equal.liga by greater_equal.liga space;
+} MultipleSubstitution19;
+
+lookup ChainedContextualGSUB20 {
+    lookupflag 0;
+    ;
+    # Original source: 19 
+    ignore sub less equal' equal' equal';
+    ignore sub greater equal' equal' equal';
+    ignore sub equal' equal' equal' less;
+    ignore sub equal' equal' equal' greater;
+    ignore sub equal' equal' equal' equal;
+    ignore sub equal equal' equal' equal';
+    sub equal' lookup LigatureSubstitution46 equal' equal';
+} ChainedContextualGSUB20;
+
+lookup MultipleSubstitution21 {
+    lookupflag 0;
+    ;
+    # Original source: 20 
+    sub equal_equal_equal.liga by equal_equal_equal.liga space space;
+} MultipleSubstitution21;
+
+lookup LigatureSubstitution47 {
+    lookupflag 0;
+    ;
+    # Original source: 46 
+    sub equal equal by equal_equal.liga;
+} LigatureSubstitution47;
+
+lookup ChainedContextualGSUB22 {
+    lookupflag 0;
+    ;
+    # Original source: 21 
+    ignore sub less equal' equal';
+    ignore sub greater equal' equal';
+    ignore sub equal' equal' less;
+    ignore sub equal' equal' greater;
+    ignore sub equal' equal' equal;
+    ignore sub equal equal' equal';
+    sub equal' lookup LigatureSubstitution47 equal';
+} ChainedContextualGSUB22;
+
+lookup MultipleSubstitution23 {
+    lookupflag 0;
+    ;
+    # Original source: 22 
+    sub equal_equal.liga by equal_equal.liga space;
+} MultipleSubstitution23;
+
+lookup SingleSubstitution49 {
+    lookupflag 0;
+    ;
+    # Original source: 48 
+    sub greater by greater.arrow_end;
+    sub greater.case by greater.arrow_end.case;
+    sub less by less.arrow_start_equal;
+    sub less.case by less.arrow_start_equal.case;
+} SingleSubstitution49;
+
+lookup SingleSubstitution48 {
+    lookupflag 0;
+    ;
+    # Original source: 47 
+    sub less by less.arrow_start_hyphen;
+    sub less.case by less.arrow_start_hyphen.case;
+} SingleSubstitution48;
+
+lookup ChainedContextualGSUB24 {
+    lookupflag 0;
+    ;
+    # Original source: 23 
+    ignore sub @class1 [less less.case]' [equal equal.case] @class1;
+    ignore sub @class1 [greater greater.case]' [equal equal.case] @class1;
+    sub [less less.case]' lookup SingleSubstitution48 [hyphen hyphen.case];
+    sub [less less.case]' lookup SingleSubstitution49 [equal equal.case];
+    sub [greater greater.case]' lookup SingleSubstitution49 [hyphen hyphen.case];
+    sub [greater greater.case]' lookup SingleSubstitution49 [equal equal.case];
+} ChainedContextualGSUB24;
+
+lookup SingleSubstitution50 {
+    lookupflag 0;
+    ;
+    # Original source: 49 
+    sub equal by equal.arrow;
+    sub equal.case by equal.arrow.case;
+    sub greater by greater.arrow_end;
+    sub greater.case by greater.arrow_end.case;
+    sub hyphen by hyphen.arrow;
+    sub hyphen.case by hyphen.arrow.case;
+    sub less by less.arrow_start;
+    sub less.case by less.arrow_start.case;
+} SingleSubstitution50;
+
+lookup ChainedContextualGSUB25 {
+    lookupflag 0;
+    ;
+    # Original source: 24 
+    sub [less less.case]' lookup SingleSubstitution50 [less.arrow_start_hyphen less.arrow_start_hyphen.case];
+    sub [less less.case]' lookup SingleSubstitution50 [less.arrow_start_equal less.arrow_start_equal.case];
+    sub [greater greater.case]' lookup SingleSubstitution50 [greater.arrow_end greater.arrow_end.case];
+} ChainedContextualGSUB25;
+
+lookup ChainedContextualGSUB26 {
+    lookupflag 0;
+    ;
+    # Original source: 25 
+    sub [less less.case]' lookup SingleSubstitution50 [less.arrow_start less.arrow_start.case];
+    sub [greater greater.case]' lookup SingleSubstitution50 [greater.arrow_end greater.arrow_end.case];
+} ChainedContextualGSUB26;
+
+lookup ChainedContextualGSUB27 {
+    lookupflag 0;
+    ;
+    # Original source: 26 
+    sub [less.arrow_start_hyphen less.arrow_start_hyphen.case] [hyphen hyphen.case]' lookup SingleSubstitution50;
+    sub [less.arrow_start_equal less.arrow_start_equal.case] [equal equal.case]' lookup SingleSubstitution50;
+    sub [greater.arrow_end greater.arrow_end.case] [hyphen hyphen.case]' lookup SingleSubstitution50;
+    sub [greater.arrow_end greater.arrow_end.case] [equal equal.case]' lookup SingleSubstitution50;
+} ChainedContextualGSUB27;
+
+lookup ChainedContextualGSUB28 {
+    lookupflag 0;
+    ;
+    # Original source: 27 
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [less less.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [less less.case];
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [greater greater.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [greater greater.case];
+} ChainedContextualGSUB28;
+
+lookup ChainedContextualGSUB29 {
+    lookupflag 0;
+    ;
+    # Original source: 28 
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [hyphen.arrow hyphen.arrow.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [equal.arrow equal.arrow.case];
+} ChainedContextualGSUB29;
+
+lookup ChainedContextualGSUB30 {
+    lookupflag 0;
+    ;
+    # Original source: 29 
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [hyphen.arrow hyphen.arrow.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [equal.arrow equal.arrow.case];
+} ChainedContextualGSUB30;
+
+lookup ChainedContextualGSUB31 {
+    lookupflag 0;
+    ;
+    # Original source: 30 
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [hyphen.arrow hyphen.arrow.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [equal.arrow equal.arrow.case];
+} ChainedContextualGSUB31;
+
+lookup ChainedContextualGSUB32 {
+    lookupflag 0;
+    ;
+    # Original source: 31 
+    sub [hyphen hyphen.case]' lookup SingleSubstitution50 [hyphen.arrow hyphen.arrow.case];
+    sub [equal equal.case]' lookup SingleSubstitution50 [equal.arrow equal.arrow.case];
+} ChainedContextualGSUB32;
+
+lookup ChainedContextualGSUB33 {
+    lookupflag 0;
+    ;
+    # Original source: 32 
+    sub [hyphen.arrow hyphen.arrow.case] [hyphen hyphen.case]' lookup SingleSubstitution50;
+    sub [equal.arrow equal.arrow.case] [equal equal.case]' lookup SingleSubstitution50;
+} ChainedContextualGSUB33;
+
+lookup SingleSubstitution52 {
+    lookupflag 0;
+    ;
+    # Original source: 51 
+    sub greater by greater.arrow_start_equal;
+    sub greater.case by greater.arrow_start_equal.case;
+} SingleSubstitution52;
+
+lookup SingleSubstitution51 {
+    lookupflag 0;
+    ;
+    # Original source: 50 
+    sub greater by greater.arrow_start_hyphen;
+    sub greater.case by greater.arrow_start_hyphen.case;
+    sub less by less.arrow_end;
+    sub less.case by less.arrow_end.case;
+} SingleSubstitution51;
+
+lookup ChainedContextualGSUB34 {
+    lookupflag 0;
+    ;
+    # Original source: 33 
+    sub [hyphen.arrow hyphen.arrow.case] [less less.case]' lookup SingleSubstitution51;
+    sub [equal.arrow equal.arrow.case] [less less.case]' lookup SingleSubstitution51;
+    sub [hyphen.arrow hyphen.arrow.case] [greater greater.case]' lookup SingleSubstitution51;
+    sub [equal.arrow equal.arrow.case] [greater greater.case]' lookup SingleSubstitution52;
+} ChainedContextualGSUB34;
+
+lookup SingleSubstitution53 {
+    lookupflag 0;
+    ;
+    # Original source: 52 
+    sub greater by greater.arrow_start;
+    sub greater.case by greater.arrow_start.case;
+    sub less by less.arrow_end;
+    sub less.case by less.arrow_end.case;
+} SingleSubstitution53;
+
+lookup ChainedContextualGSUB35 {
+    lookupflag 0;
+    ;
+    # Original source: 34 
+    sub [greater.arrow_start_hyphen greater.arrow_start_hyphen.case] [greater greater.case]' lookup SingleSubstitution53;
+    sub [greater.arrow_start_equal greater.arrow_start_equal.case] [greater greater.case]' lookup SingleSubstitution53;
+} ChainedContextualGSUB35;
+
+lookup ChainedContextualGSUB36 {
+    lookupflag 0;
+    ;
+    # Original source: 35 
+    sub [less.arrow_end less.arrow_end.case] [less less.case]' lookup SingleSubstitution53;
+    sub [greater.arrow_start greater.arrow_start.case] [greater greater.case]' lookup SingleSubstitution53;
+} ChainedContextualGSUB36;
+
+lookup SingleSubstitution54 {
+    lookupflag 0;
+    ;
+    # Original source: 53 
+    sub hyphen by hyphen.arrow;
+    sub hyphen.case by hyphen.arrow.case;
+    sub less by less.arrow_start_hyphen;
+    sub less.case by less.arrow_start_hyphen.case;
+} SingleSubstitution54;
+
+lookup ChainedContextualGSUB37 {
+    lookupflag 0;
+    ;
+    # Original source: 36 
+    sub [less less.case]' lookup SingleSubstitution54 [exclam exclam.square] [hyphen hyphen.case] [hyphen hyphen.case];
+    sub [less.arrow_start_hyphen less.arrow_start_hyphen.case] [exclam exclam.square] [hyphen hyphen.case]' lookup SingleSubstitution54 [hyphen hyphen.case];
+    sub [less.arrow_start_hyphen less.arrow_start_hyphen.case] [exclam exclam.square] [hyphen.arrow hyphen.arrow.case] [hyphen hyphen.case]' lookup SingleSubstitution54;
+} ChainedContextualGSUB37;
+
+lookup SingleSubstitution55 {
+    lookupflag 0;
+    ;
+    # Original source: 54 
+    sub approxequal by approxequal.case;
+    sub approxequal.case by approxequal;
+    sub asciitilde by asciitilde.case;
+    sub asciitilde.case by asciitilde;
+    sub asterisk by asterisk.case;
+    sub asterisk.case by asterisk;
+    sub at by at.case;
+    sub at.case by at;
+    sub at.case.cv05 by at.cv05;
+    sub at.cv05 by at.case.cv05;
+    sub backslash by backslash.case;
+    sub backslash.c2_1 by backslash.case.c2_1;
+    sub backslash.c2_2 by backslash.case.c2_2;
+    sub backslash.c3_1 by backslash.case.c3_1;
+    sub backslash.c3_3 by backslash.case.c3_3;
+    sub backslash.case by backslash;
+    sub backslash.case.c2_1 by backslash.c2_1;
+    sub backslash.case.c2_2 by backslash.c2_2;
+    sub backslash.case.c3_1 by backslash.c3_1;
+    sub backslash.case.c3_3 by backslash.c3_3;
+    sub bar by bar.case;
+    sub bar.c2_1 by bar.case.c2_1;
+    sub bar.c2_2 by bar.case.c2_2;
+    sub bar.c3_1 by bar.case.c3_1;
+    sub bar.c3_3 by bar.case.c3_3;
+    sub bar.case by bar;
+    sub bar.case.c2_1 by bar.c2_1;
+    sub bar.case.c2_2 by bar.c2_2;
+    sub bar.case.c3_1 by bar.c3_1;
+    sub bar.case.c3_3 by bar.c3_3;
+    sub bar.case.pipe by bar.pipe;
+    sub bar.pipe by bar.case.pipe;
+    sub braceleft by braceleft.case;
+    sub braceleft.case by braceleft;
+    sub braceright by braceright.case;
+    sub braceright.case by braceright;
+    sub bracketleft by bracketleft.case;
+    sub bracketleft.case by bracketleft;
+    sub bracketright by bracketright.case;
+    sub bracketright.case by bracketright;
+    sub brokenbar by brokenbar.case;
+    sub brokenbar.case by brokenbar;
+    sub bullet by bullet.case;
+    sub bullet.case by bullet;
+    sub bullet.case.square by bullet.square;
+    sub bullet.square by bullet.case.square;
+    sub uni2219 by bulletoperator.case;
+    sub bulletoperator.case by uni2219;
+    sub bulletoperator.case.square by bulletoperator.square;
+    sub bulletoperator.square by bulletoperator.case.square;
+    sub colon by colon.case;
+    sub colon.c2_1 by colon.case.c2_1;
+    sub colon.c2_2 by colon.case.c2_2;
+    sub colon.c3_1 by colon.case.c3_1;
+    sub colon.c3_3 by colon.case.c3_3;
+    sub colon.case by colon;
+    sub colon.case.c2_1 by colon.c2_1;
+    sub colon.case.c2_2 by colon.c2_2;
+    sub colon.case.c3_1 by colon.c3_1;
+    sub colon.case.c3_3 by colon.c3_3;
+    sub colon.case.square by colon.square;
+    sub colon.case.square.c2_1 by colon.square.c2_1;
+    sub colon.case.square.c2_2 by colon.square.c2_2;
+    sub colon.case.square.c3_1 by colon.square.c3_1;
+    sub colon.case.square.c3_3 by colon.square.c3_3;
+    sub colon.square by colon.case.square;
+    sub colon.square.c2_1 by colon.case.square.c2_1;
+    sub colon.square.c2_2 by colon.case.square.c2_2;
+    sub colon.square.c3_1 by colon.case.square.c3_1;
+    sub colon.square.c3_3 by colon.case.square.c3_3;
+    sub colon.squash by colon.squash.case;
+    sub colon.squash.case by colon.squash;
+    sub colon.squash.case.square by colon.squash.square;
+    sub colon.squash.square by colon.squash.case.square;
+    sub divide by divide.case;
+    sub divide.case by divide;
+    sub divide.case.square by divide.square;
+    sub divide.square by divide.case.square;
+    sub emdash by emdash.case;
+    sub emdash.case by emdash;
+    sub endash by endash.case;
+    sub endash.case by endash;
+    sub equal by equal.case;
+    sub equal.arrow by equal.arrow.case;
+    sub equal.arrow.case by equal.arrow;
+    sub equal.case by equal;
+    sub exclamdown by exclamdown.case;
+    sub exclamdown.case by exclamdown;
+    sub exclamdown.case.square by exclamdown.square;
+    sub exclamdown.square by exclamdown.case.square;
+    sub greater by greater.case;
+    sub greater.arrow_end by greater.arrow_end.case;
+    sub greater.arrow_end.case by greater.arrow_end;
+    sub greater.arrow_start by greater.arrow_start.case;
+    sub greater.arrow_start.case by greater.arrow_start;
+    sub greater.arrow_start_equal by greater.arrow_start_equal.case;
+    sub greater.arrow_start_equal.case by greater.arrow_start_equal;
+    sub greater.arrow_start_hyphen by greater.arrow_start_hyphen.case;
+    sub greater.arrow_start_hyphen.case by greater.arrow_start_hyphen;
+    sub greater.c2_1 by greater.case.c2_1;
+    sub greater.c2_2 by greater.case.c2_2;
+    sub greater.c3_1 by greater.case.c3_1;
+    sub greater.c3_3 by greater.case.c3_3;
+    sub greater.case by greater;
+    sub greater.case.c2_1 by greater.c2_1;
+    sub greater.case.c2_2 by greater.c2_2;
+    sub greater.case.c3_1 by greater.c3_1;
+    sub greater.case.c3_3 by greater.c3_3;
+    sub greater.pipe by greater.pipe.case;
+    sub greater.pipe.case by greater.pipe;
+    sub greaterequal by greaterequal.case;
+    sub greaterequal.case by greaterequal;
+    sub guillemotleft by guillemotleft.case;
+    sub guillemotleft.case by guillemotleft;
+    sub guillemotright by guillemotright.case;
+    sub guillemotright.case by guillemotright;
+    sub guilsinglleft by guilsinglleft.case;
+    sub guilsinglleft.case by guilsinglleft;
+    sub guilsinglright by guilsinglright.case;
+    sub guilsinglright.case by guilsinglright;
+    sub hyphen by hyphen.case;
+    sub hyphen.arrow by hyphen.arrow.case;
+    sub hyphen.arrow.case by hyphen.arrow;
+    sub hyphen.case by hyphen;
+    sub less by less.case;
+    sub less.arrow_end by less.arrow_end.case;
+    sub less.arrow_end.case by less.arrow_end;
+    sub less.arrow_start by less.arrow_start.case;
+    sub less.arrow_start.case by less.arrow_start;
+    sub less.arrow_start_equal by less.arrow_start_equal.case;
+    sub less.arrow_start_equal.case by less.arrow_start_equal;
+    sub less.arrow_start_hyphen by less.arrow_start_hyphen.case;
+    sub less.arrow_start_hyphen.case by less.arrow_start_hyphen;
+    sub less.c2_1 by less.case.c2_1;
+    sub less.c2_2 by less.case.c2_2;
+    sub less.c3_1 by less.case.c3_1;
+    sub less.c3_3 by less.case.c3_3;
+    sub less.case by less;
+    sub less.case.c2_1 by less.c2_1;
+    sub less.case.c2_2 by less.c2_2;
+    sub less.case.c3_1 by less.c3_1;
+    sub less.case.c3_3 by less.c3_3;
+    sub less.pipe by less.pipe.case;
+    sub less.pipe.case by less.pipe;
+    sub lessequal by lessequal.case;
+    sub lessequal.case by lessequal;
+    sub logicalnot by logicalnot.case;
+    sub logicalnot.case by logicalnot;
+    sub minus by minus.case;
+    sub minus.case by minus;
+    sub multiply by multiply.case;
+    sub multiply.case by multiply;
+    sub notequal by notequal.case;
+    sub notequal.case by notequal;
+    sub parenleft by parenleft.case;
+    sub parenleft.case by parenleft;
+    sub parenright by parenright.case;
+    sub parenright.case by parenright;
+    sub periodcentered by periodcentered.case;
+    sub periodcentered.case by periodcentered;
+    sub periodcentered.case.square by periodcentered.square;
+    sub periodcentered.square by periodcentered.case.square;
+    sub plus by plus.case;
+    sub plus.case by plus;
+    sub plusminus by plusminus.case;
+    sub plusminus.case by plusminus;
+    sub questiondown by questiondown.case;
+    sub questiondown.case by questiondown;
+    sub questiondown.case.square by questiondown.square;
+    sub questiondown.square by questiondown.case.square;
+    sub slash by slash.case;
+    sub slash.c2_1 by slash.case.c2_1;
+    sub slash.c2_2 by slash.case.c2_2;
+    sub slash.c3_1 by slash.case.c3_1;
+    sub slash.c3_3 by slash.case.c3_3;
+    sub slash.case by slash;
+    sub slash.case.c2_1 by slash.c2_1;
+    sub slash.case.c2_2 by slash.c2_2;
+    sub slash.case.c3_1 by slash.c3_1;
+    sub slash.case.c3_3 by slash.c3_3;
+    sub uni00AD by softhyphen.case;
+    sub softhyphen.case by uni00AD;
+} SingleSubstitution55;
+
+lookup ChainedContextualGSUB38 {
+    lookupflag 0;
+    ;
+    # Original source: 37 
+    ignore sub @class5' @class6;
+    ignore sub @class5' @class5 @class6;
+    ignore sub @class5 @class5' @class6;
+    ignore sub @class5' @class5 @class5 @class6;
+    ignore sub @class5 @class5' @class5 @class6;
+    ignore sub @class5 @class5 @class5' @class6;
+    ignore sub @class5' @class5 @class5 @class5 @class6;
+    ignore sub @class5 @class5' @class5 @class5 @class6;
+    ignore sub @class5 @class5 @class5' @class5 @class6;
+    ignore sub @class5 @class5 @class5 @class5' @class6;
+    ignore sub @class5' @class5 @class5 @class5 @class5 @class6;
+    ignore sub @class5 @class5' @class5 @class5 @class5 @class6;
+    ignore sub @class5 @class5 @class5' @class5 @class5 @class6;
+    ignore sub @class5 @class5 @class5 @class5' @class5 @class6;
+    ignore sub @class5 @class5 @class5 @class5 @class5' @class6;
+    ignore sub @class5 @class77 @class5';
+    ignore sub @class5 @class5 @class77 @class5';
+    sub @class77 @class5' lookup SingleSubstitution55;
+} ChainedContextualGSUB38;
+
+lookup ChainedContextualGSUB39 {
+    lookupflag 0;
+    ;
+    # Original source: 38 
+    ignore sub @class6 @class5';
+    ignore sub @class6 @class5 @class5';
+    ignore sub @class6 @class5 @class5 @class5';
+    ignore sub @class6 @class5 @class5 @class5 @class5';
+    ignore sub @class6 @class5 @class5 @class5 @class5 @class5';
+    ignore sub @class5' @class77 @class5;
+    ignore sub @class5' @class77 @class5 @class5;
+    sub @class5' lookup SingleSubstitution55 @class77;
+    sub @class5' lookup SingleSubstitution55 @class5 @class77;
+    sub @class5' lookup SingleSubstitution55 @class5 @class5 @class77;
+    sub @class5' lookup SingleSubstitution55 @class5 @class5 @class5 @class77;
+    sub @class5' lookup SingleSubstitution55 @class5 @class5 @class5 @class5 @class77;
+} ChainedContextualGSUB39;
+
+lookup ChainedContextualGSUB40 {
+    lookupflag 0;
+    ;
+    # Original source: 39 
+    sub @class77 @class1 @class5' lookup SingleSubstitution55 @class1 @class77;
+    sub @class77 @class1 @class5' lookup SingleSubstitution55 @class5 @class1 @class77;
+    sub @class77 @class1 @class5' lookup SingleSubstitution55 @class5 @class5 @class1 @class77;
+    sub @class77 @class1 @class5' lookup SingleSubstitution55 @class5 @class5 @class5 @class1 @class77;
+    sub @class77 @class1 @class5' lookup SingleSubstitution55 @class5 @class5 @class5 @class5 @class1 @class77;
+} ChainedContextualGSUB40;
+
+lookup ChainedContextualGSUB41 {
+    lookupflag 0;
+    ;
+    # Original source: 40 
+    sub @class167 @class5' lookup SingleSubstitution55;
+} ChainedContextualGSUB41;
+
+lookup ChainedContextualGSUB42 {
+    lookupflag 0;
+    ;
+    # Original source: 41 
+    sub @class5 @class167' lookup SingleSubstitution55;
+} ChainedContextualGSUB42;
+
+lookup SingleSubstitution59 {
+    lookupflag 0;
+    ;
+    # Original source: 58 
+    sub backslash by backslash.c2_2;
+    sub backslash.case by backslash.case.c2_2;
+    sub bar by bar.c2_2;
+    sub bar.case by bar.case.c2_2;
+    sub colon by colon.c2_2;
+    sub colon.case by colon.case.c2_2;
+    sub colon.case.square by colon.case.square.c2_2;
+    sub colon.square by colon.square.c2_2;
+    sub exclam by exclam.c2_2;
+    sub exclam.square by exclam.square.c2_2;
+    sub greater by greater.c2_2;
+    sub greater.case by greater.case.c2_2;
+    sub less by less.c2_2;
+    sub less.case by less.case.c2_2;
+    sub period by period.c2_2;
+    sub period.square by period.square.c2_2;
+    sub question by question.c2_2;
+    sub question.square by question.square.c2_2;
+    sub semicolon by semicolon.c2_2;
+    sub semicolon.square by semicolon.square.c2_2;
+    sub slash by slash.c2_2;
+    sub slash.case by slash.case.c2_2;
+} SingleSubstitution59;
+
+lookup SingleSubstitution58 {
+    lookupflag 0;
+    ;
+    # Original source: 57 
+    sub backslash by backslash.c2_1;
+    sub backslash.case by backslash.case.c2_1;
+    sub bar by bar.c2_1;
+    sub bar.case by bar.case.c2_1;
+    sub colon by colon.c2_1;
+    sub colon.case by colon.case.c2_1;
+    sub colon.case.square by colon.case.square.c2_1;
+    sub colon.square by colon.square.c2_1;
+    sub exclam by exclam.c2_1;
+    sub exclam.square by exclam.square.c2_1;
+    sub greater by greater.c2_1;
+    sub greater.case by greater.case.c2_1;
+    sub less by less.c2_1;
+    sub less.case by less.case.c2_1;
+    sub period by period.c2_1;
+    sub period.square by period.square.c2_1;
+    sub question by question.c2_1;
+    sub question.square by question.square.c2_1;
+    sub semicolon by semicolon.c2_1;
+    sub semicolon.square by semicolon.square.c2_1;
+    sub slash by slash.c2_1;
+    sub slash.case by slash.case.c2_1;
+} SingleSubstitution58;
+
+lookup SingleSubstitution57 {
+    lookupflag 0;
+    ;
+    # Original source: 56 
+    sub backslash by backslash.c3_3;
+    sub backslash.case by backslash.case.c3_3;
+    sub bar by bar.c3_3;
+    sub bar.case by bar.case.c3_3;
+    sub colon by colon.c3_3;
+    sub colon.case by colon.case.c3_3;
+    sub colon.case.square by colon.case.square.c3_3;
+    sub colon.square by colon.square.c3_3;
+    sub exclam by exclam.c3_3;
+    sub exclam.square by exclam.square.c3_3;
+    sub greater by greater.c3_3;
+    sub greater.case by greater.case.c3_3;
+    sub less by less.c3_3;
+    sub less.case by less.case.c3_3;
+    sub period by period.c3_3;
+    sub period.square by period.square.c3_3;
+    sub question by question.c3_3;
+    sub question.square by question.square.c3_3;
+    sub semicolon by semicolon.c3_3;
+    sub semicolon.square by semicolon.square.c3_3;
+    sub slash by slash.c3_3;
+    sub slash.case by slash.case.c3_3;
+} SingleSubstitution57;
+
+lookup SingleSubstitution56 {
+    lookupflag 0;
+    ;
+    # Original source: 55 
+    sub backslash by backslash.c3_1;
+    sub backslash.case by backslash.case.c3_1;
+    sub bar by bar.c3_1;
+    sub bar.case by bar.case.c3_1;
+    sub colon by colon.c3_1;
+    sub colon.case by colon.case.c3_1;
+    sub colon.case.square by colon.case.square.c3_1;
+    sub colon.square by colon.square.c3_1;
+    sub exclam by exclam.c3_1;
+    sub exclam.square by exclam.square.c3_1;
+    sub greater by greater.c3_1;
+    sub greater.case by greater.case.c3_1;
+    sub less by less.c3_1;
+    sub less.case by less.case.c3_1;
+    sub period by period.c3_1;
+    sub period.square by period.square.c3_1;
+    sub question by question.c3_1;
+    sub question.square by question.square.c3_1;
+    sub semicolon by semicolon.c3_1;
+    sub semicolon.square by semicolon.square.c3_1;
+    sub slash by slash.c3_1;
+    sub slash.case by slash.case.c3_1;
+} SingleSubstitution56;
+
+lookup ChainedContextualGSUB43 {
+    lookupflag 0;
+    ;
+    # Original source: 42 
+    ignore sub numbersign @class170';
+    ignore sub numbersign @class170 @class170';
+    ignore sub @class170' numbersign;
+    ignore sub @class170' @class170 numbersign;
+    ignore sub [greater greater.case]' [less less.case] [slash slash.case];
+    ignore sub [colon colon.case colon.case.square colon.square]' [slash slash.case] [slash slash.case];
+    ignore sub [colon colon.case colon.case.square colon.square] [slash slash.case]' [slash slash.case];
+    ignore sub @class170' @class170 @class170 @class170;
+    ignore sub @class170 @class170' @class170 @class170;
+    ignore sub @class170 @class170 @class170' @class170;
+    ignore sub @class170 @class170 @class170 @class170';
+    sub @class170' lookup SingleSubstitution56 @class170 @class170;
+    sub @class196 @class170 @class170' lookup SingleSubstitution57;
+    ignore sub @class196 @class170' @class170;
+    sub @class170' lookup SingleSubstitution58 @class170;
+    sub @class204 @class170' lookup SingleSubstitution59;
+} ChainedContextualGSUB43;
+
+lookup SingleSubstitution73 {
+    lookupflag 0;
+    ;
+    # Original source: 72 
+    sub A by A.rightS;
+    sub B by B.rightS;
+    sub C by C.rightS;
+    sub D by D.rightS;
+    sub E by E.rightS;
+    sub F by F.rightS;
+    sub G by G.rightS;
+    sub H by H.rightS;
+    sub I by I.rightS;
+    sub J by J.rightS;
+    sub K by K.rightS;
+    sub L by L.rightS;
+    sub M by M.rightS;
+    sub N by N.rightS;
+    sub O by O.rightS;
+    sub P by P.rightS;
+    sub Q by Q.rightS;
+    sub R by R.rightS;
+    sub S by S.rightS;
+    sub T by T.rightS;
+    sub U by U.rightS;
+    sub V by V.rightS;
+    sub W by W.rightS;
+    sub X by X.rightS;
+    sub Y by Y.rightS;
+    sub Z by Z.rightS;
+    sub a by a.rightS;
+    sub a.cv01 by a.cv01.rightS;
+    sub a.cv08 by a.cv08.rightS;
+    sub b by b.rightS;
+    sub c by c.rightS;
+    sub d by d.rightS;
+    sub e by e.rightS;
+    sub e.cv08 by e.cv08.rightS;
+    sub f by f.rightS;
+    sub f.cv08 by f.cv08.rightS;
+    sub g by g.rightS;
+    sub g.cv02 by g.cv02.rightS;
+    sub g.cv08 by g.cv08.rightS;
+    sub h by h.rightS;
+    sub i by i.rightS;
+    sub i.cv04 by i.cv04.rightS;
+    sub i.square by i.square.rightS;
+    sub i.square.cv04 by i.square.cv04.rightS;
+    sub j by j.rightS;
+    sub j.square by j.square.rightS;
+    sub k by k.rightS;
+    sub l by l.rightS;
+    sub m by m.rightS;
+    sub n by n.rightS;
+    sub o by o.rightS;
+    sub p by p.rightS;
+    sub q by q.rightS;
+    sub r by r.rightS;
+    sub s by s.rightS;
+    sub t by t.rightS;
+    sub u by u.rightS;
+    sub v by v.rightS;
+    sub w by w.rightS;
+    sub x by x.rightS;
+    sub y by y.rightS;
+    sub y.cv08 by y.cv08.rightS;
+    sub z by z.rightS;
+    sub l.cv10 by l.rightS.cv10;
+} SingleSubstitution73;
+
+lookup SingleSubstitution72 {
+    lookupflag 0;
+    ;
+    # Original source: 71 
+    sub A by A.rightM;
+    sub B by B.rightM;
+    sub C by C.rightM;
+    sub D by D.rightM;
+    sub E by E.rightM;
+    sub F by F.rightM;
+    sub G by G.rightM;
+    sub H by H.rightM;
+    sub I by I.rightM;
+    sub J by J.rightM;
+    sub K by K.rightM;
+    sub L by L.rightM;
+    sub M by M.rightM;
+    sub N by N.rightM;
+    sub O by O.rightM;
+    sub P by P.rightM;
+    sub Q by Q.rightM;
+    sub R by R.rightM;
+    sub S by S.rightM;
+    sub T by T.rightM;
+    sub U by U.rightM;
+    sub V by V.rightM;
+    sub W by W.rightM;
+    sub X by X.rightM;
+    sub Y by Y.rightM;
+    sub Z by Z.rightM;
+    sub a by a.rightM;
+    sub a.cv01 by a.cv01.rightM;
+    sub a.cv08 by a.cv08.rightM;
+    sub b by b.rightM;
+    sub c by c.rightM;
+    sub d by d.rightM;
+    sub e by e.rightM;
+    sub e.cv08 by e.cv08.rightM;
+    sub f by f.rightM;
+    sub f.cv08 by f.cv08.rightM;
+    sub g by g.rightM;
+    sub g.cv02 by g.cv02.rightM;
+    sub g.cv08 by g.cv08.rightM;
+    sub h by h.rightM;
+    sub i by i.rightM;
+    sub i.cv04 by i.cv04.rightM;
+    sub i.square by i.square.rightM;
+    sub i.square.cv04 by i.square.cv04.rightM;
+    sub j by j.rightM;
+    sub j.square by j.square.rightM;
+    sub k by k.rightM;
+    sub l by l.rightM;
+    sub m by m.rightM;
+    sub n by n.rightM;
+    sub o by o.rightM;
+    sub p by p.rightM;
+    sub q by q.rightM;
+    sub r by r.rightM;
+    sub s by s.rightM;
+    sub t by t.rightM;
+    sub u by u.rightM;
+    sub v by v.rightM;
+    sub w by w.rightM;
+    sub x by x.rightM;
+    sub y by y.rightM;
+    sub y.cv08 by y.cv08.rightM;
+    sub z by z.rightM;
+    sub l.cv10 by l.rightM.cv10;
+} SingleSubstitution72;
+
+lookup SingleSubstitution71 {
+    lookupflag 0;
+    ;
+    # Original source: 70 
+    sub A by A.rightL;
+    sub B by B.rightL;
+    sub C by C.rightL;
+    sub D by D.rightL;
+    sub E by E.rightL;
+    sub F by F.rightL;
+    sub G by G.rightL;
+    sub H by H.rightL;
+    sub I by I.rightL;
+    sub J by J.rightL;
+    sub K by K.rightL;
+    sub L by L.rightL;
+    sub M by M.rightL;
+    sub N by N.rightL;
+    sub O by O.rightL;
+    sub P by P.rightL;
+    sub Q by Q.rightL;
+    sub R by R.rightL;
+    sub S by S.rightL;
+    sub T by T.rightL;
+    sub U by U.rightL;
+    sub V by V.rightL;
+    sub W by W.rightL;
+    sub X by X.rightL;
+    sub Y by Y.rightL;
+    sub Z by Z.rightL;
+    sub a by a.rightL;
+    sub a.cv01 by a.cv01.rightL;
+    sub a.cv08 by a.cv08.rightL;
+    sub b by b.rightL;
+    sub c by c.rightL;
+    sub d by d.rightL;
+    sub e by e.rightL;
+    sub e.cv08 by e.cv08.rightL;
+    sub f by f.rightL;
+    sub f.cv08 by f.cv08.rightL;
+    sub g by g.rightL;
+    sub g.cv02 by g.cv02.rightL;
+    sub g.cv08 by g.cv08.rightL;
+    sub h by h.rightL;
+    sub i by i.rightL;
+    sub i.cv04 by i.cv04.rightL;
+    sub i.square by i.square.rightL;
+    sub i.square.cv04 by i.square.cv04.rightL;
+    sub j by j.rightL;
+    sub j.square by j.square.rightL;
+    sub k by k.rightL;
+    sub l by l.rightL;
+    sub m by m.rightL;
+    sub n by n.rightL;
+    sub o by o.rightL;
+    sub p by p.rightL;
+    sub q by q.rightL;
+    sub r by r.rightL;
+    sub s by s.rightL;
+    sub t by t.rightL;
+    sub u by u.rightL;
+    sub v by v.rightL;
+    sub w by w.rightL;
+    sub x by x.rightL;
+    sub y by y.rightL;
+    sub y.cv08 by y.cv08.rightL;
+    sub z by z.rightL;
+    sub l.cv10 by l.rightL.cv10;
+} SingleSubstitution71;
+
+lookup SingleSubstitution70 {
+    lookupflag 0;
+    ;
+    # Original source: 69 
+    sub A by A.leftS;
+    sub B by B.leftS;
+    sub C by C.leftS;
+    sub D by D.leftS;
+    sub E by E.leftS;
+    sub F by F.leftS;
+    sub G by G.leftS;
+    sub H by H.leftS;
+    sub I by I.leftS;
+    sub J by J.leftS;
+    sub K by K.leftS;
+    sub L by L.leftS;
+    sub M by M.leftS;
+    sub N by N.leftS;
+    sub O by O.leftS;
+    sub P by P.leftS;
+    sub Q by Q.leftS;
+    sub R by R.leftS;
+    sub S by S.leftS;
+    sub T by T.leftS;
+    sub U by U.leftS;
+    sub V by V.leftS;
+    sub W by W.leftS;
+    sub X by X.leftS;
+    sub Y by Y.leftS;
+    sub Z by Z.leftS;
+    sub a by a.leftS;
+    sub a.cv01 by a.cv01.leftS;
+    sub a.cv08 by a.cv08.leftS;
+    sub b by b.leftS;
+    sub c by c.leftS;
+    sub d by d.leftS;
+    sub e by e.leftS;
+    sub e.cv08 by e.cv08.leftS;
+    sub f by f.leftS;
+    sub f.cv08 by f.cv08.leftS;
+    sub g by g.leftS;
+    sub g.cv02 by g.cv02.leftS;
+    sub g.cv08 by g.cv08.leftS;
+    sub h by h.leftS;
+    sub i by i.leftS;
+    sub i.cv04 by i.cv04.leftS;
+    sub i.square by i.square.leftS;
+    sub i.square.cv04 by i.square.cv04.leftS;
+    sub j by j.leftS;
+    sub j.square by j.square.leftS;
+    sub k by k.leftS;
+    sub l by l.leftS;
+    sub m by m.leftS;
+    sub n by n.leftS;
+    sub o by o.leftS;
+    sub p by p.leftS;
+    sub q by q.leftS;
+    sub r by r.leftS;
+    sub s by s.leftS;
+    sub t by t.leftS;
+    sub u by u.leftS;
+    sub v by v.leftS;
+    sub w by w.leftS;
+    sub x by x.leftS;
+    sub y by y.leftS;
+    sub y.cv08 by y.cv08.leftS;
+    sub z by z.leftS;
+    sub l.cv10 by l.leftS.cv10;
+} SingleSubstitution70;
+
+lookup SingleSubstitution69 {
+    lookupflag 0;
+    ;
+    # Original source: 68 
+    sub A by A.leftM;
+    sub B by B.leftM;
+    sub C by C.leftM;
+    sub D by D.leftM;
+    sub E by E.leftM;
+    sub F by F.leftM;
+    sub G by G.leftM;
+    sub H by H.leftM;
+    sub I by I.leftM;
+    sub J by J.leftM;
+    sub K by K.leftM;
+    sub L by L.leftM;
+    sub M by M.leftM;
+    sub N by N.leftM;
+    sub O by O.leftM;
+    sub P by P.leftM;
+    sub Q by Q.leftM;
+    sub R by R.leftM;
+    sub S by S.leftM;
+    sub T by T.leftM;
+    sub U by U.leftM;
+    sub V by V.leftM;
+    sub W by W.leftM;
+    sub X by X.leftM;
+    sub Y by Y.leftM;
+    sub Z by Z.leftM;
+    sub a by a.leftM;
+    sub a.cv01 by a.cv01.leftM;
+    sub a.cv08 by a.cv08.leftM;
+    sub b by b.leftM;
+    sub c by c.leftM;
+    sub d by d.leftM;
+    sub e by e.leftM;
+    sub e.cv08 by e.cv08.leftM;
+    sub f by f.leftM;
+    sub f.cv08 by f.cv08.leftM;
+    sub g by g.leftM;
+    sub g.cv02 by g.cv02.leftM;
+    sub g.cv08 by g.cv08.leftM;
+    sub h by h.leftM;
+    sub i by i.leftM;
+    sub i.cv04 by i.cv04.leftM;
+    sub i.square by i.square.leftM;
+    sub i.square.cv04 by i.square.cv04.leftM;
+    sub j by j.leftM;
+    sub j.square by j.square.leftM;
+    sub k by k.leftM;
+    sub l by l.leftM;
+    sub m by m.leftM;
+    sub n by n.leftM;
+    sub o by o.leftM;
+    sub p by p.leftM;
+    sub q by q.leftM;
+    sub r by r.leftM;
+    sub s by s.leftM;
+    sub t by t.leftM;
+    sub u by u.leftM;
+    sub v by v.leftM;
+    sub w by w.leftM;
+    sub x by x.leftM;
+    sub y by y.leftM;
+    sub y.cv08 by y.cv08.leftM;
+    sub z by z.leftM;
+    sub l.cv10 by l.leftM.cv10;
+} SingleSubstitution69;
+
+lookup SingleSubstitution68 {
+    lookupflag 0;
+    ;
+    # Original source: 67 
+    sub A by A.leftL;
+    sub B by B.leftL;
+    sub C by C.leftL;
+    sub D by D.leftL;
+    sub E by E.leftL;
+    sub F by F.leftL;
+    sub G by G.leftL;
+    sub H by H.leftL;
+    sub I by I.leftL;
+    sub J by J.leftL;
+    sub K by K.leftL;
+    sub L by L.leftL;
+    sub M by M.leftL;
+    sub N by N.leftL;
+    sub O by O.leftL;
+    sub P by P.leftL;
+    sub Q by Q.leftL;
+    sub R by R.leftL;
+    sub S by S.leftL;
+    sub T by T.leftL;
+    sub U by U.leftL;
+    sub V by V.leftL;
+    sub W by W.leftL;
+    sub X by X.leftL;
+    sub Y by Y.leftL;
+    sub Z by Z.leftL;
+    sub a by a.leftL;
+    sub a.cv01 by a.cv01.leftL;
+    sub a.cv08 by a.cv08.leftL;
+    sub b by b.leftL;
+    sub c by c.leftL;
+    sub d by d.leftL;
+    sub e by e.leftL;
+    sub e.cv08 by e.cv08.leftL;
+    sub f by f.leftL;
+    sub f.cv08 by f.cv08.leftL;
+    sub g by g.leftL;
+    sub g.cv02 by g.cv02.leftL;
+    sub g.cv08 by g.cv08.leftL;
+    sub h by h.leftL;
+    sub i by i.leftL;
+    sub i.cv04 by i.cv04.leftL;
+    sub i.square by i.square.leftL;
+    sub i.square.cv04 by i.square.cv04.leftL;
+    sub j by j.leftL;
+    sub j.square by j.square.leftL;
+    sub k by k.leftL;
+    sub l by l.leftL;
+    sub m by m.leftL;
+    sub n by n.leftL;
+    sub o by o.leftL;
+    sub p by p.leftL;
+    sub q by q.leftL;
+    sub r by r.leftL;
+    sub s by s.leftL;
+    sub t by t.leftL;
+    sub u by u.leftL;
+    sub v by v.leftL;
+    sub w by w.leftL;
+    sub x by x.leftL;
+    sub y by y.leftL;
+    sub y.cv08 by y.cv08.leftL;
+    sub z by z.leftL;
+    sub l.cv10 by l.leftL.cv10;
+} SingleSubstitution68;
+
+lookup SingleSubstitution67 {
+    lookupflag 0;
+    ;
+    # Original source: 66 
+    sub A by A.rightS;
+    sub B by B.rightS;
+    sub C by C.rightS;
+    sub D by D.rightS;
+    sub E by E.rightS;
+    sub F by F.rightS;
+    sub G by G.rightS;
+    sub H by H.rightS;
+    sub I by I.rightS;
+    sub J by J.rightS;
+    sub K by K.rightS;
+    sub L by L.rightS;
+    sub M by M.rightS;
+    sub N by N.rightS;
+    sub O by O.rightS;
+    sub P by P.rightS;
+    sub Q by Q.rightS;
+    sub R by R.rightS;
+    sub S by S.rightS;
+    sub T by T.rightS;
+    sub U by U.rightS;
+    sub V by V.rightS;
+    sub W by W.rightS;
+    sub X by X.rightS;
+    sub Y by Y.rightS;
+    sub Z by Z.rightS;
+    sub a by a.rightS;
+    sub a.cv01 by a.cv01.rightS;
+    sub a.cv08 by a.cv08.rightS;
+    sub b by b.rightS;
+    sub c by c.rightS;
+    sub d by d.rightS;
+    sub e by e.rightS;
+    sub e.cv08 by e.cv08.rightS;
+    sub f by f.rightS;
+    sub f.cv08 by f.cv08.rightS;
+    sub g by g.rightS;
+    sub g.cv02 by g.cv02.rightS;
+    sub g.cv08 by g.cv08.rightS;
+    sub h by h.rightS;
+    sub i by i.rightS;
+    sub i.cv04 by i.cv04.rightS;
+    sub i.square by i.square.rightS;
+    sub i.square.cv04 by i.square.cv04.rightS;
+    sub j by j.rightS;
+    sub j.square by j.square.rightS;
+    sub k by k.rightS;
+    sub l by l.rightS;
+    sub m by m.rightS;
+    sub n by n.rightS;
+    sub o by o.rightS;
+    sub p by p.rightS;
+    sub q by q.rightS;
+    sub r by r.rightS;
+    sub s by s.rightS;
+    sub t by t.rightS;
+    sub u by u.rightS;
+    sub v by v.rightS;
+    sub w by w.rightS;
+    sub x by x.rightS;
+    sub y by y.rightS;
+    sub y.cv08 by y.cv08.rightS;
+    sub z by z.rightS;
+    sub l.cv10 by l.rightS.cv10;
+} SingleSubstitution67;
+
+lookup SingleSubstitution66 {
+    lookupflag 0;
+    ;
+    # Original source: 65 
+    sub A by A.rightM;
+    sub B by B.rightM;
+    sub C by C.rightM;
+    sub D by D.rightM;
+    sub E by E.rightM;
+    sub F by F.rightM;
+    sub G by G.rightM;
+    sub H by H.rightM;
+    sub I by I.rightM;
+    sub J by J.rightM;
+    sub K by K.rightM;
+    sub L by L.rightM;
+    sub M by M.rightM;
+    sub N by N.rightM;
+    sub O by O.rightM;
+    sub P by P.rightM;
+    sub Q by Q.rightM;
+    sub R by R.rightM;
+    sub S by S.rightM;
+    sub T by T.rightM;
+    sub U by U.rightM;
+    sub V by V.rightM;
+    sub W by W.rightM;
+    sub X by X.rightM;
+    sub Y by Y.rightM;
+    sub Z by Z.rightM;
+    sub a by a.rightM;
+    sub a.cv01 by a.cv01.rightM;
+    sub a.cv08 by a.cv08.rightM;
+    sub b by b.rightM;
+    sub c by c.rightM;
+    sub d by d.rightM;
+    sub e by e.rightM;
+    sub e.cv08 by e.cv08.rightM;
+    sub f by f.rightM;
+    sub f.cv08 by f.cv08.rightM;
+    sub g by g.rightM;
+    sub g.cv02 by g.cv02.rightM;
+    sub g.cv08 by g.cv08.rightM;
+    sub h by h.rightM;
+    sub i by i.rightM;
+    sub i.cv04 by i.cv04.rightM;
+    sub i.square by i.square.rightM;
+    sub i.square.cv04 by i.square.cv04.rightM;
+    sub j by j.rightM;
+    sub j.square by j.square.rightM;
+    sub k by k.rightM;
+    sub l by l.rightM;
+    sub m by m.rightM;
+    sub n by n.rightM;
+    sub o by o.rightM;
+    sub p by p.rightM;
+    sub q by q.rightM;
+    sub r by r.rightM;
+    sub s by s.rightM;
+    sub t by t.rightM;
+    sub u by u.rightM;
+    sub v by v.rightM;
+    sub w by w.rightM;
+    sub x by x.rightM;
+    sub y by y.rightM;
+    sub y.cv08 by y.cv08.rightM;
+    sub z by z.rightM;
+    sub l.cv10 by l.rightM.cv10;
+} SingleSubstitution66;
+
+lookup SingleSubstitution65 {
+    lookupflag 0;
+    ;
+    # Original source: 64 
+    sub A by A.rightS;
+    sub B by B.rightS;
+    sub C by C.rightS;
+    sub D by D.rightS;
+    sub E by E.rightS;
+    sub F by F.rightS;
+    sub G by G.rightS;
+    sub H by H.rightS;
+    sub I by I.rightS;
+    sub J by J.rightS;
+    sub K by K.rightS;
+    sub L by L.rightS;
+    sub M by M.rightS;
+    sub N by N.rightS;
+    sub O by O.rightS;
+    sub P by P.rightS;
+    sub Q by Q.rightS;
+    sub R by R.rightS;
+    sub S by S.rightS;
+    sub T by T.rightS;
+    sub U by U.rightS;
+    sub V by V.rightS;
+    sub W by W.rightS;
+    sub X by X.rightS;
+    sub Y by Y.rightS;
+    sub Z by Z.rightS;
+    sub a by a.rightS;
+    sub a.cv01 by a.cv01.rightS;
+    sub a.cv08 by a.cv08.rightS;
+    sub b by b.rightS;
+    sub c by c.rightS;
+    sub d by d.rightS;
+    sub e by e.rightS;
+    sub e.cv08 by e.cv08.rightS;
+    sub f by f.rightS;
+    sub f.cv08 by f.cv08.rightS;
+    sub g by g.rightS;
+    sub g.cv02 by g.cv02.rightS;
+    sub g.cv08 by g.cv08.rightS;
+    sub h by h.rightS;
+    sub i by i.rightS;
+    sub i.cv04 by i.cv04.rightS;
+    sub i.square by i.square.rightS;
+    sub i.square.cv04 by i.square.cv04.rightS;
+    sub j by j.rightS;
+    sub j.square by j.square.rightS;
+    sub k by k.rightS;
+    sub l by l.rightS;
+    sub m by m.rightS;
+    sub n by n.rightS;
+    sub o by o.rightS;
+    sub p by p.rightS;
+    sub q by q.rightS;
+    sub r by r.rightS;
+    sub s by s.rightS;
+    sub t by t.rightS;
+    sub u by u.rightS;
+    sub v by v.rightS;
+    sub w by w.rightS;
+    sub x by x.rightS;
+    sub y by y.rightS;
+    sub y.cv08 by y.cv08.rightS;
+    sub z by z.rightS;
+    sub l.cv10 by l.rightS.cv10;
+} SingleSubstitution65;
+
+lookup SingleSubstitution64 {
+    lookupflag 0;
+    ;
+    # Original source: 63 
+    sub A by A.rightM;
+    sub B by B.rightM;
+    sub C by C.rightM;
+    sub D by D.rightM;
+    sub E by E.rightM;
+    sub F by F.rightM;
+    sub G by G.rightM;
+    sub H by H.rightM;
+    sub I by I.rightM;
+    sub J by J.rightM;
+    sub K by K.rightM;
+    sub L by L.rightM;
+    sub M by M.rightM;
+    sub N by N.rightM;
+    sub O by O.rightM;
+    sub P by P.rightM;
+    sub Q by Q.rightM;
+    sub R by R.rightM;
+    sub S by S.rightM;
+    sub T by T.rightM;
+    sub U by U.rightM;
+    sub V by V.rightM;
+    sub W by W.rightM;
+    sub X by X.rightM;
+    sub Y by Y.rightM;
+    sub Z by Z.rightM;
+    sub a by a.rightM;
+    sub a.cv01 by a.cv01.rightM;
+    sub a.cv08 by a.cv08.rightM;
+    sub b by b.rightM;
+    sub c by c.rightM;
+    sub d by d.rightM;
+    sub e by e.rightM;
+    sub e.cv08 by e.cv08.rightM;
+    sub f by f.rightM;
+    sub f.cv08 by f.cv08.rightM;
+    sub g by g.rightM;
+    sub g.cv02 by g.cv02.rightM;
+    sub g.cv08 by g.cv08.rightM;
+    sub h by h.rightM;
+    sub i by i.rightM;
+    sub i.cv04 by i.cv04.rightM;
+    sub i.square by i.square.rightM;
+    sub i.square.cv04 by i.square.cv04.rightM;
+    sub j by j.rightM;
+    sub j.square by j.square.rightM;
+    sub k by k.rightM;
+    sub l by l.rightM;
+    sub m by m.rightM;
+    sub n by n.rightM;
+    sub o by o.rightM;
+    sub p by p.rightM;
+    sub q by q.rightM;
+    sub r by r.rightM;
+    sub s by s.rightM;
+    sub t by t.rightM;
+    sub u by u.rightM;
+    sub v by v.rightM;
+    sub w by w.rightM;
+    sub x by x.rightM;
+    sub y by y.rightM;
+    sub y.cv08 by y.cv08.rightM;
+    sub z by z.rightM;
+    sub l.cv10 by l.rightM.cv10;
+} SingleSubstitution64;
+
+lookup SingleSubstitution63 {
+    lookupflag 0;
+    ;
+    # Original source: 62 
+    sub A by A.rightL;
+    sub B by B.rightL;
+    sub C by C.rightL;
+    sub D by D.rightL;
+    sub E by E.rightL;
+    sub F by F.rightL;
+    sub G by G.rightL;
+    sub H by H.rightL;
+    sub I by I.rightL;
+    sub J by J.rightL;
+    sub K by K.rightL;
+    sub L by L.rightL;
+    sub M by M.rightL;
+    sub N by N.rightL;
+    sub O by O.rightL;
+    sub P by P.rightL;
+    sub Q by Q.rightL;
+    sub R by R.rightL;
+    sub S by S.rightL;
+    sub T by T.rightL;
+    sub U by U.rightL;
+    sub V by V.rightL;
+    sub W by W.rightL;
+    sub X by X.rightL;
+    sub Y by Y.rightL;
+    sub Z by Z.rightL;
+    sub a by a.rightL;
+    sub a.cv01 by a.cv01.rightL;
+    sub a.cv08 by a.cv08.rightL;
+    sub b by b.rightL;
+    sub c by c.rightL;
+    sub d by d.rightL;
+    sub e by e.rightL;
+    sub e.cv08 by e.cv08.rightL;
+    sub f by f.rightL;
+    sub f.cv08 by f.cv08.rightL;
+    sub g by g.rightL;
+    sub g.cv02 by g.cv02.rightL;
+    sub g.cv08 by g.cv08.rightL;
+    sub h by h.rightL;
+    sub i by i.rightL;
+    sub i.cv04 by i.cv04.rightL;
+    sub i.square by i.square.rightL;
+    sub i.square.cv04 by i.square.cv04.rightL;
+    sub j by j.rightL;
+    sub j.square by j.square.rightL;
+    sub k by k.rightL;
+    sub l by l.rightL;
+    sub m by m.rightL;
+    sub n by n.rightL;
+    sub o by o.rightL;
+    sub p by p.rightL;
+    sub q by q.rightL;
+    sub r by r.rightL;
+    sub s by s.rightL;
+    sub t by t.rightL;
+    sub u by u.rightL;
+    sub v by v.rightL;
+    sub w by w.rightL;
+    sub x by x.rightL;
+    sub y by y.rightL;
+    sub y.cv08 by y.cv08.rightL;
+    sub z by z.rightL;
+    sub l.cv10 by l.rightL.cv10;
+} SingleSubstitution63;
+
+lookup SingleSubstitution62 {
+    lookupflag 0;
+    ;
+    # Original source: 61 
+    sub A by A.leftS;
+    sub B by B.leftS;
+    sub C by C.leftS;
+    sub D by D.leftS;
+    sub E by E.leftS;
+    sub F by F.leftS;
+    sub G by G.leftS;
+    sub H by H.leftS;
+    sub I by I.leftS;
+    sub J by J.leftS;
+    sub K by K.leftS;
+    sub L by L.leftS;
+    sub M by M.leftS;
+    sub N by N.leftS;
+    sub O by O.leftS;
+    sub P by P.leftS;
+    sub Q by Q.leftS;
+    sub R by R.leftS;
+    sub S by S.leftS;
+    sub T by T.leftS;
+    sub U by U.leftS;
+    sub V by V.leftS;
+    sub W by W.leftS;
+    sub X by X.leftS;
+    sub Y by Y.leftS;
+    sub Z by Z.leftS;
+    sub a by a.leftS;
+    sub a.cv01 by a.cv01.leftS;
+    sub a.cv08 by a.cv08.leftS;
+    sub b by b.leftS;
+    sub c by c.leftS;
+    sub d by d.leftS;
+    sub e by e.leftS;
+    sub e.cv08 by e.cv08.leftS;
+    sub f by f.leftS;
+    sub f.cv08 by f.cv08.leftS;
+    sub g by g.leftS;
+    sub g.cv02 by g.cv02.leftS;
+    sub g.cv08 by g.cv08.leftS;
+    sub h by h.leftS;
+    sub i by i.leftS;
+    sub i.cv04 by i.cv04.leftS;
+    sub i.square by i.square.leftS;
+    sub i.square.cv04 by i.square.cv04.leftS;
+    sub j by j.leftS;
+    sub j.square by j.square.leftS;
+    sub k by k.leftS;
+    sub l by l.leftS;
+    sub m by m.leftS;
+    sub n by n.leftS;
+    sub o by o.leftS;
+    sub p by p.leftS;
+    sub q by q.leftS;
+    sub r by r.leftS;
+    sub s by s.leftS;
+    sub t by t.leftS;
+    sub u by u.leftS;
+    sub v by v.leftS;
+    sub w by w.leftS;
+    sub x by x.leftS;
+    sub y by y.leftS;
+    sub y.cv08 by y.cv08.leftS;
+    sub z by z.leftS;
+    sub l.cv10 by l.leftS.cv10;
+} SingleSubstitution62;
+
+lookup SingleSubstitution61 {
+    lookupflag 0;
+    ;
+    # Original source: 60 
+    sub A by A.leftM;
+    sub B by B.leftM;
+    sub C by C.leftM;
+    sub D by D.leftM;
+    sub E by E.leftM;
+    sub F by F.leftM;
+    sub G by G.leftM;
+    sub H by H.leftM;
+    sub I by I.leftM;
+    sub J by J.leftM;
+    sub K by K.leftM;
+    sub L by L.leftM;
+    sub M by M.leftM;
+    sub N by N.leftM;
+    sub O by O.leftM;
+    sub P by P.leftM;
+    sub Q by Q.leftM;
+    sub R by R.leftM;
+    sub S by S.leftM;
+    sub T by T.leftM;
+    sub U by U.leftM;
+    sub V by V.leftM;
+    sub W by W.leftM;
+    sub X by X.leftM;
+    sub Y by Y.leftM;
+    sub Z by Z.leftM;
+    sub a by a.leftM;
+    sub a.cv01 by a.cv01.leftM;
+    sub a.cv08 by a.cv08.leftM;
+    sub b by b.leftM;
+    sub c by c.leftM;
+    sub d by d.leftM;
+    sub e by e.leftM;
+    sub e.cv08 by e.cv08.leftM;
+    sub f by f.leftM;
+    sub f.cv08 by f.cv08.leftM;
+    sub g by g.leftM;
+    sub g.cv02 by g.cv02.leftM;
+    sub g.cv08 by g.cv08.leftM;
+    sub h by h.leftM;
+    sub i by i.leftM;
+    sub i.cv04 by i.cv04.leftM;
+    sub i.square by i.square.leftM;
+    sub i.square.cv04 by i.square.cv04.leftM;
+    sub j by j.leftM;
+    sub j.square by j.square.leftM;
+    sub k by k.leftM;
+    sub l by l.leftM;
+    sub m by m.leftM;
+    sub n by n.leftM;
+    sub o by o.leftM;
+    sub p by p.leftM;
+    sub q by q.leftM;
+    sub r by r.leftM;
+    sub s by s.leftM;
+    sub t by t.leftM;
+    sub u by u.leftM;
+    sub v by v.leftM;
+    sub w by w.leftM;
+    sub x by x.leftM;
+    sub y by y.leftM;
+    sub y.cv08 by y.cv08.leftM;
+    sub z by z.leftM;
+    sub l.cv10 by l.leftM.cv10;
+} SingleSubstitution61;
+
+lookup SingleSubstitution60 {
+    lookupflag 0;
+    ;
+    # Original source: 59 
+    sub A by A.leftL;
+    sub B by B.leftL;
+    sub C by C.leftL;
+    sub D by D.leftL;
+    sub E by E.leftL;
+    sub F by F.leftL;
+    sub G by G.leftL;
+    sub H by H.leftL;
+    sub I by I.leftL;
+    sub J by J.leftL;
+    sub K by K.leftL;
+    sub L by L.leftL;
+    sub M by M.leftL;
+    sub N by N.leftL;
+    sub O by O.leftL;
+    sub P by P.leftL;
+    sub Q by Q.leftL;
+    sub R by R.leftL;
+    sub S by S.leftL;
+    sub T by T.leftL;
+    sub U by U.leftL;
+    sub V by V.leftL;
+    sub W by W.leftL;
+    sub X by X.leftL;
+    sub Y by Y.leftL;
+    sub Z by Z.leftL;
+    sub a by a.leftL;
+    sub a.cv01 by a.cv01.leftL;
+    sub a.cv08 by a.cv08.leftL;
+    sub b by b.leftL;
+    sub c by c.leftL;
+    sub d by d.leftL;
+    sub e by e.leftL;
+    sub e.cv08 by e.cv08.leftL;
+    sub f by f.leftL;
+    sub f.cv08 by f.cv08.leftL;
+    sub g by g.leftL;
+    sub g.cv02 by g.cv02.leftL;
+    sub g.cv08 by g.cv08.leftL;
+    sub h by h.leftL;
+    sub i by i.leftL;
+    sub i.cv04 by i.cv04.leftL;
+    sub i.square by i.square.leftL;
+    sub i.square.cv04 by i.square.cv04.leftL;
+    sub j by j.leftL;
+    sub j.square by j.square.leftL;
+    sub k by k.leftL;
+    sub l by l.leftL;
+    sub m by m.leftL;
+    sub n by n.leftL;
+    sub o by o.leftL;
+    sub p by p.leftL;
+    sub q by q.leftL;
+    sub r by r.leftL;
+    sub s by s.leftL;
+    sub t by t.leftL;
+    sub u by u.leftL;
+    sub v by v.leftL;
+    sub w by w.leftL;
+    sub x by x.leftL;
+    sub y by y.leftL;
+    sub y.cv08 by y.cv08.leftL;
+    sub z by z.leftL;
+    sub l.cv10 by l.leftL.cv10;
+} SingleSubstitution60;
+
+lookup ChainedContextualGSUB44 {
+    lookupflag 0;
+    ;
+    # Original source: 43 
+    sub @class206 @class205' lookup SingleSubstitution60 @class207;
+    sub @class206 @class205' lookup SingleSubstitution61 @class210;
+    sub @class212 @class205' lookup SingleSubstitution61 @class207;
+    sub @class206 @class205' lookup SingleSubstitution62 @class212;
+    sub @class212 @class205' lookup SingleSubstitution62 @class210;
+    sub @class210 @class205' lookup SingleSubstitution62 @class207;
+    sub @class207 @class205' lookup SingleSubstitution63 @class206;
+    sub @class210 @class205' lookup SingleSubstitution64 @class206;
+    sub @class212 @class205' lookup SingleSubstitution65 @class206;
+    sub @class207 @class205' lookup SingleSubstitution66 @class212;
+    sub @class210 @class205' lookup SingleSubstitution67 @class212;
+    sub @class207 @class205' lookup SingleSubstitution67 @class210;
+    ignore sub @class206 @class205' @class207;
+    ignore sub @class206 @class205' @class210;
+    ignore sub @class206 @class205' @class212;
+    ignore sub @class206 @class205' @class206;
+    ignore sub @class212 @class205' @class207;
+    ignore sub @class212 @class205' @class210;
+    ignore sub @class212 @class205' @class212;
+    ignore sub @class212 @class205' @class206;
+    ignore sub @class210 @class205' @class207;
+    ignore sub @class210 @class205' @class210;
+    ignore sub @class210 @class205' @class212;
+    ignore sub @class210 @class205' @class206;
+    ignore sub @class207 @class205' @class207;
+    ignore sub @class207 @class205' @class210;
+    ignore sub @class207 @class205' @class212;
+    ignore sub @class207 @class205' @class206;
+    sub @class205' lookup SingleSubstitution68 @class207;
+    sub @class205' lookup SingleSubstitution69 @class210;
+    sub @class205' lookup SingleSubstitution70 @class212;
+    sub @class207 @class205' lookup SingleSubstitution71;
+    sub @class210 @class205' lookup SingleSubstitution72;
+    sub @class212 @class205' lookup SingleSubstitution73;
+} ChainedContextualGSUB44;
+
+feature cv01 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution1;
+
+} cv01;
+
+feature cv02 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution2;
+
+} cv02;
+
+feature cv03 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution3;
+
+} cv03;
+
+feature cv04 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution4;
+
+} cv04;
+
+feature cv05 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution5;
+
+} cv05;
+
+feature cv06 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution6;
+
+} cv06;
+
+feature cv07 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution7;
+
+} cv07;
+
+feature cv08 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution8;
+
+} cv08;
+
+feature cv09 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution9;
+
+} cv09;
+
+feature cv10 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution10;
+
+} cv10;
+
+feature cv11 {
+    script DFLT;
+    language dflt;
+            lookup SingleSubstitution11;
+
+} cv11;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB12;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution13;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB14;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution15;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB16;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution17;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB18;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution19;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB20;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution21;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB22;
+
+} ss01;
+
+feature ss01 {
+    script DFLT;
+    language dflt;
+            lookup MultipleSubstitution23;
+
+} ss01;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB24;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB25;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB26;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB27;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB28;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB29;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB30;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB31;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB32;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB33;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB34;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB35;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB36;
+
+} ss02;
+
+feature ss02 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB37;
+
+} ss02;
+
+feature ss03 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB38;
+
+} ss03;
+
+feature ss03 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB39;
+
+} ss03;
+
+feature ss03 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB40;
+
+} ss03;
+
+feature ss03 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB41;
+
+} ss03;
+
+feature ss03 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB42;
+
+} ss03;
+
+feature ss04 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB43;
+
+} ss04;
+
+feature ss05 {
+    script DFLT;
+    language dflt;
+            lookup ChainedContextualGSUB44;
+
+} ss05;

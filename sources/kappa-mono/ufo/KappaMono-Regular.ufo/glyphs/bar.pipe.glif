@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar.pipe" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="261" y="-170" type="line"/>
+      <point x="339" y="-170" type="line"/>
+      <point x="339" y="790" type="line"/>
+      <point x="261" y="790" type="line"/>
+    </contour>
+  </outline>
+</glyph>

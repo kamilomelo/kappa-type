@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon.square.c3_1" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="229" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+      <point x="423" y="166" type="line"/>
+      <point x="257" y="166" type="line"/>
+    </contour>
+    <contour>
+      <point x="289" y="374" type="line"/>
+      <point x="455" y="374" type="line"/>
+      <point x="483" y="540" type="line"/>
+      <point x="317" y="540" type="line"/>
+    </contour>
+  </outline>
+</glyph>

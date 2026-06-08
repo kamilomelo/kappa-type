@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gheupturn-cy" format="2">
+  <advance width="614"/>
+  <unicode hex="0490"/>
+  <outline>
+    <contour>
+      <point x="139" y="0" type="curve" smooth="yes"/>
+      <point x="160.909" y="0"/>
+      <point x="178" y="17.091"/>
+      <point x="178" y="39" type="curve" smooth="yes"/>
+      <point x="178" y="706.273" type="line"/>
+      <point x="560.136" y="706.273" type="line" smooth="yes"/>
+      <point x="584.227" y="706.273"/>
+      <point x="599.136" y="721.773"/>
+      <point x="599.136" y="745.273" type="curve" smooth="yes"/>
+      <point x="599.136" y="912.909" type="line" smooth="yes"/>
+      <point x="599.136" y="937"/>
+      <point x="584.227" y="951.909"/>
+      <point x="560.136" y="951.909" type="curve" smooth="yes"/>
+      <point x="536.636" y="951.909"/>
+      <point x="521.136" y="937"/>
+      <point x="521.136" y="912.909" type="curve" smooth="yes"/>
+      <point x="521.136" y="781" type="line"/>
+      <point x="139" y="781" type="line" smooth="yes"/>
+      <point x="116.682" y="781"/>
+      <point x="100" y="764.318"/>
+      <point x="100" y="742" type="curve" smooth="yes"/>
+      <point x="100" y="39" type="line" smooth="yes"/>
+      <point x="100" y="17.091"/>
+      <point x="117.091" y="0"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25DE" format="2">
+  <advance width="600"/>
+  <unicode hex="25DE"/>
+  <outline>
+    <contour>
+      <point x="570" y="350" type="curve"/>
+      <point x="510" y="350" type="line"/>
+      <point x="510" y="234"/>
+      <point x="416" y="140"/>
+      <point x="300" y="140" type="curve"/>
+      <point x="300" y="80" type="line"/>
+      <point x="449" y="80"/>
+      <point x="570" y="201"/>
+    </contour>
+  </outline>
+</glyph>

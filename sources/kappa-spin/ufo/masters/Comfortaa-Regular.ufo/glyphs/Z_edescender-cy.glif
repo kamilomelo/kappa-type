@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zedescender-cy" format="2">
+  <advance width="637"/>
+  <unicode hex="0498"/>
+  <anchor x="324.818" y="0.0" name="bottom"/>
+  <anchor x="324.818" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="330.045" y="-170.909" type="curve" smooth="yes"/>
+      <point x="354.136" y="-170.909"/>
+      <point x="369.045" y="-156"/>
+      <point x="369.045" y="-131.909" type="curve" smooth="yes"/>
+      <point x="369.045" y="34.091" type="line"/>
+      <point x="291.045" y="0" type="line"/>
+      <point x="291.045" y="-131.909" type="line" smooth="yes"/>
+      <point x="291.045" y="-156"/>
+      <point x="306.545" y="-170.909"/>
+    </contour>
+    <component base="Ze-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ze-cy</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

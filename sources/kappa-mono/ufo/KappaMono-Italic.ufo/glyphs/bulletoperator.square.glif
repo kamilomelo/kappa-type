@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bulletoperator.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="180" y="202" type="line"/>
+      <point x="386" y="202" type="line"/>
+      <point x="421" y="408" type="line"/>
+      <point x="215" y="408" type="line"/>
+    </contour>
+  </outline>
+</glyph>

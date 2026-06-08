@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghemiddlehook-cy" format="2">
+  <advance width="581.0454576923078"/>
+  <unicode hex="0495"/>
+  <anchor x="131.81830769230768" y="72.90915384615384" name="bottomright"/>
+  <anchor x="147.31830769230768" y="278.5" name="center"/>
+  <anchor x="277.3183076923077" y="547.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="316.59084615384614" y="-205.3633846153846" type="curve" smooth="yes"/>
+      <point x="448.22746153846157" y="-205.3633846153846"/>
+      <point x="547.8633846153846" y="-95.8183076923077"/>
+      <point x="547.8633846153846" y="81.77253846153846" type="curve" smooth="yes"/>
+      <point x="547.8633846153846" y="239.95423076923078"/>
+      <point x="454.40915384615386" y="346.90915384615386"/>
+      <point x="322.40915384615386" y="346.90915384615386" type="curve" smooth="yes"/>
+      <point x="256.2725384615385" y="346.90915384615386"/>
+      <point x="190.18169230769232" y="324.5"/>
+      <point x="151.18169230769232" y="293.27253846153843" type="curve"/>
+      <point x="151.59084615384614" y="207.54576923076922" type="line"/>
+      <point x="191.81830769230768" y="247.6816923076923"/>
+      <point x="249.09084615384614" y="268.0"/>
+      <point x="307.3183076923077" y="268.0" type="curve" smooth="yes"/>
+      <point x="400.72746153846157" y="268.0"/>
+      <point x="463.0457692307692" y="191.59084615384614"/>
+      <point x="463.0457692307692" y="83.59084615384616" type="curve" smooth="yes"/>
+      <point x="463.0457692307692" y="-35.68169230769231"/>
+      <point x="402.1366153846153" y="-120.1366153846154"/>
+      <point x="316.59084615384614" y="-120.1366153846154" type="curve" smooth="yes"/>
+      <point x="292.09084615384614" y="-120.1366153846154"/>
+      <point x="274.36338461538463" y="-137.86338461538463"/>
+      <point x="274.36338461538463" y="-162.95423076923078" type="curve" smooth="yes"/>
+      <point x="274.36338461538463" y="-188.04576923076922"/>
+      <point x="292.09084615384614" y="-205.3633846153846"/>
+    </contour>
+    <component base="ge-cy.ss01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ge-cy.ss01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

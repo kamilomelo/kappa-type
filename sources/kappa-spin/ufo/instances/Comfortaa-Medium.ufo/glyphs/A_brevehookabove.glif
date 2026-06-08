@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abrevehookabove" format="2">
+  <advance width="703.0"/>
+  <unicode hex="1EB2"/>
+  <anchor x="352.0" y="0.0" name="bottom"/>
+  <anchor x="643.2274615384615" y="35.5" name="ogonek"/>
+  <anchor x="352.063" y="1253.954230769231" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="brevecomb_hookabovecomb" xOffset="143.15384615384616" yOffset="234.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chedescender-cy" format="2">
+  <advance width="765.4615384615385"/>
+  <unicode hex="04B6"/>
+  <anchor x="622.2725384615385" y="0.0" name="bottom"/>
+  <anchor x="622.2725384615385" y="10.0" name="ogonek"/>
+  <anchor x="369.6816923076923" y="781.0" name="top"/>
+  <anchor x="499.2725384615385" y="781.0" name="topleft"/>
+  <anchor x="620.4542307692308" y="78.90915384615384" name="bottomright"/>
+  <anchor x="367.13661538461537" y="315.6816923076923" name="center"/>
+  <outline>
+    <component base="Che-cy"/>
+    <component base="descendercy.case" xOffset="620.7692307692307"/>
+  </outline>
+</glyph>

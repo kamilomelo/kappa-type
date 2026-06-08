@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="105" y="0" type="line"/>
+      <point x="527" y="0" type="line"/>
+      <point x="527" y="110" type="line"/>
+      <point x="230" y="110" type="line"/>
+      <point x="230" y="308" type="line"/>
+      <point x="490" y="308" type="line"/>
+      <point x="490" y="418" type="line"/>
+      <point x="230" y="418" type="line"/>
+      <point x="230" y="590" type="line"/>
+      <point x="527" y="590" type="line"/>
+      <point x="527" y="700" type="line"/>
+      <point x="105" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="775" type="line"/>
+      <point x="286" y="775" type="line"/>
+      <point x="286" y="920" type="line"/>
+      <point x="141" y="920" type="line"/>
+    </contour>
+    <contour>
+      <point x="361" y="775" type="line"/>
+      <point x="506" y="775" type="line"/>
+      <point x="506" y="920" type="line"/>
+      <point x="361" y="920" type="line"/>
+    </contour>
+  </outline>
+</glyph>

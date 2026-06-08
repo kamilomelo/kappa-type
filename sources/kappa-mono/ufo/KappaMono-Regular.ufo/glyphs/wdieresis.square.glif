@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wdieresis.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="91" y="0" type="line"/>
+      <point x="196" y="0" type="line"/>
+      <point x="298" y="383" type="line"/>
+      <point x="302" y="383" type="line"/>
+      <point x="404" y="0" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="584" y="540" type="line"/>
+      <point x="506" y="540" type="line"/>
+      <point x="449" y="91" type="line"/>
+      <point x="445" y="91" type="line"/>
+      <point x="341" y="480" type="line"/>
+      <point x="259" y="480" type="line"/>
+      <point x="155" y="93" type="line"/>
+      <point x="151" y="93" type="line"/>
+      <point x="94" y="540" type="line"/>
+      <point x="16" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="135" y="650" type="line"/>
+      <point x="257" y="650" type="line"/>
+      <point x="257" y="771" type="line"/>
+      <point x="135" y="771" type="line"/>
+    </contour>
+    <contour>
+      <point x="343" y="650" type="line"/>
+      <point x="465" y="650" type="line"/>
+      <point x="465" y="771" type="line"/>
+      <point x="343" y="771" type="line"/>
+    </contour>
+  </outline>
+</glyph>

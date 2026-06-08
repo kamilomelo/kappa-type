@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni22EE.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="217" y="50" type="line"/>
+      <point x="383" y="50" type="line"/>
+      <point x="383" y="216" type="line"/>
+      <point x="217" y="216" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="267" type="line"/>
+      <point x="383" y="267" type="line"/>
+      <point x="383" y="433" type="line"/>
+      <point x="217" y="433" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="484" type="line"/>
+      <point x="383" y="484" type="line"/>
+      <point x="383" y="650" type="line"/>
+      <point x="217" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

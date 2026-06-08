@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kaverticalstroke-cy" format="2">
+  <advance width="656"/>
+  <unicode hex="049C"/>
+  <anchor x="542" y="61" name="bottomright"/>
+  <anchor x="255" y="389" name="center"/>
+  <anchor x="328" y="781" name="top"/>
+  <outline>
+    <component base="Ka-cy"/>
+    <component base="verticalbarcy.case" xOffset="135" yOffset="81"/>
+  </outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odblgrave" format="2">
+  <advance width="675.7692307692307"/>
+  <unicode hex="020D"/>
+  <anchor x="338.4546153846154" y="0.0" name="bottom"/>
+  <anchor x="338.4546153846154" y="274.0" name="center"/>
+  <anchor x="430.7726923076923" y="46.95461538461539" name="ogonek"/>
+  <anchor x="338.27961538461534" y="828.7273076923077" name="top"/>
+  <anchor x="458.1819230769231" y="526.4092307692308" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="dblgravecomb" xOffset="170.46153846153845"/>
+  </outline>
+</glyph>

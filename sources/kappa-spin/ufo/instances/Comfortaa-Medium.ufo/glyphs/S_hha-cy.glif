@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Shha-cy" format="2">
+  <advance width="765.4615384615385"/>
+  <unicode hex="04BA"/>
+  <anchor x="143.189" y="781.0" name="top"/>
+  <anchor x="143.189" y="771.0" name="ogonek"/>
+  <anchor x="395.77984615384617" y="0.0" name="bottom"/>
+  <anchor x="266.189" y="0.0" name="bottomright"/>
+  <anchor x="145.0073076923077" y="702.0908461538461" name="topleft"/>
+  <anchor x="398.32492307692314" y="465.3183076923077" name="center"/>
+  <outline>
+    <component base="Che-cy" xScale="-1.0" yScale="-1.0" xOffset="765.4615384615385" yOffset="781.0"/>
+  </outline>
+</glyph>

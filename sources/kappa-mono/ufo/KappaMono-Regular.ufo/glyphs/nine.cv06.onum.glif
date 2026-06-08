@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.cv06.onum" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="388" y="130" type="line"/>
+      <point x="182" y="-160" type="line"/>
+      <point x="281" y="-160" type="line"/>
+      <point x="434" y="57" type="line" smooth="yes"/>
+      <point x="498" y="146"/>
+      <point x="531" y="234"/>
+      <point x="531" y="314" type="curve" smooth="yes"/>
+      <point x="531" y="451"/>
+      <point x="435" y="550"/>
+      <point x="302" y="550" type="curve" smooth="yes"/>
+      <point x="169" y="550"/>
+      <point x="69" y="451"/>
+      <point x="69" y="322" type="curve" smooth="yes"/>
+      <point x="69" y="198"/>
+      <point x="160" y="103"/>
+      <point x="279" y="103" type="curve" smooth="yes"/>
+      <point x="316" y="103"/>
+      <point x="351" y="113"/>
+      <point x="385" y="133" type="curve"/>
+    </contour>
+    <contour>
+      <point x="299" y="474" type="curve" smooth="yes"/>
+      <point x="380" y="474"/>
+      <point x="442" y="409"/>
+      <point x="442" y="325" type="curve" smooth="yes"/>
+      <point x="442" y="240"/>
+      <point x="380" y="175"/>
+      <point x="298" y="175" type="curve" smooth="yes"/>
+      <point x="217" y="175"/>
+      <point x="156" y="239"/>
+      <point x="156" y="324" type="curve" smooth="yes"/>
+      <point x="156" y="409"/>
+      <point x="218" y="474"/>
+    </contour>
+  </outline>
+</glyph>

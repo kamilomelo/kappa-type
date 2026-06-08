@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb" format="2">
+  <unicode hex="030C"/>
+  <anchor x="193.0" y="547.0" name="_top"/>
+  <anchor x="193.0" y="778.5" name="top"/>
+  <outline>
+    <contour>
+      <point x="193.0" y="630.3846153846154" type="curve" smooth="yes"/>
+      <point x="202.23076923076923" y="630.3846153846154"/>
+      <point x="209.46153846153845" y="632.0"/>
+      <point x="217.30769230769232" y="637.2307692307693" type="curve"/>
+      <point x="330.61538461538464" y="712.7692307692307" type="line" smooth="yes"/>
+      <point x="345.46153846153845" y="723.6153846153846"/>
+      <point x="352.69230769230774" y="736.4615384615385"/>
+      <point x="352.69230769230774" y="751.9230769230769" type="curve" smooth="yes"/>
+      <point x="352.69230769230774" y="777.7692307692307"/>
+      <point x="322.38461538461536" y="798.2307692307693"/>
+      <point x="277.38461538461536" y="767.6923076923076" type="curve" smooth="yes"/>
+      <point x="193.0" y="711.2307692307693" type="line"/>
+      <point x="108.61538461538461" y="768.0769230769231" type="line" smooth="yes"/>
+      <point x="67.23076923076923" y="796.6153846153846"/>
+      <point x="33.30769230769231" y="778.1538461538462"/>
+      <point x="33.30769230769231" y="751.9230769230769" type="curve" smooth="yes"/>
+      <point x="33.30769230769231" y="736.4615384615385"/>
+      <point x="40.53846153846153" y="723.6153846153846"/>
+      <point x="55.38461538461539" y="712.7692307692307" type="curve" smooth="yes"/>
+      <point x="169.69230769230768" y="637.2307692307693" type="line"/>
+      <point x="176.53846153846155" y="632.0"/>
+      <point x="184.76923076923077" y="630.3846153846154"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>391</integer>
+    </dict>
+  </lib>
+</glyph>

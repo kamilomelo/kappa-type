@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot.square" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="124" y="0" type="line"/>
+      <point x="530" y="0" type="line"/>
+      <point x="530" y="78" type="line"/>
+      <point x="211" y="78" type="line"/>
+      <point x="211" y="700" type="line"/>
+      <point x="124" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="397" y="285" type="line"/>
+      <point x="531" y="285" type="line"/>
+      <point x="531" y="419" type="line"/>
+      <point x="397" y="419" type="line"/>
+    </contour>
+  </outline>
+</glyph>

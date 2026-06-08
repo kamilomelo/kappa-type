@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb.case" format="2">
+  <outline>
+    <contour>
+      <point x="-180" y="1744" type="qcurve"/>
+      <point x="-168" y="1884" type="line"/>
+      <point x="-49" y="1881"/>
+      <point x="97" y="1856"/>
+      <point x="174" y="1813"/>
+      <point x="202" y="1753"/>
+      <point x="202" y="1715" type="qcurve"/>
+      <point x="202" y="1666"/>
+      <point x="156" y="1589"/>
+      <point x="36" y="1530"/>
+      <point x="-75" y="1508" type="qcurve"/>
+      <point x="-90" y="1581" type="line"/>
+      <point x="-25" y="1595"/>
+      <point x="38" y="1622"/>
+      <point x="59" y="1653"/>
+      <point x="59" y="1672" type="qcurve"/>
+      <point x="59" y="1695"/>
+      <point x="27" y="1725"/>
+      <point x="-76" y="1743"/>
+    </contour>
+  </outline>
+</glyph>

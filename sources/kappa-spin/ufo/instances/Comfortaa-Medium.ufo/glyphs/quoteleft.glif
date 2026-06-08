@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="206.81818307692305"/>
+  <unicode hex="2018"/>
+  <outline>
+    <component base="quotesinglbase" xScale="-1.0" yScale="-1.0" xOffset="233.59084615384614" yOffset="650.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quotesinglbase</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

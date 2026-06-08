@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="778.0"/>
+  <unicode hex="00D0"/>
+  <anchor x="389.5" y="0.0" name="bottom"/>
+  <anchor x="204.9546153846154" y="391.0" name="center"/>
+  <anchor x="389.5" y="781.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="44.77269230769231" y="350.09076923076924" type="curve" smooth="yes"/>
+      <point x="330.40923076923076" y="350.09076923076924" type="line" smooth="yes"/>
+      <point x="357.2273076923077" y="350.09076923076924"/>
+      <point x="376.7273076923077" y="365.7273076923077"/>
+      <point x="376.7273076923077" y="391.0" type="curve" smooth="yes"/>
+      <point x="376.7273076923077" y="416.2726923076923"/>
+      <point x="357.2273076923077" y="431.90923076923076"/>
+      <point x="330.40923076923076" y="431.90923076923076" type="curve" smooth="yes"/>
+      <point x="44.77269230769231" y="431.90923076923076" type="line" smooth="yes"/>
+      <point x="17.954615384615387" y="431.90923076923076"/>
+      <point x="-0.7726923076923077" y="416.2726923076923"/>
+      <point x="-0.7726923076923077" y="391.0" type="curve" smooth="yes"/>
+      <point x="-0.7726923076923077" y="365.7273076923077"/>
+      <point x="17.954615384615387" y="350.09076923076924"/>
+    </contour>
+    <component base="D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>D</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

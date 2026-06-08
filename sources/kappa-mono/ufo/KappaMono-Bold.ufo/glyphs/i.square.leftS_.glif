@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i.square.leftS" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="84" y="0" type="line"/>
+      <point x="504" y="0" type="line"/>
+      <point x="504" y="110" type="line"/>
+      <point x="354" y="110" type="line"/>
+      <point x="354" y="540" type="line"/>
+      <point x="89" y="540" type="line"/>
+      <point x="89" y="430" type="line"/>
+      <point x="234" y="430" type="line"/>
+      <point x="234" y="110" type="line"/>
+      <point x="84" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="205" y="622" type="line"/>
+      <point x="363" y="622" type="line"/>
+      <point x="363" y="780" type="line"/>
+      <point x="205" y="780" type="line"/>
+    </contour>
+  </outline>
+</glyph>

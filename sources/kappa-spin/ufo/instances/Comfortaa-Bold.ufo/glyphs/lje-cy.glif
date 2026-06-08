@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lje-cy" format="2">
+  <advance width="819"/>
+  <unicode hex="0459"/>
+  <outline>
+    <contour>
+      <point x="563" y="0" type="curve" smooth="yes"/>
+      <point x="683" y="0"/>
+      <point x="774" y="81"/>
+      <point x="774" y="195" type="curve" smooth="yes"/>
+      <point x="774" y="306"/>
+      <point x="688" y="384"/>
+      <point x="566" y="384" type="curve" smooth="yes"/>
+      <point x="400" y="384" type="line"/>
+      <point x="341" y="513" type="line" smooth="yes"/>
+      <point x="331" y="535"/>
+      <point x="315" y="546"/>
+      <point x="295" y="546" type="curve" smooth="yes"/>
+      <point x="273" y="546"/>
+      <point x="258" y="537"/>
+      <point x="247" y="513" type="curve" smooth="yes"/>
+      <point x="40" y="66" type="line" smooth="yes"/>
+      <point x="27" y="39"/>
+      <point x="39" y="19"/>
+      <point x="64" y="7" type="curve" smooth="yes"/>
+      <point x="92" y="-7"/>
+      <point x="114" y="1"/>
+      <point x="126" y="27" type="curve" smooth="yes"/>
+      <point x="296" y="400" type="line"/>
+      <point x="446" y="56" type="line" smooth="yes"/>
+      <point x="465" y="14"/>
+      <point x="485" y="0"/>
+    </contour>
+    <contour>
+      <point x="534" y="95" type="curve"/>
+      <point x="440" y="298" type="line"/>
+      <point x="566" y="298" type="line" smooth="yes"/>
+      <point x="630" y="298"/>
+      <point x="676" y="255"/>
+      <point x="676" y="195" type="curve" smooth="yes"/>
+      <point x="676" y="117"/>
+      <point x="635" y="95"/>
+    </contour>
+  </outline>
+</glyph>

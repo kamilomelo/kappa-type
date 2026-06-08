@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotmath" format="2">
+  <advance width="600"/>
+  <unicode hex="22C5"/>
+  <outline>
+    <contour>
+      <point x="205" y="350" type="curve" smooth="yes"/>
+      <point x="205" y="298"/>
+      <point x="248" y="255"/>
+      <point x="300" y="255" type="curve" smooth="yes"/>
+      <point x="353" y="255"/>
+      <point x="395" y="298"/>
+      <point x="395" y="350" type="curve" smooth="yes"/>
+      <point x="395" y="403"/>
+      <point x="353" y="445"/>
+      <point x="300" y="445" type="curve" smooth="yes"/>
+      <point x="248" y="445"/>
+      <point x="205" y="403"/>
+    </contour>
+  </outline>
+</glyph>

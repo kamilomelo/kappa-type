@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply.case" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="100" y="496" type="line"/>
+      <point x="246" y="351" type="line"/>
+      <point x="101" y="205" type="line"/>
+      <point x="155" y="151" type="line"/>
+      <point x="301" y="296" type="line"/>
+      <point x="446" y="150" type="line"/>
+      <point x="500" y="205" type="line"/>
+      <point x="355" y="351" type="line"/>
+      <point x="500" y="496" type="line"/>
+      <point x="446" y="550" type="line"/>
+      <point x="301" y="405" type="line"/>
+      <point x="155" y="550" type="line"/>
+    </contour>
+  </outline>
+</glyph>

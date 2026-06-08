@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotbelow" format="2">
+  <advance width="676.3846153846154"/>
+  <unicode hex="1ECD"/>
+  <anchor x="338.5351538461539" y="-213.36338461538463" name="bottom"/>
+  <anchor x="338.8183076923077" y="274.0" name="center"/>
+  <anchor x="430.5908461538461" y="45.31830769230769" name="ogonek"/>
+  <anchor x="338.8183076923077" y="547.0" name="top"/>
+  <anchor x="460.72746153846157" y="525.1366153846154" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="dotbelowcomb" xOffset="230.30769230769232"/>
+  </outline>
+</glyph>
