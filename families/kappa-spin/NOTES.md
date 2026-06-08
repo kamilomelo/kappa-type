@@ -7,6 +7,11 @@ Current state:
 - `sources/kappa-spin/ufo/instances` contains build-oriented instance UFOs generated from the designspace.
 - `sources/kappa-spin/designspace` contains the tracked designspace file for the family.
 
+Status:
+- source naming and metadata have now been adopted into KM-owned naming
+- grouped kerning and interpolation structure are preserved
+- visual baseline is now approved and frozen
+
 Upstream source format:
 - `Comfortaa.glyphs`
 - `config.yaml`
@@ -17,8 +22,9 @@ UFO-first plan:
 3. generate instance UFOs from that designspace for release builds.
 
 Current progress:
-- master UFOs now exist in `sources/kappa-spin/ufo/masters`
-- instance UFOs now exist in `sources/kappa-spin/ufo/instances`
-- a tracked designspace file now exists in `sources/kappa-spin/designspace`
+- master UFOs now exist in `sources/kappa-spin/ufo/masters` as `KappaSpin-*`
+- instance UFOs now exist in `sources/kappa-spin/ufo/instances` as `KappaSpin-*`
+- a tracked designspace file now exists in `sources/kappa-spin/designspace` as `KappaSpin.designspace`
 - conversion succeeds, but `glyphsLib` emits many missing kerning-class warnings from the upstream source
 - initial source audit notes live in `families/kappa-spin/AUDIT.md`
+- deferred redesign notes live in `families/kappa-spin/REDESIGN.md`

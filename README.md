@@ -8,7 +8,7 @@ Kappa Type is an upstream-informed, UFO-first type foundry repository producing 
 - Kappa Spin — venture and side-project logo typography.
 - Kappa Hand — future handwriting-based family, not part of milestone 1 builds.
 
-The first milestone is infrastructure only: license review, source import, renaming, build scripts, validation, and proof generation.
+The first milestone is infrastructure first: license review, source import, renaming, build scripts, validation, proof generation, and freezing approved baseline builds before intentional redesign.
 
 ## Upstreams
 
@@ -28,6 +28,7 @@ sources/    KM-owned source layer
   */designspace/      tracked designspace files for families normalized beyond raw imports
 fonts/      generated TTF/WOFF2/CSS outputs, plus optional extras when justified
 proofs/     generated HTML proofs and validation reports
+references/ private comparison material used for future design direction
 scripts/    repeatable bootstrap/import/build/rename/validation scripts
 licenses/   copied upstream licenses, notices, and provenance notes
 ```
@@ -66,13 +67,27 @@ licenses/   copied upstream licenses, notices, and provenance notes
 - Primary desktop output format is `TTF`.
 - Primary web output format is `WOFF2`.
 - Other output formats are optional and should only exist when justified.
+- All four active families now have approved frozen baselines before redesign.
 
 ## Family Status
 
-- `Kappa Text`: Readerly-informed; upstream reference TTFs are instantiated first, then imported into UFOs, then rebuilt as KM TTFs.
-- `Kappa Mark`: ABeeZee-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs.
-- `Kappa Mono`: Commit Mono-informed; upstream OTF assets are imported to UFOs, rebuilt as KM TTFs, then Nerd-patched as the primary mono release.
-- `Kappa Spin`: Comfortaa-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then rebuilt as KM TTFs.
+- `Kappa Text`: Readerly-informed; upstream Readerly reference TTFs are built first, then imported into UFOs, then rebuilt as KM TTFs. The current baseline is frozen and Readerly-faithful. Future redesign direction is broadly "more Bookerly, less Readerly" through legally clean original work.
+- `Kappa Mark`: ABeeZee-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs. The current baseline is frozen.
+- `Kappa Mono`: Commit Mono-informed; upstream assets are imported to UFOs, rebuilt as KM static TTFs, then Nerd-patched as the primary mono release for terminal use. No upstream-derived variable font ships from this repo. The current baseline is frozen and approved in Starship use.
+- `Kappa Spin`: Comfortaa-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs. The current baseline is frozen.
+
+## Frozen Baselines
+
+- `Kappa Text`: frozen baseline approved
+- `Kappa Mark`: frozen baseline approved
+- `Kappa Mono`: frozen baseline approved
+- `Kappa Spin`: frozen baseline approved
+
+Deferred redesign targets now live in:
+- `families/kappa-text/REDESIGN.md`
+- `families/kappa-mark/REDESIGN.md`
+- `families/kappa-mono/REDESIGN.md`
+- `families/kappa-spin/REDESIGN.md`
 
 ## Current Outputs
 
@@ -85,3 +100,8 @@ licenses/   copied upstream licenses, notices, and provenance notes
 - `Comfortaa` Glyphs-to-UFO conversion emits a large number of missing kerning-class warnings through `glyphsLib`.
 - `Readerly` and `Commit Mono` currently depend on binary-to-UFO import, so their KM UFOs should still be treated as provisional engineering sources until manually reviewed.
 - `fontbakery` is best-effort and time-bounded in milestone 1 so it does not stall the whole build.
+
+## Notes
+
+- Bookerly is not an upstream for `Kappa Text`; it is only a private visual reference kept under `references/kappa-text/bookerly` for future legally clean redesign direction.
+- `Kappa MonoNoNe` remains documented in `AGENTS.md` as an older idea, but the current repo state treats Nerd-patched `Kappa Mono` as the primary mono release because that matches the approved terminal use case.

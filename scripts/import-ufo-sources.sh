@@ -60,6 +60,8 @@ import_comfortaa() {
       --ufo-structure=package \
       --instance-dir "$instance_dir"
   )
+
+  "$VENV_DIR/bin/python" "$ROOT_DIR/scripts/adopt-kappa-spin-sources.py"
 }
 
 import_abeezee

@@ -18,12 +18,12 @@
     </rule>
   </rules>
   <sources>
-    <source filename="../ufo/masters/Comfortaa-Light.ufo" name="Comfortaa Light" familyname="Comfortaa" stylename="Light">
+    <source filename="../ufo/masters/KappaSpin-Light.ufo" name="KappaSpin Light" familyname="Kappa Spin" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
-    <source filename="../ufo/masters/Comfortaa-Regular.ufo" name="Comfortaa Regular" familyname="Comfortaa" stylename="Regular">
+    <source filename="../ufo/masters/KappaSpin-Regular.ufo" name="KappaSpin Regular" familyname="Kappa Spin" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -32,34 +32,34 @@
         <dimension name="Weight" xvalue="78"/>
       </location>
     </source>
-    <source filename="../ufo/masters/Comfortaa-Bold.ufo" name="Comfortaa Bold" familyname="Comfortaa" stylename="Bold">
+    <source filename="../ufo/masters/KappaSpin-Bold.ufo" name="KappaSpin Bold" familyname="Kappa Spin" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="104"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Comfortaa Light" familyname="Comfortaa" stylename="Light" filename="../ufo/instances/Comfortaa-Light.ufo" stylemapfamilyname="Comfortaa Light" stylemapstylename="regular">
+    <instance name="KappaSpin Light" familyname="Kappa Spin" stylename="Light" filename="../ufo/instances/KappaSpin-Light.ufo" stylemapfamilyname="Kappa Spin Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
     </instance>
-    <instance name="Comfortaa Regular" familyname="Comfortaa" stylename="Regular" filename="../ufo/instances/Comfortaa-Regular.ufo" stylemapfamilyname="Comfortaa" stylemapstylename="regular">
+    <instance name="KappaSpin Regular" familyname="Kappa Spin" stylename="Regular" filename="../ufo/instances/KappaSpin-Regular.ufo" stylemapfamilyname="Kappa Spin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="78"/>
       </location>
     </instance>
-    <instance name="Comfortaa Medium" familyname="Comfortaa" stylename="Medium" filename="../ufo/instances/Comfortaa-Medium.ufo" stylemapfamilyname="Comfortaa Medium" stylemapstylename="regular">
+    <instance name="KappaSpin Medium" familyname="Kappa Spin" stylename="Medium" filename="../ufo/instances/KappaSpin-Medium.ufo" stylemapfamilyname="Kappa Spin Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="86"/>
       </location>
     </instance>
-    <instance name="Comfortaa SemiBold" familyname="Comfortaa" stylename="SemiBold" filename="../ufo/instances/Comfortaa-SemiBold.ufo" stylemapfamilyname="Comfortaa SemiBold" stylemapstylename="regular">
+    <instance name="KappaSpin SemiBold" familyname="Kappa Spin" stylename="SemiBold" filename="../ufo/instances/KappaSpin-SemiBold.ufo" stylemapfamilyname="Kappa Spin SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="94"/>
       </location>
     </instance>
-    <instance name="Comfortaa Bold" familyname="Comfortaa" stylename="Bold" filename="../ufo/instances/Comfortaa-Bold.ufo" stylemapfamilyname="Comfortaa" stylemapstylename="bold">
+    <instance name="KappaSpin Bold" familyname="Kappa Spin" stylename="Bold" filename="../ufo/instances/KappaSpin-Bold.ufo" stylemapfamilyname="Kappa Spin" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="104"/>
       </location>

@@ -17,21 +17,21 @@ Current source path:
 - `sources/kappa-spin/upstream-import` keeps the upstream Glyphs source as reference input
 - `sources/kappa-spin/ufo/masters` holds the current canonical master UFOs
 - `sources/kappa-spin/ufo/instances` holds build-oriented instance UFOs
-- `sources/kappa-spin/designspace/Comfortaa.designspace` connects masters and instances
+- `sources/kappa-spin/designspace/KappaSpin.designspace` connects masters and instances
 
 ## Current State
 
 Observed source model:
 - 3 master UFOs
-  - `Comfortaa-Light.ufo`
-  - `Comfortaa-Regular.ufo`
-  - `Comfortaa-Bold.ufo`
+  - `KappaSpin-Light.ufo`
+  - `KappaSpin-Regular.ufo`
+  - `KappaSpin-Bold.ufo`
 - 5 instance UFOs
-  - `Comfortaa-Light.ufo`
-  - `Comfortaa-Regular.ufo`
-  - `Comfortaa-Medium.ufo`
-  - `Comfortaa-SemiBold.ufo`
-  - `Comfortaa-Bold.ufo`
+  - `KappaSpin-Light.ufo`
+  - `KappaSpin-Regular.ufo`
+  - `KappaSpin-Medium.ufo`
+  - `KappaSpin-SemiBold.ufo`
+  - `KappaSpin-Bold.ufo`
 - 1 designspace file
 
 Current interpolation structure:
@@ -41,15 +41,15 @@ Current interpolation structure:
 
 ## Findings
 
-### 1. Source naming is still fully upstream-shaped
+### 1. Source naming is now KM-owned
 
-Status: not yet adopted
+Status: fixed for current baseline
 
-Current family/source naming still uses:
-- `Comfortaa`
-- `Comfortaa-*`
+Current family/source naming now uses:
+- `Kappa Spin`
+- `KappaSpin-*`
 
-Unlike `Kappa Mark`, this family has not yet been renamed/adopted into KM-owned source naming.
+Designspace, masters, and instances now all use KM-owned filenames and family naming.
 
 ### 2. Kerning structure is healthier than Kappa Mark
 
@@ -73,14 +73,17 @@ This does not mean the font is broken, but it does mean:
 
 ### 4. Metadata is still upstream-era
 
-Status: cleanup required later
+Status: largely fixed for current baseline
 
-Observed in the masters:
-- family name is still `Comfortaa`
-- no PostScript font name set in the inspected masters
-- vendor ID is `CYRE`
-- manufacturer/designer are still upstream values
-- guideline residue is still present
+Current state in the adopted sources:
+- family name is `Kappa Spin`
+- PostScript names are `KappaSpin-*`
+- vendor ID is `KMXG`
+- manufacturer/designer are `KM-X Group`
+- guideline residue has been removed
+
+Still intentionally upstream-derived:
+- copyright and OFL provenance
 
 ### 5. Glyph count and source complexity are much larger
 
@@ -105,10 +108,21 @@ Priority 2:
 Priority 3:
 - only after adoption, review metadata policy, guideline residue, and remaining import baggage
 
+## Current Baseline
+
+Current state after adoption:
+- build completes from KM-owned instance UFOs
+- grouped kerning remains intact
+- bracket rule for `hryvnia` remains intact
+- the remaining known risk is still the noisy upstream conversion warnings
+- visual comparison against Comfortaa is acceptable
+- `Kappa Spin` is now frozen as the approved baseline
+
+Deferred watchlist:
+- variants of the letter `O`
+
+The next appropriate step is future redesign work only when explicitly requested.
+
 ## Recommended Next Step
 
-Create a `Kappa Spin` adoption pass similar to `Kappa Mark`, but with extra care for:
-- multi-master designspace integrity
-- grouped kerning preservation
-- bracket rule preservation
-- instance naming consistency
+Future redesign work should begin from the frozen baseline, starting with the recorded watchlist glyphs.

@@ -32,43 +32,11 @@
         <true/>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.Use Line Breaks</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <false/>
-    <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
-    <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.note</key>
-    <string>Reg Master is for ttfautohint only!
-
-If you need to make modifications to this file, delete the Regular master, make your changes then readd the Regular instance as a master.</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-    <string></string>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>78</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
-    <integer>100</integer>
-    <key>com.schriftgestaltung.fontMasterOrder</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.weightValue</key>
-    <integer>78</integer>
-    <key>com.schriftgestaltung.widthValue</key>
-    <integer>100</integer>
     <key>designspace.location</key>
     <array>
       <array>
         <string>Weight</string>
-        <integer>78</integer>
+        <integer>104</integer>
       </array>
     </array>
     <key>public.glyphOrder</key>
