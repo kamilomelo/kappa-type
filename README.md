@@ -28,7 +28,7 @@ sources/    KM-owned source layer
   */designspace/      tracked designspace files for families normalized beyond raw imports
 fonts/      generated TTF/WOFF2/CSS outputs, plus optional extras when justified
 proofs/     generated HTML proofs and validation reports
-references/ private comparison material used for future design direction
+references/ local private comparison notes and untracked design references
 scripts/    repeatable bootstrap/import/build/rename/validation scripts
 licenses/   copied upstream licenses, notices, and provenance notes
 ```
@@ -103,5 +103,5 @@ Deferred redesign targets now live in:
 
 ## Notes
 
-- Bookerly is not an upstream for `Kappa Text`; it is only a private visual reference kept under `references/kappa-text/bookerly` for future legally clean redesign direction.
+- Bookerly is not an upstream for `Kappa Text`; if used as a private visual reference, it must remain local and untracked.
 - `Kappa MonoNoNe` remains documented in `AGENTS.md` as an older idea, but the current repo state treats Nerd-patched `Kappa Mono` as the primary mono release because that matches the approved terminal use case.

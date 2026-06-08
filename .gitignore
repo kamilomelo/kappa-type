@@ -7,3 +7,4 @@ build/
 tmp/
 upstream/
 *.log
+references/kappa-text/bookerly/
