@@ -45,6 +45,43 @@ Primary outputs:
 - proofs: `proofs/*.html`
 - validation: `proofs/validation/*`
 
+## Font Paths
+
+Repository-relative font paths:
+
+- `fonts/kappa-text/ttf/`
+- `fonts/kappa-text/webfonts/`
+- `fonts/kappa-mark/ttf/`
+- `fonts/kappa-mark/webfonts/`
+- `fonts/kappa-mono/ttf/`
+- `fonts/kappa-mono/webfonts/`
+- `fonts/kappa-spin/ttf/`
+- `fonts/kappa-spin/webfonts/`
+
+Examples:
+
+- `fonts/kappa-text/ttf/KappaText-Regular.ttf`
+- `fonts/kappa-text/webfonts/KappaText-Regular.woff2`
+- `fonts/kappa-mark/ttf/KappaMark-Regular.ttf`
+- `fonts/kappa-mono/ttf/KappaMono-Regular.ttf`
+- `fonts/kappa-spin/ttf/KappaSpin-Regular.ttf`
+
+If you want to embed or download directly from GitHub, use your repository URL plus the file path. For example:
+
+```txt
+https://raw.githubusercontent.com/<owner>/<repo>/<branch>/fonts/kappa-text/webfonts/KappaText-Regular.woff2
+https://raw.githubusercontent.com/<owner>/<repo>/<branch>/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+```
+
+If you want CDN-style usage, the equivalent jsDelivr pattern is:
+
+```txt
+https://cdn.jsdelivr.net/gh/<owner>/<repo>@<branch>/fonts/kappa-text/webfonts/KappaText-Regular.woff2
+https://cdn.jsdelivr.net/gh/<owner>/<repo>@<branch>/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+```
+
+For CSS embedding inside another project, prefer the `webfonts/` `WOFF2` files.
+
 ## Upstreams
 
 - Kappa Text: Readerly
