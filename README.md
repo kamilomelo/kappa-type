@@ -66,18 +66,24 @@ Examples:
 - `fonts/kappa-mono/ttf/KappaMono-Regular.ttf`
 - `fonts/kappa-spin/ttf/KappaSpin-Regular.ttf`
 
-If you want to embed or download directly from GitHub, use your repository URL plus the file path. For example:
+Public repository:
 
 ```txt
-https://raw.githubusercontent.com/<owner>/<repo>/<branch>/fonts/kappa-text/webfonts/KappaText-Regular.woff2
-https://raw.githubusercontent.com/<owner>/<repo>/<branch>/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+https://github.com/kamilomelo/kappa-type
 ```
 
-If you want CDN-style usage, the equivalent jsDelivr pattern is:
+If you want to embed or download directly from GitHub, use the raw file URL. For example:
 
 ```txt
-https://cdn.jsdelivr.net/gh/<owner>/<repo>@<branch>/fonts/kappa-text/webfonts/KappaText-Regular.woff2
-https://cdn.jsdelivr.net/gh/<owner>/<repo>@<branch>/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+https://raw.githubusercontent.com/kamilomelo/kappa-type/main/fonts/kappa-text/webfonts/KappaText-Regular.woff2
+https://raw.githubusercontent.com/kamilomelo/kappa-type/main/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+```
+
+If you want CDN-style usage, the equivalent jsDelivr URLs are:
+
+```txt
+https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-text/webfonts/KappaText-Regular.woff2
+https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
 ```
 
 For CSS embedding inside another project, prefer the `webfonts/` `WOFF2` files.
