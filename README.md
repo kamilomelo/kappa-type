@@ -1,6 +1,19 @@
 # Kappa Type
 
-Kappa Type is an upstream-informed, UFO-first type foundry repository producing four active KM-X-oriented font families and one future in-house family:
+[![License: OFL 1.1](https://img.shields.io/badge/fonts-OFL%201.1-2d6a4f.svg)](./LICENSE)
+[![Status: Baselines Frozen](https://img.shields.io/badge/status-baselines%20frozen-264653.svg)](#frozen-baselines)
+[![Build Model: UFO First](https://img.shields.io/badge/build-UFO%20first-b56576.svg)](#repository-layout)
+
+Kappa Type is an upstream-informed, UFO-first type foundry repository for four active KM-X font families and one future in-house handwriting family.
+
+The current state is intentionally conservative:
+- upstreams inspected and licensed
+- build pipelines working
+- KM-owned naming adopted
+- approved baseline builds frozen
+- redesign deferred until explicitly requested
+
+Active families:
 
 - Kappa Text — long-form text for websites, documentation, manuals, and reports.
 - Kappa Mark — corporate logo typography.
@@ -9,6 +22,28 @@ Kappa Type is an upstream-informed, UFO-first type foundry repository producing 
 - Kappa Hand — future handwriting-based family, not part of milestone 1 builds.
 
 The first milestone is infrastructure first: license review, source import, renaming, build scripts, validation, proof generation, and freezing approved baseline builds before intentional redesign.
+
+## At A Glance
+
+| Family | Upstream | Canonical Source Shape | Current Baseline |
+| --- | --- | --- | --- |
+| `Kappa Text` | Readerly | binary-informed UFOs | frozen |
+| `Kappa Mark` | ABeeZee | master UFOs + instances + designspace | frozen |
+| `Kappa Mono` | Commit Mono | binary-informed UFOs | frozen |
+| `Kappa Spin` | Comfortaa | master UFOs + instances + designspace | frozen |
+
+## Quick Start
+
+```bash
+./scripts/bootstrap.sh
+./scripts/build.sh
+```
+
+Primary outputs:
+- desktop fonts: `TTF`
+- web fonts: `WOFF2`
+- proofs: `proofs/*.html`
+- validation: `proofs/validation/*`
 
 ## Upstreams
 
@@ -33,7 +68,7 @@ scripts/    repeatable bootstrap/import/build/rename/validation scripts
 licenses/   copied upstream licenses, notices, and provenance notes
 ```
 
-## Milestone 1 Commands
+## Full Build Commands
 
 ```bash
 ./scripts/bootstrap.sh
@@ -89,6 +124,14 @@ Deferred redesign targets now live in:
 - `families/kappa-mono/REDESIGN.md`
 - `families/kappa-spin/REDESIGN.md`
 
+## GitHub Push Notes
+
+- `upstream/` is intentionally ignored and not part of the public repo payload
+- `tmp/` is ignored
+- private design references must remain untracked under `references/`
+- proprietary sample fonts must not be committed
+- current branch tip is safe to publish
+
 ## Current Outputs
 
 - built fonts under `fonts/`
@@ -105,3 +148,4 @@ Deferred redesign targets now live in:
 
 - Bookerly is not an upstream for `Kappa Text`; if used as a private visual reference, it must remain local and untracked.
 - `Kappa MonoNoNe` remains documented in `AGENTS.md` as an older idea, but the current repo state treats Nerd-patched `Kappa Mono` as the primary mono release because that matches the approved terminal use case.
+- Public contribution rules are summarized in [CONTRIBUTING.md](/home/kamilo/kDrive/KM-X%20Group/kappa-type/CONTRIBUTING.md).
