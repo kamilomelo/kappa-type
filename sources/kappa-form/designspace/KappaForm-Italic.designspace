@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="100"/>
+      <map input="400" output="170"/>
+      <map input="600" output="239"/>
+      <map input="700" output="310"/>
+      <map input="800" output="400"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="../ufo/masters/KappaForm-LightItalic.ufo" name="KappaForm Light Italic" familyname="Kappa Form" stylename="Light Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-Italic.ufo" name="KappaForm Italic" familyname="Kappa Form" stylename="Italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-BoldItalic.ufo" name="KappaForm Bold Italic" familyname="Kappa Form" stylename="Bold Italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="310"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-ExtraBoldItalic.ufo" name="KappaForm ExtraBold Italic" familyname="Kappa Form" stylename="ExtraBold Italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="KappaForm Light Italic" familyname="Kappa Form" stylename="Light Italic" filename="../ufo/instances/KappaForm-LightItalic.ufo" stylemapfamilyname="Kappa Form Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="KappaForm Italic" familyname="Kappa Form" stylename="Italic" filename="../ufo/instances/KappaForm-Italic.ufo" stylemapfamilyname="Kappa Form" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.23333</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.76667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="KappaForm SemiBold Italic" familyname="Kappa Form" stylename="SemiBold Italic" filename="../ufo/instances/KappaForm-SemiBoldItalic.ufo" stylemapfamilyname="Kappa Form SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="239"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.45667</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.54333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="KappaForm Bold Italic" familyname="Kappa Form" stylename="Bold Italic" filename="../ufo/instances/KappaForm-BoldItalic.ufo" stylemapfamilyname="Kappa Form" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="310"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.7</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.3</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="KappaForm ExtraBold Italic" familyname="Kappa Form" stylename="ExtraBold Italic" filename="../ufo/instances/KappaForm-ExtraBoldItalic.ufo" stylemapfamilyname="Kappa Form ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

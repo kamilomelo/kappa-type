@@ -40,6 +40,35 @@ import_abeezee() {
   )
 }
 
+import_opensans() {
+  local workdir="$ROOT_DIR/tmp/import-ufo/kappa-form"
+  local import_dir="$ROOT_DIR/sources/kappa-form/upstream-import"
+  local ufo_dir="$ROOT_DIR/sources/kappa-form/ufo"
+  local designspace_dir="$ROOT_DIR/sources/kappa-form/designspace"
+  local master_dir="$ufo_dir/masters"
+  local instance_dir="$ufo_dir/instances"
+
+  rm -rf "$workdir" "$ufo_dir" "$designspace_dir"
+  mkdir -p "$workdir" "$master_dir" "$instance_dir" "$designspace_dir"
+
+  for ufo_path in \
+    "$import_dir"/OpenSans-Light.ufo \
+    "$import_dir"/OpenSans-Regular.ufo \
+    "$import_dir"/OpenSans-Bold.ufo \
+    "$import_dir"/OpenSans-ExtraBold.ufo \
+    "$import_dir"/OpenSans-LightItalic.ufo \
+    "$import_dir"/OpenSans-Italic.ufo \
+    "$import_dir"/OpenSans-BoldItalic.ufo \
+    "$import_dir"/OpenSans-ExtraBoldItalic.ufo
+  do
+    cp -R "$ufo_path" "$master_dir/"
+  done
+  cp "$import_dir"/OpenSans-*.designspace "$designspace_dir/"
+  cp "$import_dir"/OpenSans.fea "$designspace_dir/"
+
+  "$VENV_DIR/bin/python" "$ROOT_DIR/scripts/adopt-kappa-form-sources.py"
+}
+
 import_comfortaa() {
   local workdir="$ROOT_DIR/tmp/import-ufo/kappa-spin"
   local ufo_dir="$ROOT_DIR/sources/kappa-spin/ufo"
@@ -65,6 +94,7 @@ import_comfortaa() {
 }
 
 import_abeezee
+import_opensans
 import_comfortaa
 
-echo "Imported master UFOs, instance UFOs, and designspace files for kappa-mark and kappa-spin"
+echo "Imported master UFOs, instance UFOs, and designspace files for kappa-mark, kappa-form, and kappa-spin"

@@ -4,7 +4,7 @@
 [![Status: Baselines Frozen](https://img.shields.io/badge/status-baselines%20frozen-264653.svg)](#frozen-baselines)
 [![Build Model: UFO First](https://img.shields.io/badge/build-UFO%20first-b56576.svg)](#repository-layout)
 
-Kappa Type is an upstream-informed, UFO-first type foundry repository for four active KM-X font families and one future in-house handwriting family.
+Kappa Type is an upstream-informed, UFO-first type foundry repository for five active KM-X font families and one future in-house handwriting family.
 
 The current state is intentionally conservative:
 - upstreams inspected and licensed
@@ -17,6 +17,7 @@ Active families:
 
 - Kappa Text — long-form text for websites, documentation, manuals, and reports.
 - Kappa Mark — corporate logo typography.
+- Kappa Form — neutral interface and document typography.
 - Kappa Mono — code, terminals, snippets, and engineering documentation.
 - Kappa Spin — venture and side-project logo typography.
 - Kappa Hand — future handwriting-based family, not part of milestone 1 builds.
@@ -29,6 +30,7 @@ The first milestone is infrastructure first: license review, source import, rena
 | --- | --- | --- | --- |
 | `Kappa Text` | Readerly | binary-informed UFOs | frozen |
 | `Kappa Mark` | ABeeZee | master UFOs + instances + designspace | frozen |
+| `Kappa Form` | Open Sans | adopted master UFOs + tracked designspace | frozen |
 | `Kappa Mono` | Commit Mono | binary-informed UFOs | frozen |
 | `Kappa Spin` | Comfortaa | master UFOs + instances + designspace | frozen |
 
@@ -53,6 +55,8 @@ Repository-relative font paths:
 - `fonts/kappa-text/webfonts/`
 - `fonts/kappa-mark/ttf/`
 - `fonts/kappa-mark/webfonts/`
+- `fonts/kappa-form/ttf/`
+- `fonts/kappa-form/webfonts/`
 - `fonts/kappa-mono/ttf/`
 - `fonts/kappa-mono/webfonts/`
 - `fonts/kappa-spin/ttf/`
@@ -63,6 +67,7 @@ Examples:
 - `fonts/kappa-text/ttf/KappaText-Regular.ttf`
 - `fonts/kappa-text/webfonts/KappaText-Regular.woff2`
 - `fonts/kappa-mark/ttf/KappaMark-Regular.ttf`
+- `fonts/kappa-form/ttf/KappaForm-Regular.ttf`
 - `fonts/kappa-mono/ttf/KappaMono-Regular.ttf`
 - `fonts/kappa-spin/ttf/KappaSpin-Regular.ttf`
 
@@ -92,6 +97,7 @@ For CSS embedding inside another project, prefer the `webfonts/` `WOFF2` files.
 
 - Kappa Text: Readerly
 - Kappa Mark: ABeeZee
+- Kappa Form: Open Sans
 - Kappa Mono: Commit Mono
 - Kappa Spin: Comfortaa
 
@@ -151,6 +157,7 @@ licenses/   copied upstream licenses, notices, and provenance notes
 
 - `Kappa Text`: Readerly-informed; upstream Readerly reference TTFs are built first, then imported into UFOs, then rebuilt as KM TTFs. The current baseline is frozen and Readerly-faithful. Future redesign direction is broadly "more Bookerly, less Readerly" through legally clean original work.
 - `Kappa Mark`: ABeeZee-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs. The current baseline is frozen.
+- `Kappa Form`: Open Sans-informed; upstream non-condensed UFOs and designspaces are adopted into KM-owned naming, then rebuilt as KM TTFs from the adopted master UFOs. The current baseline is frozen.
 - `Kappa Mono`: Commit Mono-informed; upstream assets are imported to UFOs, rebuilt as KM static TTFs, then Nerd-patched as the primary mono release for terminal use. No upstream-derived variable font ships from this repo. The current baseline is frozen and approved in Starship use.
 - `Kappa Spin`: Comfortaa-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs. The current baseline is frozen.
 
@@ -158,12 +165,14 @@ licenses/   copied upstream licenses, notices, and provenance notes
 
 - `Kappa Text`: frozen baseline approved
 - `Kappa Mark`: frozen baseline approved
+- `Kappa Form`: frozen baseline approved
 - `Kappa Mono`: frozen baseline approved
 - `Kappa Spin`: frozen baseline approved
 
 Deferred redesign targets now live in:
 - `families/kappa-text/REDESIGN.md`
 - `families/kappa-mark/REDESIGN.md`
+- `families/kappa-form/REDESIGN.md`
 - `families/kappa-mono/REDESIGN.md`
 - `families/kappa-spin/REDESIGN.md`
 

@@ -1,3 +1,11 @@
+OK fonts/kappa-form/ttf/KappaForm-Bold.ttf :: Kappa Form | Bold | KappaForm-Bold
+OK fonts/kappa-form/ttf/KappaForm-BoldItalic.ttf :: Kappa Form | Bold Italic | KappaForm-BoldItalic
+OK fonts/kappa-form/ttf/KappaForm-ExtraBold.ttf :: Kappa Form | Extra Bold | KappaForm-ExtraBold
+OK fonts/kappa-form/ttf/KappaForm-ExtraBoldItalic.ttf :: Kappa Form | Extra Bold Italic | KappaForm-ExtraBoldItalic
+OK fonts/kappa-form/ttf/KappaForm-Italic.ttf :: Kappa Form | Italic | KappaForm-Italic
+OK fonts/kappa-form/ttf/KappaForm-Light.ttf :: Kappa Form | Light | KappaForm-Light
+OK fonts/kappa-form/ttf/KappaForm-LightItalic.ttf :: Kappa Form | Light Italic | KappaForm-LightItalic
+OK fonts/kappa-form/ttf/KappaForm-Regular.ttf :: Kappa Form | Regular | KappaForm-Regular
 OK fonts/kappa-mark/ttf/KappaMark-Italic.ttf :: Kappa Mark | Italic | KappaMark-Italic
 OK fonts/kappa-mark/ttf/KappaMark-Regular.ttf :: Kappa Mark | Regular | KappaMark-Regular
 OK fonts/kappa-mark/webfonts/KappaMark-Italic.woff2 :: Kappa Mark | Italic | KappaMark-Italic

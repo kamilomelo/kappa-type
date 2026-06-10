@@ -33,6 +33,8 @@ mkdir -p "$TMP_DIR"
 style_from_filename() {
   local name="$1"
   case "$name" in
+    *ThinItalic*) printf '%s\n' "Thin Italic" ;;
+    *Thin*) printf '%s\n' "Thin" ;;
     *ExtraBoldItalic*) printf '%s\n' "Extra Bold Italic" ;;
     *ExtraBold*) printf '%s\n' "Extra Bold" ;;
     *SemiBoldItalic*) printf '%s\n' "Semi Bold Italic" ;;
@@ -84,6 +86,7 @@ build_ufo_family() {
 case "$FAMILY_ID" in
   kappa-text) build_ufo_family "kappa-text" "Kappa Text" "ttf" ;;
   kappa-mark) build_ufo_family "kappa-mark" "Kappa Mark" "ttf" ;;
+  kappa-form) build_ufo_family "kappa-form" "Kappa Form" "ttf" ;;
   kappa-mono)
     rm -rf "$ROOT_DIR/fonts/kappa-mono/otf"
     rm -f "$ROOT_DIR/fonts/kappa-mono/ttf/KappaMono-VF.ttf"

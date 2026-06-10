@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="100"/>
+      <map input="400" output="170"/>
+      <map input="600" output="239"/>
+      <map input="700" output="310"/>
+      <map input="800" output="400"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="bracket_redo">
+      <conditionset>
+        <condition name="Weight" minimum="330"/>
+      </conditionset>
+      <sub name="Aringacute" with="Aringacute.rvrn"/>
+      <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+      <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+      <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+      <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+      <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+      <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+      <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+      <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+      <sub name="dollar" with="dollar.rvrn"/>
+      <sub name="uni047C" with="uni047C.rvrn"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="../ufo/masters/KappaForm-Light.ufo" name="KappaForm Light" familyname="Kappa Form" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-Bold.ufo" name="KappaForm Bold" familyname="Kappa Form" stylename="Bold">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="310"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-Regular.ufo" name="KappaForm Regular" familyname="Kappa Form" stylename="Regular">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+    </source>
+    <source filename="../ufo/masters/KappaForm-ExtraBold.ufo" name="KappaForm ExtraBold" familyname="Kappa Form" stylename="ExtraBold">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="KappaForm Light" familyname="Kappa Form" stylename="Light" filename="../ufo/instances/KappaForm-Light.ufo" stylemapfamilyname="Kappa Form Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="KappaForm Regular" familyname="Kappa Form" stylename="Regular" filename="../ufo/instances/KappaForm-Regular.ufo" stylemapfamilyname="Kappa Form" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="KappaForm SemiBold" familyname="Kappa Form" stylename="SemiBold" filename="../ufo/instances/KappaForm-SemiBold.ufo" stylemapfamilyname="Kappa Form SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="239"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="KappaForm Bold" familyname="Kappa Form" stylename="Bold" filename="../ufo/instances/KappaForm-Bold.ufo" stylemapfamilyname="Kappa Form" stylemapstylename="bold">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="310"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="KappaForm ExtraBold" familyname="Kappa Form" stylename="ExtraBold" filename="../ufo/instances/KappaForm-ExtraBold.ufo" stylemapfamilyname="Kappa Form ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

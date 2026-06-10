@@ -24,6 +24,9 @@ for family_dir in "$ROOT_DIR"/fonts/*; do
     kappa-spin)
       family_name="Kappa Spin"
       ;;
+    kappa-form)
+      family_name="Kappa Form"
+      ;;
     *)
       family_name="$family_key"
       ;;
@@ -203,6 +206,35 @@ HTML
     return list[i] != map["key"];
 }
 const arrow = (x) =&gt; x &gt;= 7 ? "ok" : "no";</div>
+          </div>
+        </div>
+      </section>
+HTML
+  fi
+
+  if [[ "$family_key" == "kappa-form" ]]; then
+    cat >> "$html_path" <<HTML
+      <section>
+        <h2>Review Focus</h2>
+        <div class="sample-sm">Kappa Form should stay visually faithful to the imported Open Sans baseline for now. Use this section to compare size, color, text texture, and weight mapping before freezing the family.</div>
+        <div class="focus-grid">
+          <div class="focus-card">
+            <div class="focus-label">Reading Texture</div>
+            <div class="sample-md">Open civic forms, dense dashboards, and neutral interface copy all depend on even rhythm, calm spacing, and predictable paragraph color.</div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">Weight Range</div>
+            <div class="sample-md">Light Regular SemiBold Bold ExtraBold</div>
+            <div class="sample-md"><span style="font-weight:300">Light sample text.</span> <span style="font-weight:400">Regular sample text.</span> <span style="font-weight:600">SemiBold sample text.</span></div>
+            <div class="sample-md"><span style="font-weight:700">Bold sample text.</span> <span style="font-weight:800">ExtraBold sample text.</span></div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">Italic Review</div>
+            <div class="sample-md"><em>Italic text should remain steady, usable, and consistent with the upright family across editorial and interface contexts.</em></div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">UI And Numbers</div>
+            <div class="sample-md">Save Draft  Cancel  Continue  0123456789  10:45  v2.1.7  48px  73%</div>
           </div>
         </div>
       </section>

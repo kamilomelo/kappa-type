@@ -22,6 +22,7 @@ REPORT_DIR = Path(sys.argv[2])
 BANNED = {
     "kappa-text": ["Readerly", "Newsreader"],
     "kappa-mark": ["ABeeZee"],
+    "kappa-form": ["Open Sans", "OpenSans"],
     "kappa-mono": ["Commit Mono"],
     "kappa-spin": ["Comfortaa"],
 }
