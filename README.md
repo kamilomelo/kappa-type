@@ -1,6 +1,7 @@
 # Kappa Type
 
 [![License: OFL 1.1](https://img.shields.io/badge/fonts-OFL%201.1-2d6a4f.svg)](./LICENSE)
+[![Tooling: Apache 2.0](https://img.shields.io/badge/tooling-Apache%202.0-335c67.svg)](./LICENSE-APACHE)
 [![Status: Baselines Frozen](https://img.shields.io/badge/status-baselines%20frozen-264653.svg)](#frozen-baselines)
 [![Build Model: UFO First](https://img.shields.io/badge/build-UFO%20first-b56576.svg)](#repository-layout)
 
@@ -101,6 +102,16 @@ For CSS embedding inside another project, prefer the `webfonts/` `WOFF2` files.
 - Kappa Mono: Commit Mono
 - Kappa Spin: Comfortaa
 
+## License
+
+Kappa Type uses a split license model:
+
+- fonts, font sources, font metadata, and webfonts are licensed under the [SIL Open Font License 1.1](./LICENSE)
+- repository tooling, build scripts, validation scripts, proof scripts, generated CSS, docs, and automation are licensed under the [Apache License 2.0](./LICENSE-APACHE)
+- upstream notices and provenance files are preserved under `licenses/<family>/`
+
+See [NOTICE.md](./NOTICE.md) for the exact scope.
+
 ## Repository Layout
 
 ```txt
@@ -146,12 +157,12 @@ licenses/   copied upstream licenses, notices, and provenance notes
 - `sources/*/ufo` is the intended long-term canonical source layer for KM-maintained derivatives.
 - Milestone-1 builds still use the highest-fidelity upstream assets currently available per family.
 - This repo is upstream-informed, not upstream-bound: over time each family can diverge into an independent KM source.
-- Tracked UFO imports now exist for all four active families.
+- Tracked UFO imports now exist for all five active families.
 - `Kappa Mark` and `Kappa Spin` now also track master UFOs plus designspace files, not only flat instance imports.
 - Primary desktop output format is `TTF`.
 - Primary web output format is `WOFF2`.
 - Other output formats are optional and should only exist when justified.
-- All four active families now have approved frozen baselines before redesign.
+- All five active families now have approved frozen baselines before redesign.
 
 ## Family Status
 
