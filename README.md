@@ -109,6 +109,7 @@ Kappa Type uses a split license model:
 - fonts, font sources, font metadata, and webfonts are licensed under the [SIL Open Font License 1.1](./LICENSE)
 - repository tooling, build scripts, validation scripts, proof scripts, generated CSS, docs, and automation are licensed under the [Apache License 2.0](./LICENSE-APACHE)
 - upstream notices and provenance files are preserved under `licenses/<family>/`
+- new KM-authored repository work is copyright 2026 Kamilo Melo
 
 See [NOTICE.md](./NOTICE.md) for the exact scope.
 

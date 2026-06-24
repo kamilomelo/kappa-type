@@ -1,5 +1,7 @@
 # Kappa Type Licensing Notice
 
+Copyright 2026 Kamilo Melo.
+
 Kappa Type uses a split license model.
 
 ## Font Software
@@ -13,8 +15,8 @@ This applies to:
 - `sources/`
 - `licenses/`
 
-The upstream copyright notices, OFL files, and provenance notes for
-each family are preserved under `licenses/<family>/`.
+Additional upstream copyright notices and provenance records are
+preserved under `licenses/<family>/`.
 
 Modified fonts are distributed under KM family names only:
 - Kappa Text
