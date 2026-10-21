@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0301.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-335" y="760" type="curve"/>
+      <point x="-262" y="760" type="line"/>
+      <point x="-247" y="761" type="line"/>
+      <point x="-225" y="771" type="line"/>
+      <point x="-67" y="850" type="line"/>
+      <point x="-97" y="851" type="line"/>
+      <point x="-165" y="851" type="line" smooth="yes"/>
+      <point x="-184" y="851"/>
+      <point x="-179" y="850"/>
+    </contour>
+  </outline>
+</glyph>

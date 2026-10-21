@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nexusrightside" format="2">
+  <advance width="194"/>
+  <unicode hex="F138"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="curve"/>
+      <point x="0" y="-83" type="line"/>
+      <point x="149" y="-203"/>
+      <point x="149" y="-205"/>
+      <point x="168" y="-205" type="curve" smooth="yes"/>
+      <point x="189" y="-205"/>
+      <point x="207" y="-186"/>
+      <point x="207" y="-166" type="curve" smooth="yes"/>
+      <point x="207" y="-144"/>
+      <point x="207" y="-148"/>
+    </contour>
+  </outline>
+</glyph>

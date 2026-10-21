@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="305"/>
+  <unicode hex="0387"/>
+  <outline>
+    <contour>
+      <point x="169" y="382" type="curve" smooth="yes"/>
+      <point x="169" y="352"/>
+      <point x="192" y="327"/>
+      <point x="225" y="327" type="curve" smooth="yes"/>
+      <point x="267" y="327"/>
+      <point x="302" y="365"/>
+      <point x="302" y="403" type="curve" smooth="yes"/>
+      <point x="302" y="436"/>
+      <point x="277" y="458"/>
+      <point x="246" y="458" type="curve" smooth="yes"/>
+      <point x="206" y="458"/>
+      <point x="169" y="422"/>
+    </contour>
+  </outline>
+</glyph>

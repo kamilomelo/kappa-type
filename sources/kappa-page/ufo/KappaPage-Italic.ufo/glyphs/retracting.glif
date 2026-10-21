@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="retracting" format="2">
+  <advance width="444"/>
+  <unicode hex="F144"/>
+  <outline>
+    <contour>
+      <point x="142" y="31" type="line"/>
+      <point x="204" y="31" type="line"/>
+      <point x="224" y="126" type="line"/>
+      <point x="360" y="126" type="line"/>
+      <point x="373" y="188" type="line"/>
+      <point x="237" y="188" type="line"/>
+      <point x="257" y="283" type="line"/>
+      <point x="196" y="283" type="line"/>
+    </contour>
+  </outline>
+</glyph>

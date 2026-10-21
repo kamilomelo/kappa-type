@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute.ts1" format="2">
+  <advance width="550"/>
+  <unicode hex="F112"/>
+  <outline>
+    <contour>
+      <point x="343" y="559" type="curve" smooth="yes"/>
+      <point x="343" y="546"/>
+      <point x="357" y="546"/>
+      <point x="364" y="546" type="curve" smooth="yes"/>
+      <point x="392" y="546" type="line" smooth="yes"/>
+      <point x="411" y="546"/>
+      <point x="396" y="539"/>
+      <point x="594" y="693" type="curve" smooth="yes"/>
+      <point x="599" y="697"/>
+      <point x="605" y="701"/>
+      <point x="606" y="708" type="curve"/>
+      <point x="606" y="713" type="line"/>
+      <point x="603" y="718" type="line"/>
+      <point x="600" y="720"/>
+      <point x="599" y="722"/>
+      <point x="581" y="722" type="curve" smooth="yes"/>
+      <point x="493" y="722" type="line" smooth="yes"/>
+      <point x="482" y="722"/>
+      <point x="477" y="721"/>
+      <point x="466" y="708" type="curve" smooth="yes"/>
+      <point x="344" y="565"/>
+      <point x="343" y="568"/>
+    </contour>
+  </outline>
+</glyph>

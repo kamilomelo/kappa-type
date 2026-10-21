@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fouroldstyle" format="2">
+  <advance width="500"/>
+  <unicode hex="F734"/>
+  <outline>
+    <contour>
+      <point x="27" y="0" type="curve"/>
+      <point x="292" y="0" type="line"/>
+      <point x="247" y="-217" type="line"/>
+      <point x="326" y="-217" type="line"/>
+      <point x="372" y="0" type="line"/>
+      <point x="471" y="0" type="line"/>
+      <point x="484" y="61" type="line"/>
+      <point x="385" y="61" type="line"/>
+      <point x="467" y="445" type="line"/>
+      <point x="372" y="445" type="line"/>
+      <point x="54" y="78" type="line" smooth="yes"/>
+      <point x="37" y="58"/>
+      <point x="40" y="63"/>
+    </contour>
+    <contour>
+      <point x="120" y="61" type="line"/>
+      <point x="286" y="254"/>
+      <point x="355" y="334"/>
+      <point x="384" y="407" type="curve"/>
+      <point x="311" y="61" type="line"/>
+    </contour>
+  </outline>
+</glyph>

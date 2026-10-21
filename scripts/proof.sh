@@ -9,11 +9,15 @@ mkdir -p "$PROOFS_DIR"
 for family_dir in "$ROOT_DIR"/fonts/*; do
   [[ -d "$family_dir" ]] || continue
   family_key="$(basename "$family_dir")"
+  [[ -z "${1:-}" || "$family_key" == "$1" ]] || continue
   css_path="../fonts/$family_key/css/$family_key.css"
   html_path="$PROOFS_DIR/$family_key.html"
   case "$family_key" in
     kappa-text)
       family_name="Kappa Text"
+      ;;
+    kappa-page)
+      family_name="Kappa Page"
       ;;
     kappa-mark)
       family_name="Kappa Mark"
@@ -168,6 +172,34 @@ HTML
           <div class="focus-card">
             <div class="focus-label">Punctuation And Figures</div>
             <div class="sample-md">“Quoted text,” commas, periods, semicolons, em dashes, and 1234567890 should all read evenly in editorial copy.</div>
+          </div>
+        </div>
+      </section>
+HTML
+  fi
+
+  if [[ "$family_key" == "kappa-page" ]]; then
+    cat >> "$html_path" <<HTML
+      <section>
+        <h2>Printed Document Review</h2>
+        <div class="sample-sm">Alpha proof: check paper-size readability, figures, accents, and emphasis against the upstream CMU Sans Serif originals before approving this baseline.</div>
+        <div class="focus-grid">
+          <div class="focus-card">
+            <div class="focus-label">Letter</div>
+            <div class="sample-sm">21 October 2026<br>Dear Alex,<br><br>Thank you for your letter. Please find the enclosed documents for your review.<br><br>Kind regards,<br>KM-X Group</div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">Invoice</div>
+            <div class="sample-sm">Invoice #2026-104 &nbsp; Due 30 November 2026<br>Consulting &nbsp; 12 × €85.00 &nbsp; €1,020.00<br><strong>Total due &nbsp; €1,020.00</strong></div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">CV and Styles</div>
+            <div class="sample-md"><strong>Alex Rivera</strong></div>
+            <div class="sample-sm">Experience · Education · Selected Projects<br><em>Designed clear documents for print and digital workflows.</em><br><strong><em>References available on request.</em></strong></div>
+          </div>
+          <div class="focus-card">
+            <div class="focus-label">Figures and International Text</div>
+            <div class="sample-sm">0123456789  € £ $ %  1,234.56<br>Résumé · naïve · Straße · Ελληνικά · Кириллица</div>
           </div>
         </div>
       </section>

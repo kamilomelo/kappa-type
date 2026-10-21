@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau.sc" format="2">
+  <advance width="500"/>
+  <unicode hex="F513"/>
+  <outline>
+    <contour>
+      <point x="21" y="457" type="line"/>
+      <point x="69" y="458" type="line"/>
+      <point x="203" y="458" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="281" y="0" type="line"/>
+      <point x="281" y="458" type="line"/>
+      <point x="415" y="458" type="line"/>
+      <point x="463" y="457" type="line"/>
+      <point x="463" y="523" type="line"/>
+      <point x="21" y="523" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Egrave.vn" format="2">
+  <advance width="597"/>
+  <unicode hex="F263"/>
+  <outline>
+    <contour>
+      <point x="165" y="939" type="line"/>
+      <point x="322" y="761" type="line"/>
+      <point x="387" y="761" type="line"/>
+      <point x="251" y="939" type="line"/>
+    </contour>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="555" y="0" type="line"/>
+      <point x="555" y="72" type="line"/>
+      <point x="509" y="72" type="line"/>
+      <point x="487" y="71" type="line"/>
+      <point x="293" y="71" type="line"/>
+      <point x="269" y="70" type="line"/>
+      <point x="184" y="70" type="line"/>
+      <point x="184" y="329" type="line"/>
+      <point x="514" y="329" type="line"/>
+      <point x="514" y="390" type="line"/>
+      <point x="184" y="390" type="line"/>
+      <point x="184" y="627" type="line"/>
+      <point x="219" y="626" type="line"/>
+      <point x="459" y="626" type="line"/>
+      <point x="484" y="625" type="line"/>
+      <point x="541" y="625" type="line"/>
+      <point x="541" y="691" type="line"/>
+      <point x="94" y="691" type="line"/>
+    </contour>
+  </outline>
+</glyph>

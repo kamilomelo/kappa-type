@@ -7,6 +7,7 @@ VENV_DIR="$ROOT_DIR/.venv"
 mkdir -p \
   "$ROOT_DIR/upstream" \
   "$ROOT_DIR/families/kappa-text" \
+  "$ROOT_DIR/families/kappa-page" \
   "$ROOT_DIR/families/kappa-mark" \
   "$ROOT_DIR/families/kappa-mono" \
   "$ROOT_DIR/families/kappa-spin" \
@@ -14,6 +15,9 @@ mkdir -p \
   "$ROOT_DIR/sources/kappa-text/ufo" \
   "$ROOT_DIR/sources/kappa-text/designspace" \
   "$ROOT_DIR/sources/kappa-text/docs" \
+  "$ROOT_DIR/sources/kappa-page/upstream-import" \
+  "$ROOT_DIR/sources/kappa-page/ufo" \
+  "$ROOT_DIR/sources/kappa-page/docs" \
   "$ROOT_DIR/sources/kappa-mark/upstream-import" \
   "$ROOT_DIR/sources/kappa-mark/ufo" \
   "$ROOT_DIR/sources/kappa-mark/designspace" \
@@ -27,11 +31,13 @@ mkdir -p \
   "$ROOT_DIR/sources/kappa-spin/designspace" \
   "$ROOT_DIR/sources/kappa-spin/docs" \
   "$ROOT_DIR/fonts/kappa-text" \
+  "$ROOT_DIR/fonts/kappa-page" \
   "$ROOT_DIR/fonts/kappa-mark" \
   "$ROOT_DIR/fonts/kappa-mono" \
   "$ROOT_DIR/fonts/kappa-spin" \
   "$ROOT_DIR/proofs" \
   "$ROOT_DIR/licenses/kappa-text" \
+  "$ROOT_DIR/licenses/kappa-page" \
   "$ROOT_DIR/licenses/kappa-mark" \
   "$ROOT_DIR/licenses/kappa-mono" \
   "$ROOT_DIR/licenses/kappa-spin"

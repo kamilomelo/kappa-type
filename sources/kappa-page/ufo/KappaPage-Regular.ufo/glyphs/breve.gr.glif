@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breve.gr" format="2">
+  <advance width="389"/>
+  <unicode hex="F139"/>
+  <outline>
+    <contour>
+      <point x="0" y="722" type="line"/>
+      <point x="2" y="607"/>
+      <point x="89" y="526"/>
+      <point x="194" y="526" type="curve" smooth="yes"/>
+      <point x="310" y="526"/>
+      <point x="386" y="619"/>
+      <point x="388" y="722" type="curve"/>
+      <point x="327" y="722" type="line"/>
+      <point x="325" y="640"/>
+      <point x="258" y="593"/>
+      <point x="194" y="593" type="curve" smooth="yes"/>
+      <point x="131" y="593"/>
+      <point x="64" y="638"/>
+      <point x="61" y="722" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

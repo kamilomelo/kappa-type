@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA72D" format="2">
+  <advance width="500"/>
+  <unicode hex="A72D"/>
+  <outline>
+    <contour>
+      <point x="64" y="171" type="curve"/>
+      <point x="329" y="171" type="line"/>
+      <point x="329" y="171"/>
+      <point x="280" y="-66"/>
+      <point x="276" y="-78" type="curve" smooth="yes"/>
+      <point x="269" y="-101"/>
+      <point x="243" y="-155"/>
+      <point x="193" y="-155" type="curve" smooth="yes"/>
+      <point x="137" y="-155"/>
+      <point x="128" y="-108"/>
+      <point x="126" y="-100" type="curve"/>
+      <point x="90" y="-162" type="line"/>
+      <point x="104" y="-190"/>
+      <point x="127" y="-217"/>
+      <point x="182" y="-217" type="curve" smooth="yes"/>
+      <point x="262" y="-217"/>
+      <point x="328" y="-153"/>
+      <point x="352" y="-87" type="curve" smooth="yes"/>
+      <point x="356" y="-75"/>
+      <point x="354" y="-87"/>
+      <point x="409" y="171" type="curve"/>
+      <point x="508" y="171" type="line"/>
+      <point x="521" y="232" type="line"/>
+      <point x="422" y="232" type="line"/>
+      <point x="512" y="655" type="line"/>
+      <point x="420" y="655" type="line"/>
+      <point x="92" y="250" type="line" smooth="yes"/>
+      <point x="75" y="229"/>
+      <point x="78" y="236"/>
+    </contour>
+    <contour>
+      <point x="155" y="232" type="line"/>
+      <point x="339" y="461"/>
+      <point x="398" y="537"/>
+      <point x="430" y="618" type="curve"/>
+      <point x="348" y="232" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sevenoldstyle" format="2">
+  <advance width="500"/>
+  <unicode hex="F737"/>
+  <outline>
+    <contour>
+      <point x="41" y="374" type="line"/>
+      <point x="339" y="374" type="line"/>
+      <point x="389" y="375" type="line"/>
+      <point x="270" y="254"/>
+      <point x="151" y="55"/>
+      <point x="151" y="-205" type="curve"/>
+      <point x="236" y="-205" type="line"/>
+      <point x="236" y="1"/>
+      <point x="311" y="216"/>
+      <point x="457" y="380" type="curve"/>
+      <point x="457" y="445" type="line"/>
+      <point x="41" y="445" type="line"/>
+    </contour>
+  </outline>
+</glyph>

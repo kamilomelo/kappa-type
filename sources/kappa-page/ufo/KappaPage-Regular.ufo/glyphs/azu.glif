@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="azu" format="2">
+  <advance width="480"/>
+  <unicode hex="F2A9"/>
+  <outline>
+    <contour>
+      <point x="44" y="145" type="curve" smooth="yes"/>
+      <point x="44" y="60"/>
+      <point x="119" y="-11"/>
+      <point x="214" y="-11" type="curve" smooth="yes"/>
+      <point x="256" y="-11"/>
+      <point x="289" y="3"/>
+      <point x="323" y="33" type="curve"/>
+      <point x="323" y="0" type="line"/>
+      <point x="398" y="0" type="line"/>
+      <point x="398" y="445" type="line"/>
+      <point x="323" y="445" type="line"/>
+      <point x="323" y="367" type="line"/>
+      <point x="127" y="301"/>
+      <point x="44" y="234"/>
+    </contour>
+    <contour>
+      <point x="122" y="143" type="curve" smooth="yes"/>
+      <point x="122" y="232"/>
+      <point x="267" y="288"/>
+      <point x="323" y="307" type="curve"/>
+      <point x="323" y="160" type="line" smooth="yes"/>
+      <point x="323" y="60"/>
+      <point x="255" y="45"/>
+      <point x="217" y="45" type="curve" smooth="yes"/>
+      <point x="163" y="45"/>
+      <point x="122" y="79"/>
+    </contour>
+  </outline>
+</glyph>

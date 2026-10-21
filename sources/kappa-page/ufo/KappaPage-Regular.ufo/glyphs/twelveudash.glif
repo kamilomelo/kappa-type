@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twelveudash" format="2">
+  <advance width="667"/>
+  <unicode hex="F104"/>
+  <outline>
+    <contour>
+      <point x="0" y="244" type="line"/>
+      <point x="666" y="244" type="line"/>
+      <point x="666" y="305" type="line"/>
+      <point x="0" y="305" type="line"/>
+    </contour>
+  </outline>
+</glyph>

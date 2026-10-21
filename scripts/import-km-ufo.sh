@@ -9,6 +9,8 @@ source "$VENV_DIR/bin/activate"
 
 "$ROOT_DIR/scripts/import-ufo-sources.sh"
 
+"$PYTHON_BIN" "$ROOT_DIR/scripts/import-kappa-page.py"
+
 rm -rf "$ROOT_DIR/sources/kappa-text/ufo" "$ROOT_DIR/sources/kappa-mono/ufo"
 mkdir -p "$ROOT_DIR/sources/kappa-text/ufo" "$ROOT_DIR/sources/kappa-mono/ufo"
 

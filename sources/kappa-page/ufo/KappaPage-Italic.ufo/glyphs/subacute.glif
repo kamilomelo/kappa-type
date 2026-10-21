@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="subacute" format="2">
+  <advance width="500"/>
+  <unicode hex="F142"/>
+  <outline>
+    <contour>
+      <point x="195" y="528" type="line"/>
+      <point x="273" y="528" type="line"/>
+      <point x="442" y="695" type="line"/>
+      <point x="380" y="695" type="line"/>
+    </contour>
+  </outline>
+</glyph>

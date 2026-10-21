@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ascinverted" format="2">
+  <advance width="463"/>
+  <unicode hex="F19A"/>
+  <outline>
+    <contour>
+      <point x="26" y="445" type="line"/>
+      <point x="187" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="436" y="445" type="line"/>
+      <point x="356" y="445" type="line"/>
+      <point x="320" y="345" type="line"/>
+      <point x="136" y="345" type="line"/>
+      <point x="100" y="445" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="289" type="line"/>
+      <point x="300" y="289" type="line"/>
+      <point x="254" y="159"/>
+      <point x="232" y="92"/>
+      <point x="229" y="70" type="curve"/>
+      <point x="228" y="70" type="line"/>
+      <point x="220" y="102" type="line"/>
+      <point x="210" y="134" type="line"/>
+    </contour>
+  </outline>
+</glyph>

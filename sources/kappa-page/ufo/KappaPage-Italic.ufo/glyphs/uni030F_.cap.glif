@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030F.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-237" y="850" type="line"/>
+      <point x="-98" y="771" type="line"/>
+      <point x="-78" y="761" type="line"/>
+      <point x="-63" y="760" type="line"/>
+      <point x="10" y="760" type="line"/>
+      <point x="-109" y="839" type="line"/>
+      <point x="-126" y="850" type="line"/>
+      <point x="-143" y="851" type="line"/>
+      <point x="-207" y="851" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71" y="850" type="line"/>
+      <point x="68" y="771" type="line"/>
+      <point x="88" y="761" type="line"/>
+      <point x="103" y="760" type="line"/>
+      <point x="176" y="760" type="line"/>
+      <point x="57" y="839" type="line"/>
+      <point x="40" y="850" type="line"/>
+      <point x="23" y="851" type="line"/>
+      <point x="-41" y="851" type="line"/>
+    </contour>
+  </outline>
+</glyph>

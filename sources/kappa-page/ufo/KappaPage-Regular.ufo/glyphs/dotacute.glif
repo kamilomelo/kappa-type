@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotacute" format="2">
+  <advance width="500"/>
+  <unicode hex="F164"/>
+  <outline>
+    <contour>
+      <point x="233" y="528" type="line"/>
+      <point x="295" y="528" type="line"/>
+      <point x="416" y="695" type="line"/>
+      <point x="338" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="105" y="559" type="line"/>
+      <point x="195" y="559" type="line"/>
+      <point x="195" y="648" type="line"/>
+      <point x="105" y="648" type="line"/>
+    </contour>
+  </outline>
+</glyph>

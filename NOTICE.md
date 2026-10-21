@@ -20,6 +20,7 @@ preserved under `licenses/<family>/`.
 
 Modified fonts are distributed under KM family names only:
 - Kappa Text
+- Kappa Page
 - Kappa Mark
 - Kappa Form
 - Kappa Mono

@@ -2,10 +2,10 @@
 
 [![License: OFL 1.1](https://img.shields.io/badge/fonts-OFL%201.1-2d6a4f.svg)](./LICENSE)
 [![Tooling: Apache 2.0](https://img.shields.io/badge/tooling-Apache%202.0-335c67.svg)](./LICENSE-APACHE)
-[![Status: Baselines Frozen](https://img.shields.io/badge/status-baselines%20frozen-264653.svg)](#frozen-baselines)
+[![Status: Five Frozen, One Alpha](https://img.shields.io/badge/status-five%20frozen%2C%20one%20alpha-264653.svg)](#family-status)
 [![Build Model: UFO First](https://img.shields.io/badge/build-UFO%20first-b56576.svg)](#repository-layout)
 
-Kappa Type is an upstream-informed, UFO-first type foundry repository for five active KM-X font families and one future in-house handwriting family.
+Kappa Type is an upstream-informed, UFO-first type foundry repository for six active KM-X font families and one future in-house handwriting family.
 
 The current state is intentionally conservative:
 - upstreams inspected and licensed
@@ -16,9 +16,10 @@ The current state is intentionally conservative:
 
 Active families:
 
-- Kappa Text — long-form text for websites, documentation, manuals, and reports.
+- Kappa Text — long-form reading in books and articles.
+- Kappa Page — printed letters, invoices, CVs, and other documents (alpha).
 - Kappa Mark — corporate logo typography.
-- Kappa Form — neutral interface and document typography.
+- Kappa Form — web pages and screen-based interface typography.
 - Kappa Mono — code, terminals, snippets, and engineering documentation.
 - Kappa Spin — venture and side-project logo typography.
 - Kappa Hand — future handwriting-based family, not part of milestone 1 builds.
@@ -30,6 +31,7 @@ The first milestone is infrastructure first: license review, source import, rena
 | Family | Upstream | Canonical Source Shape | Current Baseline |
 | --- | --- | --- | --- |
 | `Kappa Text` | Readerly | binary-informed UFOs | frozen |
+| `Kappa Page` | CMU Sans Serif 0.7.0 | binary-informed UFOs; original SFDs retained | alpha, review pending |
 | `Kappa Mark` | ABeeZee | master UFOs + instances + designspace | frozen |
 | `Kappa Form` | Open Sans | adopted master UFOs + tracked designspace | frozen |
 | `Kappa Mono` | Commit Mono | binary-informed UFOs | frozen |
@@ -40,6 +42,12 @@ The first milestone is infrastructure first: license review, source import, rena
 ```bash
 ./scripts/bootstrap.sh
 ./scripts/build.sh
+```
+
+For a scoped Kappa Page build that does not touch frozen-family outputs:
+
+```bash
+bash scripts/build-kappa-page.sh
 ```
 
 Primary outputs:
@@ -54,6 +62,9 @@ Repository-relative font paths:
 
 - `fonts/kappa-text/ttf/`
 - `fonts/kappa-text/webfonts/`
+- `fonts/kappa-page/ttf/`
+- `fonts/kappa-page/webfonts/`
+- `fonts/kappa-page/css/kappa-page.css`
 - `fonts/kappa-mark/ttf/`
 - `fonts/kappa-mark/webfonts/`
 - `fonts/kappa-form/ttf/`
@@ -67,6 +78,8 @@ Examples:
 
 - `fonts/kappa-text/ttf/KappaText-Regular.ttf`
 - `fonts/kappa-text/webfonts/KappaText-Regular.woff2`
+- `fonts/kappa-page/ttf/KappaPage-Regular.ttf`
+- `fonts/kappa-page/webfonts/KappaPage-Regular.woff2`
 - `fonts/kappa-mark/ttf/KappaMark-Regular.ttf`
 - `fonts/kappa-form/ttf/KappaForm-Regular.ttf`
 - `fonts/kappa-mono/ttf/KappaMono-Regular.ttf`
@@ -83,6 +96,7 @@ If you want to embed or download directly from GitHub, use the raw file URL. For
 ```txt
 https://raw.githubusercontent.com/kamilomelo/kappa-type/main/fonts/kappa-text/webfonts/KappaText-Regular.woff2
 https://raw.githubusercontent.com/kamilomelo/kappa-type/main/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+https://raw.githubusercontent.com/kamilomelo/kappa-type/main/fonts/kappa-page/ttf/KappaPage-Regular.ttf
 ```
 
 If you want CDN-style usage, the equivalent jsDelivr URLs are:
@@ -90,13 +104,36 @@ If you want CDN-style usage, the equivalent jsDelivr URLs are:
 ```txt
 https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-text/webfonts/KappaText-Regular.woff2
 https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-mono/ttf/KappaMono-Regular.ttf
+https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-page/webfonts/KappaPage-Regular.woff2
 ```
 
 For CSS embedding inside another project, prefer the `webfonts/` `WOFF2` files.
 
+### Use Kappa Page in another project
+
+Download the `KappaPage-*.ttf` files from `fonts/kappa-page/ttf/` for desktop or
+print/PDF work. For the web, either copy `fonts/kappa-page/css/kappa-page.css`
+and the adjacent `webfonts/` directory into your project, or load the public
+stylesheet directly:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kamilomelo/kappa-type@main/fonts/kappa-page/css/kappa-page.css">
+```
+
+```css
+body { font-family: 'Kappa Page', sans-serif; }
+```
+
+The stylesheet covers Regular, Italic, Bold, and Bold Italic. `@main` follows
+the latest GitHub changes; replace `main` with a commit SHA to pin an exact
+revision. **Kappa Page is a usable alpha, not a frozen or FontBakery-passing
+baseline.** See `families/kappa-page/AUDIT.md` before depending on it for
+critical print output. Keep the OFL and upstream notices when redistributing it.
+
 ## Upstreams
 
 - Kappa Text: Readerly
+- Kappa Page: CMU Sans Serif (Computer Modern Unicode 0.7.0, OFL 1.1)
 - Kappa Mark: ABeeZee
 - Kappa Form: Open Sans
 - Kappa Mono: Commit Mono
@@ -158,16 +195,17 @@ licenses/   copied upstream licenses, notices, and provenance notes
 - `sources/*/ufo` is the intended long-term canonical source layer for KM-maintained derivatives.
 - Milestone-1 builds still use the highest-fidelity upstream assets currently available per family.
 - This repo is upstream-informed, not upstream-bound: over time each family can diverge into an independent KM source.
-- Tracked UFO imports now exist for all five active families.
+- Tracked UFO imports exist for all six active families; Kappa Page remains a provisional alpha.
 - `Kappa Mark` and `Kappa Spin` now also track master UFOs plus designspace files, not only flat instance imports.
 - Primary desktop output format is `TTF`.
 - Primary web output format is `WOFF2`.
 - Other output formats are optional and should only exist when justified.
-- All five active families now have approved frozen baselines before redesign.
+- The five established families have approved frozen baselines; Kappa Page does not yet.
 
 ## Family Status
 
 - `Kappa Text`: Readerly-informed; upstream Readerly reference TTFs are built first, then imported into UFOs, then rebuilt as KM TTFs. The current baseline is frozen and Readerly-faithful. Future redesign direction is broadly "more Bookerly, less Readerly" through legally clean original work.
+- `Kappa Page`: CMU Sans Serif-informed; four original SFDs and matching OTFs are retained, and four binary-informed UFOs produce static KM TTF/WOFF2 fonts. This is a rename-only alpha, not yet an approved or frozen baseline; see `families/kappa-page/NOTES.md`.
 - `Kappa Mark`: ABeeZee-informed; Glyphs sources are normalized into master UFOs, instance UFOs, and designspace, then adopted as KM-owned canonical sources and rebuilt as KM TTFs. The current baseline is frozen.
 - `Kappa Form`: Open Sans-informed; upstream non-condensed UFOs and designspaces are adopted into KM-owned naming, then rebuilt as KM TTFs from the adopted master UFOs. The current baseline is frozen.
 - `Kappa Mono`: Commit Mono-informed; upstream assets are imported to UFOs, rebuilt as KM static TTFs, then Nerd-patched as the primary mono release for terminal use. No upstream-derived variable font ships from this repo. The current baseline is frozen and approved in Starship use.
@@ -176,6 +214,7 @@ licenses/   copied upstream licenses, notices, and provenance notes
 ## Frozen Baselines
 
 - `Kappa Text`: frozen baseline approved
+- `Kappa Page`: alpha, proof and feature review pending
 - `Kappa Mark`: frozen baseline approved
 - `Kappa Form`: frozen baseline approved
 - `Kappa Mono`: frozen baseline approved
@@ -207,6 +246,7 @@ Deferred redesign targets now live in:
 - `Comfortaa` Glyphs-to-UFO conversion emits a large number of missing kerning-class warnings through `glyphsLib`.
 - `Readerly` and `Commit Mono` currently depend on binary-to-UFO import, so their KM UFOs should still be treated as provisional engineering sources until manually reviewed.
 - `fontbakery` is best-effort and time-bounded in milestone 1 so it does not stall the whole build.
+- `Kappa Page` is a new alpha, not one of the frozen baselines. See `families/kappa-page/AUDIT.md` for the scoped FontBakery result and manual print-review tasks.
 
 ## Notes
 

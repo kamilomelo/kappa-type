@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cyrsacrs" format="2">
+  <advance width="444"/>
+  <unicode hex="F129"/>
+  <outline>
+    <contour>
+      <point x="-23" y="44" type="line"/>
+      <point x="17" y="-3" type="line"/>
+      <point x="94" y="63" type="line"/>
+      <point x="95" y="63" type="line"/>
+      <point x="157" y="-9"/>
+      <point x="233" y="-11"/>
+      <point x="253" y="-11" type="curve" smooth="yes"/>
+      <point x="321" y="-11"/>
+      <point x="370" y="9"/>
+      <point x="417" y="40" type="curve"/>
+      <point x="411" y="107" type="line"/>
+      <point x="376" y="83"/>
+      <point x="330" y="53"/>
+      <point x="253" y="53" type="curve" smooth="yes"/>
+      <point x="203" y="53"/>
+      <point x="171" y="79"/>
+      <point x="148" y="109" type="curve"/>
+      <point x="237" y="185" type="line"/>
+      <point x="198" y="231" type="line"/>
+      <point x="121" y="167" type="line"/>
+      <point x="118" y="184"/>
+      <point x="115" y="201"/>
+      <point x="115" y="224" type="curve" smooth="yes"/>
+      <point x="115" y="309"/>
+      <point x="159" y="397"/>
+      <point x="256" y="397" type="curve" smooth="yes"/>
+      <point x="334" y="397"/>
+      <point x="361" y="375"/>
+      <point x="400" y="351" type="curve"/>
+      <point x="412" y="417" type="line"/>
+      <point x="347" y="454"/>
+      <point x="316" y="461"/>
+      <point x="256" y="461" type="curve" smooth="yes"/>
+      <point x="116" y="461"/>
+      <point x="37" y="339"/>
+      <point x="37" y="223" type="curve" smooth="yes"/>
+      <point x="37" y="180"/>
+      <point x="47" y="145"/>
+      <point x="61" y="115" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

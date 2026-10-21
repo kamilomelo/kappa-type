@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shta" format="2">
+  <advance width="760"/>
+  <unicode hex="F2AF"/>
+  <outline>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="-162" type="line"/>
+      <point x="416" y="-162" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="676" y="0" type="line"/>
+      <point x="676" y="445" type="line"/>
+      <point x="601" y="445" type="line"/>
+      <point x="601" y="64" type="line"/>
+      <point x="416" y="64" type="line"/>
+      <point x="416" y="445" type="line"/>
+      <point x="341" y="445" type="line"/>
+      <point x="341" y="64" type="line"/>
+      <point x="156" y="64" type="line"/>
+      <point x="156" y="445" type="line"/>
+      <point x="81" y="445" type="line"/>
+    </contour>
+  </outline>
+</glyph>

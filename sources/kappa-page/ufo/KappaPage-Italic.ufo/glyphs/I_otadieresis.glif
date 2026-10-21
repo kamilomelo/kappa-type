@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotadieresis" format="2">
+  <advance width="278"/>
+  <unicode hex="03AA"/>
+  <outline>
+    <contour>
+      <point x="184" y="772" type="curve" smooth="yes"/>
+      <point x="184" y="754"/>
+      <point x="198" y="739"/>
+      <point x="218" y="739" type="curve" smooth="yes"/>
+      <point x="245" y="739"/>
+      <point x="269" y="764"/>
+      <point x="269" y="788" type="curve" smooth="yes"/>
+      <point x="269" y="806"/>
+      <point x="255" y="822"/>
+      <point x="235" y="822" type="curve" smooth="yes"/>
+      <point x="208" y="822"/>
+      <point x="184" y="796"/>
+    </contour>
+    <contour>
+      <point x="340" y="772" type="curve" smooth="yes"/>
+      <point x="340" y="754"/>
+      <point x="354" y="739"/>
+      <point x="374" y="739" type="curve" smooth="yes"/>
+      <point x="401" y="739"/>
+      <point x="424" y="765"/>
+      <point x="424" y="789" type="curve" smooth="yes"/>
+      <point x="424" y="807"/>
+      <point x="411" y="822"/>
+      <point x="391" y="822" type="curve" smooth="yes"/>
+      <point x="364" y="822"/>
+      <point x="340" y="796"/>
+    </contour>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="184" y="0" type="line"/>
+      <point x="331" y="694" type="line"/>
+      <point x="241" y="694" type="line"/>
+    </contour>
+  </outline>
+</glyph>

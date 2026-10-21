@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="strokereversed" format="2">
+  <advance width="239"/>
+  <unicode hex="F117"/>
+  <outline>
+    <contour>
+      <point x="36" y="305" type="line"/>
+      <point x="233" y="100" type="line"/>
+      <point x="282" y="146" type="line"/>
+      <point x="282" y="147" type="line"/>
+      <point x="86" y="351" type="line"/>
+    </contour>
+  </outline>
+</glyph>

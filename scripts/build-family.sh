@@ -74,7 +74,7 @@ build_ufo_family() {
     output_name="$(filename_stem "$final_family" "$style").$format"
     tmp_output="$workdir/$output_name"
 
-    fontmake -u "$ufo_path" -o "$format" "${FONTMAKE_ARGS[@]}" --output-path "$tmp_output"
+    python -m fontmake -u "$ufo_path" -o "$format" "${FONTMAKE_ARGS[@]}" --output-path "$tmp_output"
     python "$RENAMER" \
       --input "$tmp_output" \
       --output "$out_dir/$output_name" \
@@ -85,6 +85,7 @@ build_ufo_family() {
 
 case "$FAMILY_ID" in
   kappa-text) build_ufo_family "kappa-text" "Kappa Text" "ttf" ;;
+  kappa-page) build_ufo_family "kappa-page" "Kappa Page" "ttf" ;;
   kappa-mark) build_ufo_family "kappa-mark" "Kappa Mark" "ttf" ;;
   kappa-form) build_ufo_family "kappa-form" "Kappa Form" "ttf" ;;
   kappa-mono)

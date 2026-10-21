@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravedot" format="2">
+  <advance width="500"/>
+  <unicode hex="F163"/>
+  <outline>
+    <contour>
+      <point x="83" y="695" type="line"/>
+      <point x="205" y="528" type="line"/>
+      <point x="266" y="528" type="line"/>
+      <point x="161" y="695" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="559" type="line"/>
+      <point x="395" y="559" type="line"/>
+      <point x="395" y="648" type="line"/>
+      <point x="305" y="648" type="line"/>
+    </contour>
+  </outline>
+</glyph>

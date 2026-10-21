@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0326" format="2">
+  <unicode hex="0326"/>
+  <outline>
+    <contour>
+      <point x="-127" y="-48" type="line"/>
+      <point x="-127" y="-107" type="line"/>
+      <point x="-109" y="-107" type="line"/>
+      <point x="-127" y="-194" type="line"/>
+      <point x="-98" y="-194" type="line"/>
+      <point x="-89" y="-161"/>
+      <point x="-74" y="-134"/>
+      <point x="-69" y="-97" type="curve"/>
+      <point x="-69" y="-48" type="line"/>
+    </contour>
+  </outline>
+</glyph>

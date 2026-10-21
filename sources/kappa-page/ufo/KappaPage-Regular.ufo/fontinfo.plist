@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>900</integer>
+    <key>capHeight</key>
+    <integer>689</integer>
+    <key>copyright</key>
+    <string>Copyright (C) Authors of original metafont fonts:
+Donald Ervin Knuth (cm, concrete fonts)
+1995, 1996, 1997 J"org Knappen, 1990, 1992 Norbert Schwarz (ec fonts)
+1992-2006 A.Khodulev, O.Lapko, A.Berdnikov, V.Volovich (lh fonts)
+1997-2005 Claudio Beccari (cb greek fonts)
+2002 FUKUI Rei (tipa fonts)
+2003-2005 Han The Thanh (Vietnamese fonts)
+1996-2005 Walter Schmidt (cmbright fonts)
+
+Copyright (C) 2003-2009, Andrey V. Panov (panov@canopus.iacp.dvo.ru),
+with Reserved Font Family Name "Computer Modern Unicode fonts".</string>
+    <key>descender</key>
+    <integer>-250</integer>
+    <key>familyName</key>
+    <string>Kappa Page</string>
+    <key>italicAngle</key>
+    <real>0.0</real>
+    <key>openTypeHheaAscender</key>
+    <integer>900</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-250</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>200</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Donald E. Knuth; Computer Modern Unicode contributors</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied together with this font package in OFL.txt,
+and is also available with a FAQ at: http://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>KM-X Group</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Kappa Page</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Regular</string>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>800</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-200</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>200</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>KMXG</string>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>900</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>250</integer>
+    <key>postscriptFontName</key>
+    <string>KappaPage-Regular</string>
+    <key>styleMapFamilyName</key>
+    <string>Kappa Page</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>xHeight</key>
+    <integer>445</integer>
+  </dict>
+</plist>

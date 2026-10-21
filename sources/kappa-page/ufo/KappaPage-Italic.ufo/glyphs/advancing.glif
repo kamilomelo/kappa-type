@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="advancing" format="2">
+  <advance width="444"/>
+  <unicode hex="F143"/>
+  <outline>
+    <contour>
+      <point x="137" y="126" type="line"/>
+      <point x="273" y="126" type="line"/>
+      <point x="253" y="31" type="line"/>
+      <point x="314" y="31" type="line"/>
+      <point x="367" y="283" type="line"/>
+      <point x="306" y="283" type="line"/>
+      <point x="286" y="188" type="line"/>
+      <point x="150" y="188" type="line"/>
+    </contour>
+  </outline>
+</glyph>

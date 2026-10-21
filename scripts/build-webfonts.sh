@@ -6,7 +6,7 @@ VENV_DIR="$ROOT_DIR/.venv"
 
 source "$VENV_DIR/bin/activate"
 
-python - "$ROOT_DIR" <<'PY'
+python - "$ROOT_DIR" "${1:-}" <<'PY'
 from __future__ import annotations
 
 import sys
@@ -15,6 +15,7 @@ from pathlib import Path
 from fontTools.ttLib import TTFont
 
 ROOT = Path(sys.argv[1])
+ONLY_FAMILY = sys.argv[2]
 
 
 def css_weight(subfamily: str) -> str:
@@ -40,6 +41,8 @@ def css_style(subfamily: str) -> str:
 
 for family_dir in sorted((ROOT / "fonts").iterdir()):
     if not family_dir.is_dir():
+        continue
+    if ONLY_FAMILY and family_dir.name != ONLY_FAMILY:
         continue
 
     candidates = []

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lscreversed" format="2">
+  <advance width="372"/>
+  <unicode hex="F19F"/>
+  <outline>
+    <contour>
+      <point x="35" y="0" type="line"/>
+      <point x="314" y="0" type="line"/>
+      <point x="314" y="445" type="line"/>
+      <point x="236" y="445" type="line"/>
+      <point x="236" y="50" type="line"/>
+      <point x="202" y="51" type="line"/>
+      <point x="35" y="51" type="line"/>
+    </contour>
+  </outline>
+</glyph>
