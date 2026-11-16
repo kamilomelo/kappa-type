@@ -84,7 +84,12 @@ def main() -> None:
     args = parser.parse_args()
     for style, (stem, weight, map_style) in STYLES.items():
         destination = BASE / "ufo" / f"KappaPage-{style}.ufo"
-        if destination.exists() and not args.force:
+        required = ("metainfo.plist", "fontinfo.plist", "features.fea", "glyphs/contents.plist")
+        if (
+            destination.is_dir()
+            and all((destination / name).is_file() for name in required)
+            and not args.force
+        ):
             print(f"Keeping existing {destination.relative_to(ROOT)}")
             continue
         import_style(style, stem, weight, map_style)

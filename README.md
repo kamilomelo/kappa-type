@@ -44,6 +44,12 @@ The first milestone is infrastructure first: license review, source import, rena
 ./scripts/build.sh
 ```
 
+`bootstrap.sh` installs the Python build dependencies only. `build.sh` builds
+from the tracked KM UFOs; it does **not** clone upstream projects or replace
+editable KM sources. A full `Kappa Mono` rebuild requires FontForge and the
+Nerd Fonts `font-patcher` (`NERD_FONT_PATCHER` can point to it). If these tools
+are unavailable, the already-published fonts in `fonts/` remain usable.
+
 For a scoped Kappa Page build that does not touch frozen-family outputs:
 
 ```bash
@@ -166,27 +172,26 @@ scripts/    repeatable bootstrap/import/build/rename/validation scripts
 licenses/   copied upstream licenses, notices, and provenance notes
 ```
 
-## Full Build Commands
+## Build Commands
 
 ```bash
 ./scripts/bootstrap.sh
-./scripts/sync-upstream-imports.sh
-./scripts/build-upstream-reference.sh
-./scripts/import-km-ufo.sh
-./scripts/build-km.sh
 ./scripts/build.sh
 ```
 
-`./scripts/build.sh` orchestrates the three explicit stages above.
+`./scripts/build.sh` builds and validates the tracked KM sources. It patches
+Kappa Mono with Nerd icons before generating its WOFF2; this requires the
+external Nerd Fonts patcher and FontForge. To build Kappa Page alone without
+touching other families, run `bash scripts/build-kappa-page.sh`.
 
-## Stages
+### Optional upstream refresh (not part of a normal build)
 
-1. `build-upstream-reference.sh`
-   - builds or prepares upstream-shaped reference outputs under `tmp/upstream-reference/`
-2. `import-km-ufo.sh`
-   - imports or refreshes KM UFO sources from upstream-informed inputs
-3. `build-km.sh`
-   - builds KM-named outputs, patches `Kappa Mono` with Nerd icons, then generates webfonts, proofs, and validation reports
+`upstream/` is Git-ignored. The upstream reference/import scripts require
+separately cloned upstream projects and their own build tools. Only run them
+when deliberately refreshing upstream inputs: `scripts/sync-upstream-imports.sh`,
+`scripts/build-upstream-reference.sh`, and `scripts/import-km-ufo.sh`. They can
+replace source data and must **not** be used as a routine build. Preserve the
+upstream licenses and notices during any refresh.
 
 ## Current Scope
 

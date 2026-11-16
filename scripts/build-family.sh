@@ -85,7 +85,10 @@ build_ufo_family() {
 
 case "$FAMILY_ID" in
   kappa-text) build_ufo_family "kappa-text" "Kappa Text" "ttf" ;;
-  kappa-page) build_ufo_family "kappa-page" "Kappa Page" "ttf" ;;
+  kappa-page)
+    python "$ROOT_DIR/scripts/import-kappa-page.py"
+    build_ufo_family "kappa-page" "Kappa Page" "ttf"
+    ;;
   kappa-mark) build_ufo_family "kappa-mark" "Kappa Mark" "ttf" ;;
   kappa-form) build_ufo_family "kappa-form" "Kappa Form" "ttf" ;;
   kappa-mono)

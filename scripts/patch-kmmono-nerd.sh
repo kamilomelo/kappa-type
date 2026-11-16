@@ -20,6 +20,10 @@ if [[ -z "$PATCHER" || ! -x "$PATCHER" ]]; then
   exit 1
 fi
 
+if [[ "${1:-}" == "--check" ]]; then
+  exit 0
+fi
+
 mkdir -p "$OUTPUT_DIR"
 
 style_from_name() {
